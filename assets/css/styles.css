@@ -1,0 +1,497 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fbf1eb;
+  font-family: Arial, Helvetica, Times, sans-serif;
+  overflow-y: scroll;
+  font-size: 1em;
+}
+
+/* Navbar Styles*/
+#navbar {
+  background-color: #070e36;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  box-shadow: 0px 2.5px 15px 0px rgba(5,28,40,1);
+}
+#navbar a {
+  float: right;
+  display: block;
+  color: #cbcbcb;
+  text-align: center;
+  padding: 25px 15px;
+  text-decoration: none;
+  font-size: 2.25vmin;
+  font-weight: 300;
+  line-height: 5px;
+  border: 1px solid #070e36;
+}
+#navbar a:hover {
+  transition-delay: 50ms;
+  transition-duration: 250ms;
+  color: #91cff1;
+  cursor: pointer;
+  border-bottom: 3px solid #91cff1;
+ /* box-shadow: 0px 15px 10px -15px rgba(5,28,40,1);*/
+}
+#navbar a.active {
+  display: block;
+  color: #91cff1;
+  line-height: 5px;
+  border-bottom: 3px solid #91cff1;
+  /*box-shadow: 0px 15px 10px -15px rgba(5,28,40,1);*/
+}
+#navbar #logo {
+  float: left; 
+  font-family: 'DM Serif Display', serif;
+  font-weight: bold; 
+  font-size: 4.5vmin;
+  line-height: 0.125; 
+}
+#navbar #logo:hover {
+  transition-delay: 50ms;
+  transition-duration: 250ms;
+  color: #91cff1;
+  background-color: #070e36;
+  cursor: pointer;
+  border-bottom: 4px solid #91cff1;
+ /* box-shadow: 0px 15px 10px -15px rgba(5,28,40,1);*/
+}
+#navbar #logo.active {
+  color: #91cff1;
+  background-color: #070e36;
+  cursor: pointer;
+  border-bottom: 3px solid #91cff1;
+  /*box-shadow: 0px 15px 10px -15px rgba(5,28,40,1);*/
+}
+
+/* Sticky Footer 
+.footer {
+  background-color: #070e36;
+  position: absolute;
+  height: 180px;
+  overflow: hidden;
+  width: 100%;
+  top: 100%;
+  color: #cbcbcb;
+  box-shadow: 0px 2.5px 15px 0px rgba(5,28,40,1);
+}*/
+
+/*Body Grid*/
+.body-grid {
+  display: grid;
+  height: auto;
+  max-width: 100%;
+  grid-template-columns: auto auto auto;
+ }
+
+/*Body Item*/
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;	
+  /*border: 1px solid purple;*/ 
+  }
+
+/* General Flexbox Container*/
+.flex-container {	
+  background-color: #fbf1eb;  /* Blue */
+  height: 100%;
+  justify-content: center; 
+  display: flex;
+/*  border: 1px solid orangered;*/
+}
+
+/* General Flexbox Item*/
+.flex-item {	
+display: flex;
+flex-direction: column;
+Justify-content: center;	
+border: 1px solid blue;
+}  
+
+.pagetitle {
+  margin-top: 2.5em;
+  margin-bottom: 0.5em;
+	text-align: center;
+	font-weight: bold;
+	font-size: 3.5em;
+	font-family: 'DM Serif Display', serif;
+	color: #070e36;
+}
+
+.locationcaption {
+  width: 55%;
+	text-align: left;
+} 
+
+
+/*---------------------images-----*/
+.responsive {
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+.thumb {
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+/*-----flex gallery items-----*/
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  max-width: 66.665%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+}
+
+/* gallery Create four equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  max-width: 33.33%;
+  padding: 0 1em;
+}
+
+.column img {
+  margin-top: 1em;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Page-Specific Classes */ 
+
+/*----project page-----*/
+.projectsection {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+	text-align: center;
+	font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+	font-size: 1.25em;
+	font-family: 'DM Serif Display', serif;
+	color: #070e36;
+}
+
+.pagination {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+	text-align: center;
+	font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+	font-size: 1.25em;
+	font-family: 'DM Serif Display', serif;
+	color: #070e36;
+}
+
+.projectcard {
+ 
+    flex-direction: row;
+    max-width: 50%;
+  }
+
+.projectimage {
+  width: 50%;
+  height: auto;
+  background-size: cover;
+  margin-right: 1%;
+}
+
+.projectcopy {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  margin-left: 1%;
+}
+
+/*----about me page-----*/
+.profilecard {
+  display: flex;
+  flex-direction: row;
+  justify-content: middle;
+/*  border: 1px solid yellow; */
+  max-width: 70%;
+}
+.profileimage {
+  max-width: 50%;
+  margin-left: 15%;
+  height: auto;
+  background-size: cover;
+  margin-right: .75%;
+/*  border: 1px solid blue; */
+}
+.profilecopy {
+  max-width: 33.333%;
+  height: auto;
+  margin-right: 5%;
+  background-size: cover;
+/*  border: 1px solid red; */
+  margin-left: .75%;
+}
+
+/*map-----------------*/
+.mapclass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
+  margin-top: 1em;
+}
+
+/*contact-----------------
+.contacttext {
+	padding-top: 5px;
+	padding-bottom: 25px;
+	text-align: center;
+	font-weight: bold;
+	font-size:25px;
+	color: #070e36;
+}*/
+/*Icon Animation & Styles*/
+@keyframes fadeInOut {
+  0% {
+    transform: 
+	rotateY(-180deg)
+	rotateX(-180deg);
+	opacity: 0;
+	}
+  50% {
+    transform: rotateY(-90deg) rotateX(-90deg);
+	opacity: .3;
+	/*font-weight: bold;*/
+  }
+  100% {
+    transform: 
+	rotateX(0)
+	rotateY(0);
+	opacity: 1;
+  }  
+}
+.icons { 	
+animation: fadeInOut 750ms linear;
+}
+.platforms {
+	display: inline-block;
+	background-color:  #fbf1eb;
+	border-radius: 50%;
+	height:48px;
+	width: 48px;
+	box-shadow:0px 1px 7.5px 0px rgba(5,28,40,1);
+/*	animation: fadeInOut 500ms linear; */
+	/*border: 2px solid Black;*/
+}
+.platforms:hover {
+	background-color: #91cff1;
+	box-shadow:0px 0px 15px 0px rgba(5,28,40,1);
+}	
+ /* Forms---------------------------*/
+ /* Form Fields Style */
+ input[type=text],[type=email], select, email {
+	
+  width: 100%; /* Full width */
+  padding: 15px; /* Some padding */ 
+  border: -1px solid #ccc;  
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 6px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+/* Messagebox*/
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: vertical;
+}
+/* Form Send Style */
+input[type=submit] {
+  width: 100%;
+  height: 50px;
+  margin-top: 6px;
+  background-color: #070e36;
+  color: #cbcbcb;
+  border: 1px solid #070e36;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 2.5px 10px 0px rgba(5,28,40,1); 
+  
+}
+/* Form Send Hover */
+input[type=submit]:hover {
+  background-color: #91cff1;
+  border: 1px solid #91cff1;
+  color: #070e36;
+  box-shadow: 0px 2.5px 15px 0px rgba(5,28,40,1);
+}
+/* Form Background Colors */
+.forms {
+  padding-top: 50px;
+  border-radius: 5px;
+  padding: 20px;
+  } 
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1080px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+  }
+  .row {
+   max-width: 100%;
+  }
+.pagetitle {
+  margin-top: 1.75em;
+  }
+ .locationcaption {
+  width: 90%;
+} 
+  .profilecard {
+    display: flex;
+    flex-direction: row;
+    Justify-content: center;	
+    margin-left: 5%;
+    margin-right: 1%;
+    max-width: 100%;
+  /*  border: 1px solid blue; */
+  }
+  .profileimage {
+    max-width: 50%;
+    margin-top: 1em;
+    margin-left: 0;
+    margin-right: 0.5em;
+    height: auto;
+    background-size: cover;
+  /*  border: 1px solid blue; */
+  
+  }
+  .profilecopy {
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    align-items: center;
+   /* border: 1px solid blue; */
+   margin-top: 0;
+   margin-left: 0.5em;
+   margin-right: 1%;
+  }
+
+  .projectcard {
+  display: inline-flex;
+  flex-direction: column;
+  max-width: 50%;
+  }
+
+.projectimage {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+.projectcopy {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+}
+
+/* Responsive layout - make columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  #navbar #logo {
+    float: left; 
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold; 
+    font-size: 4vmin;
+    line-height: 0.125; 
+  }
+
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 4px;
+  }
+  .row {
+    max-width: 100%;
+  }
+.pagetitle {
+  margin-top: 1.75em;
+  }
+.locationcaption {
+  width: 96%;
+  } 
+  .profilecard {
+    display: flex;
+    flex-direction: column;
+    Justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;	
+  /*  border: 1px solid blue; */
+  }
+  .profileimage {
+    max-width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: auto;
+    background-size: cover;
+  /*  border: 1px solid blue; */
+  
+  }
+  .profilecopy {
+    max-width:100%;
+    height: auto;
+    background-size: cover;
+    align-items: center;
+   /* border: 1px solid blue; */
+   margin-top: 1em;
+   margin-left: 0;
+   margin-right: 0;
+  }
+
+  .projectcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*border: 1px solid yellow;*/
+    max-width: 100%;
+  }
+  .projectimage {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    margin-right: 1%;
+    /*border: 1px solid blue;*/ 
+  }
+  .projectcopy {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    /*border: 1px solid blue;*/
+    margin-left: 1%;
+  }
+
+}

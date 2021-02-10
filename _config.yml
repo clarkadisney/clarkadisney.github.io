@@ -1,0 +1,13 @@
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+name: Archive
+title: Blog & Archive
+url: https://clarkadisney.github.io
+plugins: [jekyll-paginate]
+paginate: 3
+paginate_path: /page:num/
+categories: 

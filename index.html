@@ -1,0 +1,45 @@
+---
+title: Recent Posts
+layout: default
+---
+
+
+<div class='body-grid'>
+	
+	<div class='grid-item'></div>
+	<div class='grid-item'>
+		{% for post in paginator.posts limit:25 %}
+		<a href="{{ post.url }}">
+		<div class='projectcard'>
+		<img src="{{ post.featured-image }}" class='projectimage' />
+		<div class='projectcopy'>
+		<h3>{{ post.title }}</h3>
+		<a>{{ post.caption }}</a>  
+		<p style="color: BLACK; font-size: 1rem; FONT-WEIGHT: BOLD;">{{ post.date | date: "%b %-d, %Y" }}</p>
+		</div></div></a>
+	</div>
+		<div class='grid-item'></div>
+	
+		<div class='grid-item'></div>
+		<div class='grid-item'>
+    	{% endfor %}
+		</div>
+		<div class='grid-item'></div>
+
+</div>
+    
+
+
+
+<!-- post list
+<ul class ="categories-item3">
+{% for post in paginator.posts %}
+	<li><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
+	<span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
+    </li>
+{% endfor %}
+</ul> -->
+
+
+
+

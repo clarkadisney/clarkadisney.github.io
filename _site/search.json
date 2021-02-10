@@ -1,0 +1,47 @@
+[
+  
+    {
+
+      "title"    : "Local Option",
+      "url"      : "/software/2020/03/02/localoption.html",
+      "category" : "",
+      "tags"     : "localoption",
+      "date"     : "2020-03-02 20:55:35 -0600",      
+      "description"     : "Photo archiving solution"
+
+    } ,
+  
+    {
+
+      "title"    : "Grow Rack v3",
+      "url"      : "/plants/2020/02/11/growrack3.html",
+      "category" : "",
+      "tags"     : "growrack",
+      "date"     : "2020-02-11 20:55:35 -0600",      
+      "description"     : "The first (but not the only)!"
+
+    } ,
+  
+    {
+
+      "title"    : "Grow Rack v2",
+      "url"      : "/plants/2020/01/31/growrack2.html",
+      "category" : "",
+      "tags"     : "growrack",
+      "date"     : "2020-01-31 20:55:35 -0600",      
+      "description"     : "The first (but not the only)!"
+
+    } ,
+  
+    {
+
+      "title"    : "Grow Rack v1",
+      "url"      : "/plants/2019/10/17/growrack1.html",
+      "category" : "",
+      "tags"     : "growrack",
+      "date"     : "2019-10-17 21:55:35 -0500",      
+      "description"     : "The first (but not the only)!"
+
+    } 
+  
+]
