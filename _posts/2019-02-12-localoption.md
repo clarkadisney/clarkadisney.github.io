@@ -3,7 +3,7 @@ layout: projectpost
 title: Local Option
 date: 2020-03-03T02:55:35.380Z
 categories: [software]
-tags: [localoption]
+tags: [openCV, electron]
 featured-image: /assets/images/ui3.png 
 caption: UI test
 description: Photo archiving solution
