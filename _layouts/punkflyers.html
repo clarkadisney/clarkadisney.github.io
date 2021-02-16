@@ -1,9 +1,7 @@
 ---
 layout: default
 ---
- 
-
-<a href='/index.html' style="text-decoration: none;"><div class='pagetitle'>experiments in soil:</div>
+<a href='/index.html' style="text-decoration: none;"><div class='pagetitle'>show flyer archiving project</div>
 </a>
 <div class='projectsection'>
     <a href='/index.html' style="text-decoration: none;"> all / </a>
@@ -14,12 +12,22 @@ layout: default
 
 <div class='body-grid'>
 	<div class='grid-item'></div>
-	<div class='grid-item'>plant projects tag cloud:</div>
+	<div class='grid-item'>punk flyers tag cloud:</div>
 	<div class='grid-item'></div>
+	
+	<div class='grid-item'></div>
+	<div class='grid-item'>
+		{% assign tags = site.posts | where: 'categories', 'punkflyers' | map: 'tags' | join: ',' | split: ',' | uniq %}
+		{% for tag in tags %}
+		<ul><a href="/{{tag}}/">{{ tag }}</a></ul>
+		{% endfor %}
+	</div>
+	<div class='grid-item'></div>
+
 
 	<div class='grid-item'></div>
 	<div class='grid-item'>
-		{% assign tags = site.posts | where: 'categories', 'plants' | map: 'tags' | join: ',' | split: ',' | uniq %}
+		{% assign tags = site.posts | where: 'categories', 'punkflyers' | map: 'tags' | join: ',' | split: ',' | uniq %}
 		{% for tag in tags %}
 		<ul><a href="/{{tag}}/">{{ tag }}</a></ul>
 		{% endfor %}
@@ -39,16 +47,15 @@ layout: default
 
 	<div class='grid-item'></div>
 	<div class='grid-item'>
-		{% for post in site.categories.plants limit:25 %}
-		<a href="{{ post.url }}">
-			<div class='projectcard'>
-				<h3>{{ post.title }}</h3>
-			<img src="{{ post.featured-image }}" class='projectimage' />
-			<div class='projectcopy'>
-			<a>{{ post.caption }}</a>  
-			<p style="color: BLACK; font-size: 1rem; FONT-WEIGHT: BOLD;">{{ post.date | date: "%b %-d, %Y" }}</p>
-			</div></div></a>
-		</div>
+		{% for post in site.categories.punkflyers limit:25 %}
+		<div class='projectcard'><a href="{{ post.url }}">
+		<img src="{{ post.featured-image }}" class='projectimage' />
+		<div class='projectcopy'>
+		<h3>{{ post.title }}</h3>
+		<a>{{ post.caption }}</a>  
+		<p style="color: BLACK; font-size: 1rem; FONT-WEIGHT: BOLD;">{{ post.date | date: "%b %-d, %Y" }}</p>
+		</div></a></div>
+	</div>
 		<div class='grid-item'></div>
 	
 		<div class='grid-item'></div>
@@ -56,6 +63,7 @@ layout: default
     	{% endfor %}
 		</div>
 		<div class='grid-item'></div>
+
 
 
 
