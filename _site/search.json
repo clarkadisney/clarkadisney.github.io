@@ -5,7 +5,7 @@
       "title"    : "Local Option",
       "url"      : "/software/2020/03/02/localoption.html",
       "category" : "",
-      "tags"     : "localoption",
+      "tags"     : "openCV, electron",
       "date"     : "2020-03-02 20:55:35 -0600",      
       "description"     : "Photo archiving solution"
 
@@ -29,6 +29,17 @@
       "category" : "",
       "tags"     : "growrack",
       "date"     : "2020-01-31 20:55:35 -0600",      
+      "description"     : "The first (but not the only)!"
+
+    } ,
+  
+    {
+
+      "title"    : "Bonchi - First Attempt",
+      "url"      : "/plants/2019/10/17/bonchi.html",
+      "category" : "",
+      "tags"     : "bonchi",
+      "date"     : "2019-10-17 21:58:35 -0500",      
       "description"     : "The first (but not the only)!"
 
     } ,

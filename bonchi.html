@@ -1,0 +1,30 @@
+---
+permalink: '/bonchi'
+title: Bonsai Caspacium Chinese (Chiles)
+layout: default
+---
+
+ 
+<div class='body-grid'>
+
+
+	<div class='grid-item'></div>
+	<div class='grid-item'>
+		{% for post in site.tags.bonchi limit:25 %}
+		<div class='projectcard'><a href="{{ post.url }}">
+		<img src="{{ post.featured-image }}" class='projectimage' />
+		<div class='projectcopy'>
+		<h3>{{ post.title }}</h3>
+		<a>{{ post.caption }}</a>  
+		<p style="color: BLACK; font-size: 1rem; FONT-WEIGHT: BOLD;">{{ post.date | date: "%b %-d, %Y" }}</p>
+		</div></a></div>
+	</div>
+		<div class='grid-item'></div>
+	
+		<div class='grid-item'></div>
+		<div class='grid-item'>
+    	{% endfor %}
+		</div>
+		<div class='grid-item'></div>
+
+</div>
