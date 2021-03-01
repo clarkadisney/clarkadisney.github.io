@@ -122,13 +122,13 @@ border: 1px solid blue;
   margin-bottom: 0.5em;
 	text-align: center;
 	font-weight: bold;
-	font-size: 2.5em;
+	font-size: 3em;
 	font-family: 'DM Serif Display', serif;
 	color: #070e36;
 }
 
 .locationcaption {
-  width: 55%;
+  width: 33.33%;
 	text-align: left;
 } 
 
