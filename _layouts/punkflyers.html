@@ -25,11 +25,12 @@ layout: default
 	
 	<div class='grid-item'></div>
 	<div class='grid-item'>
+		<div class='projecttags'>
 		{% assign tags = site.posts | where: 'categories', 'punkflyers' | map: 'tags' | join: ',' | split: ',' | uniq %}
 		{% for tag in tags %}
 		<ul><a href="/{{tag}}.html/">{{ tag }}</a></ul>
 		{% endfor %}
-	</div>
+	</div></div>
 	<div class='grid-item'></div>
 
 
