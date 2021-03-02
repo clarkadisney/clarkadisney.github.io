@@ -24,7 +24,7 @@ layout: default
 		<div class='projecttags'>
 		{% assign tags = site.posts | map: 'tags' | join: ',' | split: ',' | uniq %}
 		{% for tag in tags %}
-		<ul><a href="/{{tag}}.html">{{ tag }}</a></ul>
+		<ul><a href="/{{tag}}.html/">{{ tag }}</a></ul>
 		{% endfor %}
 	</div></div>
 	<div class='grid-item'></div>
