@@ -391,6 +391,7 @@ input[type=submit]:hover {
   }
   .pagetitle {
   margin-top: 3.5em;
+  font-size: 4vmax;
   }
  .locationcaption {
   width: 90%;
