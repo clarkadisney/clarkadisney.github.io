@@ -28,7 +28,7 @@ layout: default
 	<div class='grid-item'>
 		{% assign tags = site.posts | where: 'categories', 'software' | map: 'tags' | join: ',' | split: ',' | uniq %}
 		{% for tag in tags %}
-		<ul><a href="/{{tag}}/">{{ tag }}</a></ul>
+		<ul><a href="/{{tag}}.html/">{{ tag }}</a></ul>
 		{% endfor %}
 	</div>
 	<div class='grid-item'></div>
