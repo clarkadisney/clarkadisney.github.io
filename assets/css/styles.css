@@ -395,6 +395,9 @@ input[type=submit]:hover {
  .locationcaption {
   width: 90%;
 } 
+.pagecaption {
+  width: 90%;
+} 
   .profilecard {
     display: flex;
     flex-direction: row;
