@@ -391,13 +391,13 @@ input[type=submit]:hover {
   }
   .pagetitle {
   margin-top: 3.5em;
-  font-size: 4vmax;
+  font-size: 5vmax;
   }
  .locationcaption {
   width: 90%;
 } 
 .pagecaption {
-  width: 90%;
+  width: 66.666%;
 } 
   .profilecard {
     display: flex;
@@ -477,6 +477,10 @@ input[type=submit]:hover {
   .row {
     max-width: 100%;
   }
+  
+  .pagecaption {
+    width: 98%;
+  } 
 
 .locationcaption {
   width: 96%;
