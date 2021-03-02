@@ -100,6 +100,7 @@ body {
   /*border: 1px solid purple;*/ 
   }
 
+
 /* General Flexbox Container*/
 .flex-container {	
   background-color: #fbf1eb;  /* Blue */
@@ -121,16 +122,23 @@ border: 1px solid blue;
   margin-top: 2.5em;
   margin-bottom: 0.5em;
 	text-align: center;
+	font-family: 'DM Serif Display', sans-serif;  
 	font-weight: bold;
-	font-size: 3em;
-	font-family: 'DM Serif Display', serif;
+	font-size: 3vmax;
+  -webkit-font-smoothing: antialiased;
 	color: #070e36;
 }
 
-.locationcaption {
+.pagecaption {
   width: 33.33%;
 	text-align: left;
+}
+
+.locationcaption {
+  width: 66.66%;
+	text-align: left;
 } 
+
 
 
 /*---------------------images-----*/
@@ -173,19 +181,7 @@ border: 1px solid blue;
 
 /* Page-Specific Classes */ 
 
-/*----project page-----*/
-.projectsection {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-	text-align: center;
-	font-weight: bold;
-  margin-left: auto;
-  margin-right: auto;
-	font-size: 1.25em;
-	font-family: 'DM Serif Display', serif;
-	color: #070e36;
-}
-
+/*----project pages-----*/
 .pagination {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
@@ -198,9 +194,20 @@ border: 1px solid blue;
 	color: #070e36;
 }
 
+.projectcategories {
+  margin-bottom: 1.5em;
+	text-align: center;
+	font-family: 'DM Serif Display', sans-serif;  
+	font-weight: bold;
+	font-size: 1.5vmax;
+  -webkit-font-smoothing: antialiased;
+	color: #070e36;
+}
+
 .projecttags{
   display: flex;
   flex-wrap: wrap;
+  font-size: 1rem;
 }
 
 .projectcard {
@@ -226,7 +233,7 @@ border: 1px solid blue;
 /*  border: 1px solid blue; */
   overflow: visible;
   z-index: 9999;
-  min-width: 33.333%;
+  width: 33.333%
 }
 
 #results-container{
@@ -382,8 +389,8 @@ input[type=submit]:hover {
   .row {
    max-width: 100%;
   }
-.pagetitle {
-  margin-top: 1.75em;
+  .pagetitle {
+  margin-top: 3.5em;
   }
  .locationcaption {
   width: 90%;
@@ -416,6 +423,12 @@ input[type=submit]:hover {
    margin-top: 0;
    margin-left: 0.5em;
    margin-right: 1%;
+  }
+
+  .projectcategories {
+    margin-top: .75em;
+    margin-bottom: .75em;
+    font-size: 2.25vmax;
   }
 
   .projectcard {
@@ -461,7 +474,7 @@ input[type=submit]:hover {
     max-width: 100%;
   }
 .pagetitle {
-  margin-top: 1.75em;
+  margin-top: 3.5em;
   }
 .locationcaption {
   width: 96%;
@@ -501,7 +514,7 @@ input[type=submit]:hover {
     flex-direction: column;
     justify-content: center;
     /*border: 1px solid yellow;*/
-    max-width: 100%;
+    width: 98%;
   }
   .projectimage {
     width: 100%;

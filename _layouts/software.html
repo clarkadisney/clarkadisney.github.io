@@ -2,19 +2,21 @@
 layout: default
 ---
 
-<a href='/index.html' style="text-decoration: none;"><div class='pagetitle'>DIY software projects:</div>
+<a href='/index.html' style="text-decoration: none;"><div class='pagetitle'>FOSS/ DIY software tools:</div>
 </a>
-<div class='projectsection'>
-	<a href='/index.html' style="text-decoration: none;"> all / </a>
-	<a href='/plants.html' style="text-decoration: none;"> organic farming / </a>
-	<a href='/software.html' style="text-decoration: none;"> software / </a>
-    <a href='/punkflyers.html' style="text-decoration: none;">punk flyers</a>
+
+<div class='projectcategories'>
+	<a href='/index.html' style="text-decoration: none;"> all</a> | 
+	<a href='/plants.html' style="text-decoration: none;"> urban farming</a> | 
+	<a href='/software.html' style="text-decoration: none;"> software</a> | 
+    <a href='/punkflyers.html' style="text-decoration: none;">flyers</a>
 </div>
+
 <div class='body-grid'>
 
 	<div class='grid-item'></div>
 	<div class='grid-item'>
-		<div class='locationcaption'>&nbsp&nbspThis section is a blog of odd FOSS software I like plus an abandoned CV-enabled photo archiving project (and maybe some humor).</div>
+		<div class='pagecaption'>&nbspThis section is a blog of odd FOSS software I like plus an abandoned CV-enabled photo archiving project (and maybe some humor).</div>
 	</div>
 	<div class='grid-item'></div>
 
@@ -45,14 +47,15 @@ layout: default
 	<div class='grid-item'></div>
 	<div class='grid-item'>
 		{% for post in site.categories.software limit:25 %}
-		<div class='projectcard'><a href="{{ post.url }}">
-		<img src="{{ post.featured-image }}" class='projectimage' />
-		<div class='projectcopy'>
-		<h3>{{ post.title }}</h3>
-		<a>{{ post.caption }}</a>  
-		<p style="color: BLACK; font-size: 1rem; FONT-WEIGHT: BOLD;">{{ post.date | date: "%b %-d, %Y" }}</p>
-		</div></a></div>
-	</div>
+		<a href="{{ post.url }}">
+			<div class='projectcard'>
+				<h3>{{ post.title }}</h3>
+			<img src="{{ post.featured-image }}" class='projectimage' />
+			<div class='projectcopy'>
+			<a>{{ post.caption }}</a>  
+			<p style="color: BLACK; font-size: 1rem; FONT-WEIGHT: BOLD;">{{ post.date | date: "%b %-d, %Y" }}</p>
+			</div></div></a>
+		</div>
 		<div class='grid-item'></div>
 	
 		<div class='grid-item'></div>

@@ -3,21 +3,20 @@ title: Recent Posts
 layout: default
 ---
 
-<a href='/index.html' style="text-decoration: none;"><div class='pagetitle'>All projects:</div>
+<a href='/index.html' style="text-decoration: none;"><div class='pagetitle'>Personal side projects:</div>
 </a>
 
-
-<div class='projectsection'>
-	<a href='/index.html' style="text-decoration: none;"> all / </a>
-	<a href='/plants.html' style="text-decoration: none;"> organic farming / </a>
-	<a href='/software.html' style="text-decoration: none;"> software / </a>
-    <a href='/punkflyers.html' style="text-decoration: none;">punk flyers</a>
+<div class='projectcategories'>
+	<a href='/index.html' style="text-decoration: none;"> all</a> | 
+	<a href='/plants.html' style="text-decoration: none;"> urban farming</a> | 
+	<a href='/software.html' style="text-decoration: none;"> software</a> | 
+    <a href='/punkflyers.html' style="text-decoration: none;">flyers</a>
 </div>
 
 <div class='body-grid'>
 
 	<div class='grid-item'></div>
-	<div class='grid-item'>all projects tag cloud:</div>
+	<div class='grid-item'>side projects tag cloud:</div>
 	<div class='grid-item'></div>
 	
 	<div class='grid-item'></div>
@@ -25,7 +24,7 @@ layout: default
 		<div class='projecttags'>
 		{% assign tags = site.posts | map: 'tags' | join: ',' | split: ',' | uniq %}
 		{% for tag in tags %}
-		<ul><a href="/{{tag}}/">{{ tag }}</a></ul>
+		<ul><a href="/{{tag}}.html">{{ tag }}</a></ul>
 		{% endfor %}
 	</div></div>
 	<div class='grid-item'></div>
