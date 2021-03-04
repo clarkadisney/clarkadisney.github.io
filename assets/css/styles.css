@@ -133,7 +133,7 @@ border: 1px solid blue;
 }
 
 .pagecaption {
-  width: 50%;
+  width: 40%;
 /*	text-align: left;*/
 }
 
@@ -214,7 +214,7 @@ border: 1px solid blue;
   text-decoration-style: none;
   -moz-text-decoration-line: none;
   text-decoration-line: none;
-  width: 50%;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -222,7 +222,7 @@ border: 1px solid blue;
 .projectcard {
  margin-left: auto;
  margin-right: auto;
- width: 50%;
+ width: 40%;
   }
 
 .projectimage {
@@ -242,7 +242,7 @@ border: 1px solid blue;
 /*  border: 1px solid blue; */
   overflow: visible;
   z-index: 9999;
-  width: 50%
+  width: 40%
 }
 
 #results-container{
