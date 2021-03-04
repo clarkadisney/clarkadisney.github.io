@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<a href='/Electron.html' style="text-decoration: none;"><div class='pagetitle'>Electron:</div>
+<a href='/Biomass.html' style="text-decoration: none;"><div class='pagetitle'>Biomass:</div>
 </a>
 
 <div class='projectcategories'>
@@ -16,18 +16,18 @@ layout: default
 
 	<div class='grid-item'></div>
 	<div class='grid-item'>
-		<div class='pagecaption'>&nbspAll posts involving the Electron. Current Electron stats:</div>
+		<div class='pagecaption'>&nbspAll posts involving the Biomass. Current Biomass stats:</div>
 	</div>
 	<div class='grid-item'></div>
 
 	<div class='grid-item'></div>
-	<div class='grid-item'><p></p>Electron posts tag cloud:</div>
+	<div class='grid-item'><p></p>Biomass posts tag cloud:</div>
 	<div class='grid-item'></div>
 	
 	<div class='grid-item'></div>
 	<div class='grid-item'>
 		<div class='projecttags'>
-	{% capture site_tags %}{% for tag in site.posts %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}{% assign tags_list = site.posts | where: 'tags', 'Electron' | map: 'tags' | join: ',' | split: ',' | uniq | sort_natural %}
+	{% capture site_tags %}{% for tag in site.posts %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}{% assign tags_list = site.posts | where: 'tags', 'Biomass' | map: 'tags' | join: ',' | split: ',' | uniq | sort_natural %}
 	{% for item in (0..site.tags.size) %}{% unless forloop.last %}{% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
 	<ul><a href="/{{this_word}}">{{ this_word }} {{ site.tags[this_word].size }}</a></ul>
 	{% endunless %}{% endfor %}
@@ -37,7 +37,7 @@ layout: default
 	<!--div class='grid-item'></div>
 	<div class='grid-item'>
 		<div class='projecttags'>
-		{% assign tags = site.posts | where: 'tags', 'Electron' | map: 'tags' | join: ',' | split: ',' | uniq %}
+		{% assign tags = site.posts | where: 'tags', 'Biomass' | map: 'tags' | join: ',' | split: ',' | uniq %}
 		{% for tag in tags %}
 		<ul><a href="/{{tag}}.html/">{{ tag }}</a></ul>
 		{% endfor %}
@@ -57,7 +57,7 @@ layout: default
 	
 	<div class='grid-item'></div>
 	<div class='grid-item'>
-		{% for post in site.tags.Electron limit:25 %}
+		{% for post in site.tags.Biomass limit:25 %}
 		<a href="{{ post.url }}">
 			<div class='projectcard'>
 				<h3>{{ post.title }}</h3>
