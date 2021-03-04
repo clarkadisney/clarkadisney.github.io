@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-<a href='/index.html' style="text-decoration: none;"><div class='pagetitle'>DIY flyer archive:</div>
+
+<a href='/Aeration.html' style="text-decoration: none;"><div class='pagetitle'>Aeration:</div>
 </a>
 
 <div class='projectcategories'>
@@ -15,32 +16,22 @@ layout: default
 
 	<div class='grid-item'></div>
 	<div class='grid-item'>
-		<div class='pagecaption'>&nbspThis is the intended archive for digital scans of 500+ show flyers I've collected over the years. A significant chunk are hardcore punk and rave flyers from a misspent youth in the late-90s/early-2000's. Appearance date TBD...I have a single page scanner.</div>
+		<div class='pagecaption'>&nbspAll posts involving the Aeration. Current Aeration stats:</div>
 	</div>
 	<div class='grid-item'></div>
 
 	<div class='grid-item'></div>
-	<div class='grid-item'><br>punk flyers tag cloud:</div>
+	<div class='grid-item'><br>Aeration posts tag cloud:</div>
 	<div class='grid-item'></div>
 	
 	<div class='grid-item'></div>
 	<div class='grid-item'>
 		<div class='projecttags'>
-		{% assign tags = site.posts | where: 'categories', 'punkflyers' | map: 'tags' | join: ',' | split: ',' | uniq %}
+		{% assign tags = site.posts | where: 'tags', 'Aeration' | map: 'tags' | join: ',' | split: ',' | uniq %}
 		{% for tag in tags %}
 		<ul><a href="/{{tag}}.html/">{{ tag }}</a></ul>
 		{% endfor %}
 	</div></div>
-	<div class='grid-item'></div>
-
-
-	<div class='grid-item'></div>
-	<div class='grid-item'>
-		{% assign tags = site.posts | where: 'categories', 'punkflyers' | map: 'tags' | join: ',' | split: ',' | uniq %}
-		{% for tag in tags %}
-		<ul><a href="/{{tag}}/">{{ tag }}</a></ul>
-		{% endfor %}
-	</div>
 	<div class='grid-item'></div>
 
 	<div class='grid-item'></div>
@@ -53,18 +44,19 @@ layout: default
 			</div>
 	</div>
 	<div class='grid-item'></div>
-
+	
 	<div class='grid-item'></div>
 	<div class='grid-item'>
-		{% for post in site.categories.punkflyers limit:25 %}
-		<div class='projectcard'><a href="{{ post.url }}">
-		<img src="{{ post.featured-image }}" class='projectimage' />
-		<div class='projectcopy'>
-		<h3>{{ post.title }}</h3>
-		<a>{{ post.caption }}</a>  
-		<p style="color: BLACK; font-size: 1rem; FONT-WEIGHT: BOLD;">{{ post.date | date: "%b %-d, %Y" }}</p>
-		</div></a></div>
-	</div>
+		{% for post in site.tags.Aeration limit:25 %}
+		<a href="{{ post.url }}">
+			<div class='projectcard'>
+				<h3>{{ post.title }}</h3>
+			<img src="{{ post.featured-image }}" class='projectimage' />
+			<div class='projectcopy'>
+			<a>{{ post.caption }}</a>  
+			<p style="color: BLACK; font-size: 1rem; FONT-WEIGHT: BOLD;">{{ post.date | date: "%b %-d, %Y" }}</p>
+			</div></div></a>
+		</div>
 		<div class='grid-item'></div>
 	
 		<div class='grid-item'></div>
@@ -73,10 +65,9 @@ layout: default
 		</div>
 		<div class='grid-item'></div>
 
-
-
-
+	
 </div>
+
 
 <script src="/assets/js/search-script.js" type="text/javascript"></script></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -89,3 +80,5 @@ SimpleJekyllSearch({
   json: '/search.json'
 })
 </script>
+
+
