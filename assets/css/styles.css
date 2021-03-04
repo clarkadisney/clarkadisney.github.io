@@ -53,6 +53,9 @@ body {
   font-weight: bold; 
   font-size: 4.5vmin;
   line-height: 0.125; 
+ /* width: 33.333%;
+  margin-left: auto;
+  margin-right: auto; */
 }
 #navbar #logo:hover {
   transition-delay: 50ms;
@@ -130,8 +133,8 @@ border: 1px solid blue;
 }
 
 .pagecaption {
-  width: 33.33%;
-	text-align: left;
+  width: 50%;
+/*	text-align: left;*/
 }
 
 .locationcaption {
@@ -208,17 +211,23 @@ border: 1px solid blue;
   display: flex;
   flex-wrap: wrap;
   font-size: 1rem;
+  text-decoration-style: none;
+  -moz-text-decoration-line: none;
+  text-decoration-line: none;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .projectcard {
  margin-left: auto;
  margin-right: auto;
- width: 33.333%;
+ width: 50%;
   }
 
 .projectimage {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
   background-size: cover;
 }
 
@@ -233,7 +242,7 @@ border: 1px solid blue;
 /*  border: 1px solid blue; */
   overflow: visible;
   z-index: 9999;
-  width: 33.333%
+  width: 50%
 }
 
 #results-container{
@@ -399,6 +408,11 @@ input[type=submit]:hover {
 .pagecaption {
   width: 66.666%;
 } 
+
+.projecttags{
+  max-width: 100%;
+  width: 66.666%;
+}
   .profilecard {
     display: flex;
     flex-direction: row;
@@ -439,19 +453,19 @@ input[type=submit]:hover {
     margin-left: auto;
     margin-right: auto;
     width: 66.666%;
-     }
+    }
    
-   .projectimage {
+  .projectimage {
      max-width: 100%;
      height: auto;
      background-size: cover;
-   }
+    }
    
-   .projectcopy {
+  .projectcopy {
      max-width: 100%;
      height: auto;
      background-size: cover;
-   }
+  }
 
 }
 
@@ -481,6 +495,10 @@ input[type=submit]:hover {
   .pagecaption {
     width: 98%;
   } 
+
+  .projecttags{
+  width: 100%;
+  }  
 
 .locationcaption {
   width: 96%;
