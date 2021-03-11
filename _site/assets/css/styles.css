@@ -100,6 +100,7 @@ body {
   /*border: 1px solid purple;*/ 
   }
 
+
 /* General Flexbox Container*/
 .flex-container {	
   background-color: #fbf1eb;  /* Blue */
@@ -121,16 +122,23 @@ border: 1px solid blue;
   margin-top: 2.5em;
   margin-bottom: 0.5em;
 	text-align: center;
+	font-family: 'DM Serif Display', sans-serif;  
 	font-weight: bold;
-	font-size: 2.5em;
-	font-family: 'DM Serif Display', serif;
+	font-size: 3vmax;
+  -webkit-font-smoothing: antialiased;
 	color: #070e36;
 }
 
+.pagecaption {
+  width: 33.33%;
+	text-align: justify;
+}
+
 .locationcaption {
-  width: 55%;
+  width: 66.66%;
 	text-align: left;
 } 
+
 
 
 /*---------------------images-----*/
@@ -173,19 +181,7 @@ border: 1px solid blue;
 
 /* Page-Specific Classes */ 
 
-/*----project page-----*/
-.projectsection {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-	text-align: center;
-	font-weight: bold;
-  margin-left: auto;
-  margin-right: auto;
-	font-size: 1.25em;
-	font-family: 'DM Serif Display', serif;
-	color: #070e36;
-}
-
+/*----project pages-----*/
 .pagination {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
@@ -198,14 +194,32 @@ border: 1px solid blue;
 	color: #070e36;
 }
 
+.projectcategories {
+  margin-bottom: 1.5em;
+	text-align: center;
+	font-family: 'DM Serif Display', sans-serif;  
+	font-weight: bold;
+	font-size: 1.5vmax;
+  -webkit-font-smoothing: antialiased;
+	color: #070e36;
+}
+
 .projecttags{
   display: flex;
   flex-wrap: wrap;
+  font-size: 1rem;
+  text-decoration-style: none;
+  -moz-text-decoration-line: none;
+  text-decoration-line: none;
+  max-width: 33.333%;
 }
 
 .projectcard {
  margin-left: auto;
  margin-right: auto;
+ box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.25);
+  border-radius: 0.25%;
+  margin-bottom: 1%;
  width: 33.333%;
   }
 
@@ -226,7 +240,7 @@ border: 1px solid blue;
 /*  border: 1px solid blue; */
   overflow: visible;
   z-index: 9999;
-  min-width: 33.333%;
+  width: 33.333%
 }
 
 #results-container{
@@ -237,6 +251,24 @@ border: 1px solid blue;
   color: #070e36;
   box-shadow:15px 15px 30px 0px rgba(5,28,40,1);
 }	
+
+blockquote {
+  margin: 0;
+}
+
+blockquote p {
+  padding: 15px;
+  background: #eee;
+  border-radius: 5px;
+}
+
+blockquote p::before {
+  content: '\201C';
+}
+
+blockquote p::after {
+  content: '\201D';
+}
 
 
 /*----about me page-----*/
@@ -382,12 +414,35 @@ input[type=submit]:hover {
   .row {
    max-width: 100%;
   }
-.pagetitle {
-  margin-top: 1.75em;
+  .pagetitle {
+  margin-top: 3.5em;
+  font-size: 5vmax;
   }
  .locationcaption {
   width: 90%;
-} 
+    } 
+
+.pagecaption {
+  width: 66.666%;
+    } 
+
+    .searchbox {
+      height: 100px;
+    /*  border: 1px solid blue; */
+      overflow: visible;
+      z-index: 9999;
+      width: 80%
+    }
+
+.projecttags{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  text-decoration-style: none;
+  -moz-text-decoration-line: none;
+  text-decoration-line: none;
+  max-width: 66.666%;
+}
   .profilecard {
     display: flex;
     flex-direction: row;
@@ -418,17 +473,18 @@ input[type=submit]:hover {
    margin-right: 1%;
   }
 
+  .projectcategories {
+    margin-top: .75em;
+    margin-bottom: .75em;
+    font-size: 2.25vmax;
+  }
+
   .projectcard {
     margin-left: auto;
     margin-right: auto;
     width: 66.666%;
      }
    
-   .projectimage {
-     max-width: 100%;
-     height: auto;
-     background-size: cover;
-   }
    
    .projectcopy {
      max-width: 100%;
@@ -449,8 +505,6 @@ input[type=submit]:hover {
     /*display: none;*/
   }
 
-
-
   .column {
     -ms-flex: 100%;
     flex: 100%;
@@ -460,11 +514,45 @@ input[type=submit]:hover {
   .row {
     max-width: 100%;
   }
-.pagetitle {
-  margin-top: 1.75em;
+  
+  .pagecaption {
+    width: 98%;
+  } 
+
+  .projectcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*border: 1px solid yellow;*/
+    width: 98%;
   }
-.locationcaption {
-  width: 96%;
+
+  .projectimage{
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+  }
+
+  .projectcopy {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    /*border: 1px solid blue;*/
+
+  }
+
+  .projecttags{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    text-decoration-style: none;
+    -moz-text-decoration-line: none;
+    text-decoration-line: none;
+    max-width: 98%;
+  }  
+
+  .locationcaption {
+    width: 96%;
   } 
   .profilecard {
     display: flex;
@@ -496,26 +584,4 @@ input[type=submit]:hover {
    margin-right: 0;
   }
 
-  .projectcard {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /*border: 1px solid yellow;*/
-    max-width: 100%;
-  }
-  .projectimage {
-    width: 100%;
-    height: auto;
-    background-size: cover;
-
-    /*border: 1px solid blue;*/ 
-  }
-  .projectcopy {
-    width: 100%;
-    height: auto;
-    background-size: cover;
-    /*border: 1px solid blue;*/
-
-  }
-
-}
+}   
