@@ -10,8 +10,102 @@ body {
   font-size: 1em;
 }
 
-/* Navbar Styles*/
-#navbar {
+header {
+  background: #070e36;
+}
+
+nav {
+  background-color: #070e36;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  box-shadow: 0px 2.5px 15px 0px rgba(5,28,40,1);
+}
+
+nav a {
+  float: right;
+  display: block;
+  color: #cbcbcb;
+  text-align: center;
+  padding: 25px 15px;
+  text-decoration: none;
+  font-size: 1.25vmin;
+  font-weight: 300;
+  line-height: 5px;
+  border: 1px solid #070e36;
+}
+
+nav a:hover {  
+  transition-delay: 50ms;
+  transition-duration: 250ms;
+  color: #91cff1;
+  cursor: pointer;
+  border-bottom: 3px solid #91cff1;
+}
+
+nav a.active {
+  display: block;
+  color: #91cff1;
+  line-height: 5px;
+  border-bottom: 3px solid #91cff1;
+}
+
+nav .logo {
+  float: left;
+  font-family: 'DM Serif Display', serif;
+  font-weight: bold; 
+  font-size: 4.5vmin;
+  line-height: 0.125;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+nav .logo:hover {
+  transition-delay: 50ms;
+  transition-duration: 250ms;
+  color: #91cff1;
+  background-color: #070e36;
+  cursor: pointer;
+  border-bottom: 4px solid #91cff1;
+}
+nav .logo.active {
+  color: #91cff1;
+  background-color: #070e36;
+  cursor: pointer;
+  border-bottom: 3px solid #91cff1;
+}
+
+.dropdown-link-container > a {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.dropdown-link-container > a.active {
+  display: block;
+  color: #91cff1;
+  line-height: 5px;
+  border-bottom: 3px solid #91cff1;
+}
+
+.mobile-dropdown-toggle {
+  display: none;
+  float: right;    
+  color:#91cff1;
+  background-color: #070e36;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 3.5vmin;
+  font-weight: bolder;
+
+}
+
+/*---- Navbar Styles ----*/
+/*#navbar {
   background-color: #070e36;
   position: absolute;
   top: 0px;
@@ -38,21 +132,22 @@ body {
   color: #91cff1;
   cursor: pointer;
   border-bottom: 3px solid #91cff1;
- /* box-shadow: 0px 15px 10px -15px rgba(5,28,40,1);*/
 }
-#navbar a.active {
+
+/*#navbar a.active {
   display: block;
   color: #91cff1;
   line-height: 5px;
   border-bottom: 3px solid #91cff1;
-  /*box-shadow: 0px 15px 10px -15px rgba(5,28,40,1);*/
 }
 #navbar #logo {
   float: left; 
   font-family: 'DM Serif Display', serif;
   font-weight: bold; 
   font-size: 4.5vmin;
-  line-height: 0.125; 
+  line-height: 0.125;
+  margin-left: auto;
+  margin-right: auto; 
 }
 #navbar #logo:hover {
   transition-delay: 50ms;
@@ -61,15 +156,14 @@ body {
   background-color: #070e36;
   cursor: pointer;
   border-bottom: 4px solid #91cff1;
- /* box-shadow: 0px 15px 10px -15px rgba(5,28,40,1);*/
 }
 #navbar #logo.active {
   color: #91cff1;
   background-color: #070e36;
   cursor: pointer;
   border-bottom: 3px solid #91cff1;
-  /*box-shadow: 0px 15px 10px -15px rgba(5,28,40,1);*/
-}
+} */
+
 
 /* Sticky Footer 
 .footer {
@@ -117,29 +211,6 @@ flex-direction: column;
 Justify-content: center;	
 border: 1px solid blue;
 }  
-
-.pagetitle {
-  margin-top: 2.5em;
-  margin-bottom: 0.5em;
-	text-align: center;
-	font-family: 'DM Serif Display', sans-serif;  
-	font-weight: bold;
-	font-size: 3vmax;
-  -webkit-font-smoothing: antialiased;
-	color: #070e36;
-}
-
-.pagecaption {
-  width: 33.33%;
-	text-align: justify;
-}
-
-.locationcaption {
-  width: 66.66%;
-	text-align: left;
-} 
-
-
 
 /*---------------------images-----*/
 .responsive {
@@ -194,6 +265,43 @@ border: 1px solid blue;
 	color: #070e36;
 }
 
+.pagetitle {
+  margin-top: 2.5em;
+  margin-bottom: 0.5em;
+	text-align: center;
+	font-family: 'DM Serif Display', sans-serif;  
+	font-weight: 500;
+	font-size: 3vmax;
+  -webkit-font-smoothing: antialiased;
+	color: #070e36;
+}
+
+.pagecaption {
+  margin-bottom: 2.5%;
+  width: 40%;
+  text-align: center;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+}
+
+.pagebreak {
+  text-align: justify;
+  border: none; 
+  width: 50%; 
+  margin: auto; 
+  margin-top: 2.5%; 
+  margin-bottom: 2.5%; 
+  height: 2.5rem; 
+  background: linear-gradient(135deg, #fbf1eb 25%, transparent 25%) -20px 0, linear-gradient(225deg, #fbf1eb 25%, transparent 25%) -20px 0, linear-gradient(315deg, #fbf1eb 25%, transparent 25%), linear-gradient(45deg, #fbf1eb 25%, transparent 25%); 
+  background-size: 2.5rem 2.5rem; 
+  background-color: #070e36;
+}
+
+.locationcaption {
+  width: 66.66%;
+	text-align: left;
+} 
+
 .projectcategories {
   margin-bottom: 1.5em;
 	text-align: center;
@@ -211,7 +319,7 @@ border: 1px solid blue;
   text-decoration-style: none;
   -moz-text-decoration-line: none;
   text-decoration-line: none;
-  max-width: 33.333%;
+  max-width: 45%;
 }
 
 .projectcard {
@@ -220,7 +328,7 @@ border: 1px solid blue;
  box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.25);
   border-radius: 0.25%;
   margin-bottom: 1%;
- width: 33.333%;
+  width: 50%;
   }
 
 .projectimage {
@@ -306,15 +414,6 @@ blockquote p::after {
   margin-top: 1em;
 }
 
-/*contact-----------------
-.contacttext {
-	padding-top: 5px;
-	padding-bottom: 25px;
-	text-align: center;
-	font-weight: bold;
-	font-size:25px;
-	color: #070e36;
-}*/
 /*Icon Animation & Styles*/
 @keyframes fadeInOut {
   0% {
@@ -421,11 +520,62 @@ input[type=submit]:hover {
  .locationcaption {
   width: 90%;
     } 
+    
+  .pagecaption {
+    width: 90%;
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    }
+    .pagebreak {
+      text-align: justify;
+      border: none; 
+      width: 90%; 
+      margin: auto; 
+      margin-top: 2.5%; 
+      margin-bottom: 2.5%; 
+      height: 2.5rem; 
+      background: linear-gradient(135deg, #fbf1eb 25%, transparent 25%) -1.25rem 0, linear-gradient(225deg, #fbf1eb 25%, transparent 25%) -1.25rem 0, linear-gradient(315deg, #fbf1eb 25%, transparent 25%), linear-gradient(45deg, #fbf1eb 25%, transparent 25%); 
+      background-size: 2.5rem 2.5rem; 
+      background-color: #070e36;
+    }
+    
+    .projecttags{
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 1rem;
+      text-decoration-style: none;
+      -moz-text-decoration-line: none;
+      text-decoration-line: none;
+      max-width: 90%;
+    }
 
-.pagecaption {
-  width: 66.666%;
-    } 
+    .projectimage {
+      max-width: 100%;
+      height: auto;
+      background-size: cover;
+    }
+    
+    .projectcategories {
+      margin-top: .75em;
+      margin-bottom: .75em;
+      font-size: 3vmax;    
 
+    }
+  
+    .projectcard {
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+       }
+     
+     
+     .projectcopy {
+       max-width: 100%;
+       height: auto;
+       background-size: cover;
+     }
+    
     .searchbox {
       height: 100px;
     /*  border: 1px solid blue; */
@@ -434,15 +584,6 @@ input[type=submit]:hover {
       width: 80%
     }
 
-.projecttags{
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 1rem;
-  text-decoration-style: none;
-  -moz-text-decoration-line: none;
-  text-decoration-line: none;
-  max-width: 66.666%;
-}
   .profilecard {
     display: flex;
     flex-direction: row;
@@ -473,38 +614,76 @@ input[type=submit]:hover {
    margin-right: 1%;
   }
 
-  .projectcategories {
-    margin-top: .75em;
-    margin-bottom: .75em;
-    font-size: 2.25vmax;
-  }
-
-  .projectcard {
-    margin-left: auto;
-    margin-right: auto;
-    width: 66.666%;
-     }
-   
-   
-   .projectcopy {
-     max-width: 100%;
-     height: auto;
-     background-size: cover;
-   }
-
 }
 
 /* Responsive layout - make columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  #navbar #logo {
+ /* #navbar #logo {
     float: left; 
     font-family: 'DM Serif Display', serif;
     font-weight: bold; 
-    font-size: 4vmin;
+    font-size: 5vmin;
     line-height: 0.125; 
-    /*display: none;*/
+    /*display: none;
   }
 
+  #navbar a {
+    float: right;
+    display: block;
+    color: #cbcbcb;
+    text-align: center;
+    padding: 25px 15px;
+    text-decoration: none;
+    font-size: 3vmin;
+    font-weight: 300;
+    line-height: 5px;
+    border: 1px solid #070e36;
+  }*/
+
+  .dropdown-link-container {
+    /* first, make our dropdown cover the screen */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    /* fix nav height on mobile safari, where 100vh is a little off */
+    height: -webkit-fill-available;
+
+    /* then, arrange our links top to bottom */
+    display: flex;
+    flex-direction: column;
+    /* center links vertically, push to the right horizontally.
+       this means our links will line up with the rightward hamburger button */
+    justify-content: center;
+    align-items: flex-end;
+
+    /* add margins and padding to taste */
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    background: #070e36;
+    z-index: 0; /* we're gonna avoid using -1 here, since it could position our navbar below other content on the page as well! */
+    /* our initial state */
+    opacity: 0; /* fade out */
+    transform: translateY(-100%); /* move out of view */
+    transition: transform 0.2s, opacity 0.2s; /* transition these smoothly */
+    }
+
+  nav.dropdown-opened > .dropdown-link-container {
+    opacity: 1; /* fade in */
+    transform: translateY(0); /* move into view */
+    }
+
+  .logo, .mobile-dropdown-toggle {
+    z-index: 0;
+  }
+
+  .mobile-dropdown-toggle {
+    display: initial; /* override that display: none attribute from before */
+  }
+  
   .column {
     -ms-flex: 100%;
     flex: 100%;
