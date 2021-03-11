@@ -4,8 +4,8 @@ kramdown:
  auto_ids: true
  hard_wrap: false
  syntax_highlighter: rouge
-name: index
-title: Blog & Projects
+name: Archive
+title: Blog & Archive
 url: https://clarkadisney.github.io
 plugins: [jekyll-paginate]
 paginate: 5
