@@ -2,25 +2,34 @@
 layout: default
 ---
 
-<a href='/OpenCV.html' style="text-decoration: none;"><div class='pagetitle'>OpenCV:</div>
-</a>
-
-<div class='projectcategories'>
-	<a href='/index.html' style="text-decoration: none;"> all</a> | 
-	<a href='/plants.html' style="text-decoration: none;"> urban organics</a> | 
-	<a href='/software.html' style="text-decoration: none;"> software</a> | 
-    <a href='/artwork.html' style="text-decoration: none;">artwork</a>
-</div>
-
 <div class='body-grid'>
 
 	<div class='grid-item'></div>
 	<div class='grid-item'>
-		<div class='pagecaption'>&nbspAll posts involving the OpenCV. Current OpenCV stats:</div>
+		<a href='/OpenCV.html' style="text-decoration: none;"><div class='pagetitle'>OpenCV:</div>
+		</a>
+	</div>
+	<div class='grid-item'></div>
+	
+	<!--div class='grid-item'></div>
+	<div class='grid-item'>
+		<div class='projectcategories'>
+			<a href='/index.html' style="text-decoration: none;"> all</a> | 
+			<a href='/plants.html' style="text-decoration: none;"> urban organics</a> | 
+			<a href='/software.html' style="text-decoration: none;"> software</a> | 
+			<a href='/artwork.html' style="text-decoration: none;">artwork</a>
+		</div>
+	</div>
+	<div class='grid-item'></div-->
+
+
+	<div class='grid-item'></div>
+	<div class='grid-item'>
+		<div class='pagecaption'>&nbspAll posts tagged "OpenCV"</div>
 	</div>
 	<div class='grid-item'></div>
 
-	<div class='grid-item'></div>
+	<!--div class='grid-item'></div>
 	<div class='grid-item'><p></p>OpenCV posts tag cloud:</div>
 	<div class='grid-item'></div>
 	
@@ -34,7 +43,7 @@ layout: default
 	</div></div>
 	<div class='grid-item'></div> 
 
-	<!--div class='grid-item'></div>
+	<div class='grid-item'></div>
 	<div class='grid-item'>
 		<div class='projecttags'>
 		{% assign tags = site.posts | where: 'tags', 'OpenCV' | map: 'tags' | join: ',' | split: ',' | uniq %}
@@ -42,7 +51,7 @@ layout: default
 		<ul><a href="/{{tag}}.html/">{{ tag }}</a></ul>
 		{% endfor %}
 	</div></div>
-	<div class='grid-item'></div-->
+	<div class='grid-item'></div>
 
 	<div class='grid-item'></div>
 	<div class='grid-item'>
@@ -53,7 +62,7 @@ layout: default
 			</div>
 			</div>
 	</div>
-	<div class='grid-item'></div>
+	<div class='grid-item'></div-->
 	
 	<div class='grid-item'></div>
 	<div class='grid-item'>
@@ -90,5 +99,3 @@ SimpleJekyllSearch({
   json: '/search.json'
 })
 </script>
-
-
