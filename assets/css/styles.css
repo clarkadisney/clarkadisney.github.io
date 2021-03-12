@@ -56,7 +56,7 @@ nav .logo {
   float: left;
   font-family: 'DM Serif Display', serif;
   font-weight: bold; 
-  font-size: 4.5vmin;
+  font-size: 3.25rem;
   line-height: 0.125;
   margin-left: auto;
   margin-right: auto;
@@ -328,7 +328,7 @@ border: 1px solid blue;
  box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.25);
   border-radius: 0.25%;
   margin-bottom: 1%;
-  width: 50%;
+  width: 45%;
   }
 
 .projectimage {
@@ -345,11 +345,10 @@ border: 1px solid blue;
 
 .searchbox {
   height: 100px;
+  position: relative;
 /*  border: 1px solid blue; */
   overflow: visible;
-  z-index: 2;
   width: 33.333%;
-  opacity: 1;
 }
 
 #results-container{
@@ -359,6 +358,7 @@ border: 1px solid blue;
   border-radius: 4px;
   color: #070e36;
   box-shadow:15px 15px 30px 0px rgba(5,28,40,1);
+  position: relative;
 }	
 
 blockquote {
@@ -581,9 +581,8 @@ input[type=submit]:hover {
       height: 100px;
     /*  border: 1px solid blue; */
       overflow: visible;
-      z-index: 2;
       width: 80%;
-      opacity: 1;
+      position: relative;
     }
 
   .profilecard {
@@ -619,7 +618,7 @@ input[type=submit]:hover {
 }
 
 /* Responsive layout - make columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 780px) {
  /* #navbar #logo {
     float: left; 
     font-family: 'DM Serif Display', serif;
@@ -648,7 +647,7 @@ input[type=submit]:hover {
     top: 0;
     left: 0;
     right: 0;
-    height: 100%;
+    height: 100vh;
     /* fix nav height on mobile safari, where 100vh is a little off */
     height: -webkit-fill-available;
 
@@ -666,7 +665,7 @@ input[type=submit]:hover {
     padding-right: 5%;
 
     background: #070e36;
-    z-index: 0; /* we're gonna avoid using -1 here, since it could position our navbar below other content on the page as well! */
+    z-index: 9998; /* we're gonna avoid using -1 here, since it could position our navbar below other content on the page as well! */
     /* our initial state */
     opacity: 0; /* fade out */
     transform: translateY(-100%); /* move out of view */
@@ -679,7 +678,9 @@ input[type=submit]:hover {
     }
 
   .logo, .mobile-dropdown-toggle {
-    z-index: 0;
+    z-index: 9999;
+    position: relative;
+    outline: none;
   }
 
   .mobile-dropdown-toggle {
