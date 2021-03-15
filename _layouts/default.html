@@ -1,8 +1,8 @@
 {% include head.html %}
 <title>{{ site.title }} > {{ page.title }}</title>
 <body> 
-
-
+	
+{% include toc.html html=content sanitize=true class="inline_toc" id="my_toc" %}
 {{ content }}   
 
 
