@@ -15,7 +15,7 @@ publish_mode: editorial_workflow
 # This line should *not* be indented
 
 media_folder: "assets/images/uploads" # Media files will be stored in the repo under assets/images/uploads
-site_url: https://www.clarkadisney.com
+site_url: https://clarkadisney.github.io
 collections:
   - name: "projectposts" # Used in routes, e.g. /admin/collections/blog
     label: "Posts" # Used in the UI
