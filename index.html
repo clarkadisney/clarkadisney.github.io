@@ -166,7 +166,7 @@ SimpleJekyllSearch({
 
 
 <!-- post list
-<ul class ="categories-item3">
+<ul>
 {% for post in paginator.posts %}
 	<li><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
 	<span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
