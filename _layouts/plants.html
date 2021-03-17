@@ -1,72 +1,83 @@
 ---
+title: Recent Posts
 layout: default
 ---
- 
-<a href='/index.html' style="text-decoration: none;"><div class='pagetitle'>Closing the loop:</div>
-</a>
-
-<div class='projectcategories'>
-	<a href='/index.html' style="text-decoration: none;"> all</a> | 
-	<a href='/plants.html' style="text-decoration: none;"> urban organics</a> | 
-	<a href='/software.html' style="text-decoration: none;"> software</a> | 
-    <a href='/artwork.html' style="text-decoration: none;">artwork</a>
-</div>
-
-
 
 <div class='body-grid'>
+	<div class='grid-item'></div>
+	<div class='grid-item'>
+		<a href='/index.html' style="text-decoration: none;"><div class='pagetitle'>Plants and Soil</div>
+		</a>
+		</div>
+	<div class='grid-item'></div>
 
 	<div class='grid-item'></div>
 	<div class='grid-item'>
 		<div class='pagecaption'>&nbsp The purpose of this section is to research and display the scalability of technologies that are well-known to niche organic growers but remain <b>nascent in commercial horticulture</b>. This dichotomory is a <b>"known-known"</b> among academic researchers and enthusiasts alike; there are numerous examples of <b>products</b> that have successfully made the leap with many more remaining unadopted commercially
 			
-			<p></p><p></p>&nbsp In addition to articles, this space serves as a showcase for our test labrotory: an indoor micro vertical farm that produces organinc greens, root vegetables, herbs, and other plants sustainably using <b>soil and biomass</b> for $10 a month. There's also some showing off of our <b>no-till</b> chicago rooftop garden.  
+		<!--p></p><p></p>&nbsp In addition to articles, this space serves as a showcase for our test labrotory: an indoor micro vertical farm that produces organinc greens, root vegetables, herbs, and other plants sustainably using <b>soil and biomass</b> for $10 a month. There's also some showing off of our <b>no-till</b> chicago rooftop garden.-->  
 			
-			<p></p><p></p>&nbsp Lastly, I'd be remiss if I didn't thank my late father for dragging me to <a href="https://en.wikipedia.org/wiki/Royal_FloraHolland" style="text-decoration: none;"><b>Aalsmeer</b></a> and <a href="https://en.wikipedia.org/wiki/Floriade_2002" style="text-decoration: none;"><b>Floriade</b></a> in 2002, seeding the interest for this project. I also owe a major thank you to my organic farming friends in Kentucky and Chicago who have graciously answered <b>soil and microbiome</b> questions without hesitation.<p></p></div>
+		<p></p><p></p>&nbsp Lastly, I'd be remiss if I didn't thank my late father for dragging me to <a href="https://en.wikipedia.org/wiki/Royal_FloraHolland" style="text-decoration: none;"><b>Aalsmeer</b></a> and <a href="https://en.wikipedia.org/wiki/Floriade_2002" style="text-decoration: none;"><b>Floriade</b></a> in 2002, seeding the interest for this project. I also owe a major thank you to my organic farming friends in Kentucky and Chicago who have graciously answered <b>soil and microbiome</b> questions without hesitation.<p></p></div>
+		</div>
+	<div class='grid-item'></div>
+
+	<div class='grid-item'></div>
+	<div class='grid-item'><div class="pagebreak"></div></div>
+	<div class='grid-item'></div>
+
+	<div class='grid-item'></div>
+	<div class='grid-item'>
+		<div class='projectcategories'>
+			<div class='categorycard'> 
+			<a href='/growrack.html' style="text-decoration: none; color: black;">Grow  Rack
+			<img src="/assets/images/growrack/rackv5_3.JPG" class='categoryimage' />
+			<div class='categorycopy'>
+				An organic soil-based home vertical system
+			</div></a></div> 	
+			<div class='categorycard'> 
+			<a href='/chiroof.html' style="text-decoration: none; color: black;">Urban Rooftop
+			<img src="/assets/images/chiroof/coverroof1.JPG" class='categoryimage' />
+			<div class='categorycopy'>
+				Challenge accepted: high organic yields in no-till beds
+			</div></a></div> 		
+			<div class='categorycard'>
+			<a href='/Microbiome.html' style="text-decoration: none; color: black;">Soil Microbiome
+			<img src="/assets/images/microbiome/greatwhite2.JPG" class='categoryimage' />
+			<div class='categorycopy'>
+				Why was Myco invited to the party? ...he's a <i>fun-gi</i>
+			</div></a></div>
+		</div>
 	</div>
-	<div class='grid-item'></div>
-
+	<div class='grid-item'></div>	
 
 	<div class='grid-item'></div>
 	<div class='grid-item'>
-
+		<div class='projectcategories'>
+			<div class='categorycard'> 
+			<a href='/LEDs.html' style="text-decoration: none; color: black;">Modern LEDs
+			<img src="/assets/images/LEDs/quantum6.JPG" class='categoryimage' />
+			<div class='categorycopy'>
+				2.5 μmol/J: There's no going back
+			</div></a></div> 	
+			<div class='categorycard'> 
+			<a href='/Containers.html' style="text-decoration: none; color: black;">Container Hacks
+			<img src="/assets/images/irrigation/containercover.JPG" class='categoryimage' />
+			<div class='categorycopy'>
+				The speed and ease of hydro with sustainable soil and compost
+			</div></a></div> 	
+			<div class='categorycard'> 
+			<a href='/Analysis.html' style="text-decoration: none; color: black;">Analysis
+				<img src="/assets/charts/loremdonut.png" class='categoryimage' />
+			<div class='categorycopy'>
+				Reviewing nascent technologies, companies, and produts
+			</div></a></div> 	
+		</div>
 	</div>
-	<div class='grid-item'></div>
+	<div class='grid-item'></div>	
 
 	<div class='grid-item'></div>
-	<div class='grid-item'><p></p><p></p>plant projects tag cloud:</div>
-	<div class='grid-item'></div>
-
-	<div class='grid-item'></div>
-	<div class='grid-item'>
-		<div class='projecttags'>
-	{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}{% assign tags_list = site.posts | where: 'categories', 'plants' | map: 'tags' | join: ',' | split: ',' | uniq %}
-	{% for item in (0..site.tags.size) %}{% unless forloop.last %}{% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
-	<ul><a href="/{{ this_word}}">{{ this_word }} {{ site.tags[this_word].size }}</a></ul>
-	{% endunless %}{% endfor %}
-	</div></div>
-	<div class='grid-item'></div>
-
-	<!--div class='grid-item'></div>
-	<div class='grid-item'>
-		<div class='projecttags'>
-		{% assign tags = site.posts | where: 'categories', 'plants' | map: 'tags' | join: ',' | split: ',' | uniq %}
-		{% for tag in tags %}
-		<ul><a href="/{{tag}}.html/">{{ tag }}</a></ul>
-		{% endfor %}
-	</div></div>
-	<div class='grid-item'></div-->
-
-	<div class='grid-item'></div>
-	<div class='grid-item'>
-		<div class="searchbox">
-			<div id="search-container">
-			<input type="text" id="search-input" placeholder="Search">
-			<ul id="results-container"></ul>
-			</div>
-			</div>
-	</div>
-	<div class='grid-item'></div>
+	<div class='grid-item'><div class="pagebreak"></div></div>
+	<div class='grid-item'></div>	
 
 	<div class='grid-item'></div>
 	<div class='grid-item'>
@@ -88,10 +99,33 @@ layout: default
 		</div>
 		<div class='grid-item'></div>
 
+	<div class='grid-item'></div>
+	<div class='grid-item'>
+		<div class="searchbox">
+			<div id="search-container">
+			<input type="text" id="search-input" placeholder="Search">
+			<ul id="results-container"></ul>
+			</div>
+			</div>
+	</div>
+	<div class='grid-item'></div>
 
+	<div class='grid-item'></div>
+	<div class='grid-item'>side projects tag cloud:</div>
+	<div class='grid-item'></div>
+	
+	<div class='grid-item'></div>
+	<div class='grid-item'>
+		<div class='projecttags'>
+		{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}{% assign tags_list = site_tags | split:',' | uniq | sort_natural %}
+		{% for item in (0..site.tags.size) %}{% unless forloop.last %}{% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
+		<ul><a href="/{{ this_word}}" class='tag'>{{ this_word }} {{ site.tags[this_word].size }}</a></ul>
+		{% endunless %}{% endfor %}
+		</div></div>
+	<div class='grid-item'></div>
 
 </div>
-
+    
 <script src="/assets/js/search-script.js" type="text/javascript"></script></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -103,3 +137,17 @@ SimpleJekyllSearch({
   json: '/search.json'
 })
 </script>
+
+
+<!-- post list
+<ul class ="categories-item3">
+{% for post in paginator.posts %}
+	<li><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
+	<span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
+    </li>
+{% endfor %}
+</ul> -->
+
+
+
+
