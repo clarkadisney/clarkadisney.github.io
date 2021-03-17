@@ -6,7 +6,7 @@ layout: default
 <div class='body-grid'>
 	<div class='grid-item'></div>
 	<div class='grid-item'>
-		<a href='/index.html' style="text-decoration: none;"><div class='pagetitle'>Side projects:</div>
+		<a href='/index.html' style="text-decoration: none;"><div class='pagetitle'>Side Projects Blog</div>
 		</a>
 	</div>
 	<div class='grid-item'></div>
@@ -77,26 +77,6 @@ layout: default
 	
 	<div class='grid-item'></div>
 	<div class='grid-item'>
-		{% for post in paginator.posts limit:25 %}
-		<a href="{{ post.url }}">
-		<div class='projectcard'>
-			<h3>{{ post.title }}</h3>
-		<img src="{{ post.featured-image }}" class='projectimage' />
-		<div class='projectcopy'>
-		<a>{{ post.caption }}</a>  
-		<p style="color: BLACK; font-size: 1rem; FONT-WEIGHT: BOLD;">{{ post.date | date: "%b %-d, %Y" }}</p>
-		</div></div></a>
-	</div>
-	<div class='grid-item'></div>
-	
-	<div class='grid-item'></div>
-	<div class='grid-item'>
-    {% endfor %}
-	</div>
-	<div class='grid-item'></div>
-
-	<div class='grid-item'></div>
-	<div class='grid-item'>
 		<div class='pagination'>
 				{% if paginator.total_pages > 1 %}
 					<div>
@@ -121,6 +101,27 @@ layout: default
 					 </div>
 					 {% endif %}
 		</div>
+	</div>
+	<div class='grid-item'></div>
+
+
+	<div class='grid-item'></div>
+	<div class='grid-item'>
+		{% for post in paginator.posts limit:25 %}
+		<a href="{{ post.url }}">
+		<div class='projectcard'>
+			<h3>{{ post.title }}</h3>
+		<img src="{{ post.featured-image }}" class='projectimage' />
+		<div class='projectcopy'>
+		<a>{{ post.caption }}</a>  
+		<p style="color: BLACK; font-size: 1rem; FONT-WEIGHT: BOLD;">{{ post.date | date: "%b %-d, %Y" }}</p>
+		</div></div></a>
+	</div>
+	<div class='grid-item'></div>
+	
+	<div class='grid-item'></div>
+	<div class='grid-item'>
+    {% endfor %}
 	</div>
 	<div class='grid-item'></div>
 
