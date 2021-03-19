@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-
-<a href='/index.html' style="text-decoration: none;"><div class='pagetitle'>FOSS/ DIY software:</div>
+<a href='/index.html' style="text-decoration: none;"><div class='pagetitle'>Container Hacking:</div>
 </a>
+
 <div class='body-grid'>
 
 	<div class='grid-item'></div>
@@ -19,7 +19,7 @@ layout: default
 	<div class='grid-item'></div>
 	<div class='grid-item'>
 		<div class="postlist">
-		{% for post in site.categories.software limit:25 %}
+		{% for post in site.tags.Containers limit:25 %}
 		<div class='postlistcard'>	
 			<a href="{{ post.url }}" style="text-decoration: none; font-family: DM Serif Display, Serif; color: #070e36; font-size: 1.25rem;">	
 			<img src="{{ post.featured-image }}" class='postlistimage' />
@@ -49,3 +49,5 @@ SimpleJekyllSearch({
   json: '/search.json'
 })
 </script>
+
+
