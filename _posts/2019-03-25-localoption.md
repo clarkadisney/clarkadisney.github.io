@@ -9,11 +9,26 @@ caption: Also - running OpenCV frontalface on pictures of Gorillas
 description: Photo archiving solution
 ---
 
+## Original Mission and Wireframe
+
+Local Option is a privacy-focused photograph management system currently in development. We believe that your memories are yours, and that your family shouldn't need to give marketers intimate access to your personal lives in exchange for storage and sorting features.
+
+No demo yet, but we expect to have something to kick the tires on in 2019. The program is currently written in JavaScript, utilizes openCV.js, and is packaged in Electron.
+
+Below are some teaser screenshots, please check for updates:  
+
+
+
 <a data-fancybox="gallery" href="/assets/images/localoption/localUI_1.JPG"><img class="projectimage" src="/assets/images/localoption/localUI_1.JPG"></a>
 
-### Lorem ipsum dolor sit amet
+## Testing and decision to abandon
 
-consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien eget mi proin sed libero. Bibendum est ultricies integer quis auctor elit sed vulputate. Sit amet consectetur adipiscing elit. Purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus. Rhoncus urna neque viverra justo nec. Dui accumsan sit amet nulla facilisi morbi tempus iaculis urna. Integer enim neque volutpat ac tincidunt vitae semper. Duis convallis convallis tellus id interdum velit.
+
+Local Option is a privacy-focused photograph management system currently in development. We believe that your memories are yours, and that your family shouldn't need to give marketers intimate access to your personal lives in exchange for storage and sorting features.
+
+No demo yet, but we expect to have something to kick the tires on in 2019. The program is currently written in JavaScript, utilizes openCV.js, and is packaged in Electron.
+
+Below are some teaser screenshots, please check for updates:  
 
 <a data-fancybox="gallery" href="/assets/images/localoption/log.JPG"><img class="projectimage" src="/assets/images/localoption/log.JPG"></a>
 

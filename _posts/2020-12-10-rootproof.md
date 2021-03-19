@@ -4,7 +4,7 @@ title: Grow Rack Root Vegetables
 date: 2020-12-10T13:15:00.000Z
 categories: [plants]
 tags: [Growrack, Irrigation, LEDs, Aeration, Vegetables]
-featured-image: /assets/images/vegetables/rackroots7.JPG
+featured-image: /assets/images/growrack/rackroots2.JPG
 caption: Various examples of root vegetables grown on rack in poly bags using fox farms with compost tea - proof of concept!
 description: Inspired by Peter Konjoian
 ---
