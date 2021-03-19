@@ -1,0 +1,29 @@
+{% include head.html %}
+<title>{{ site.title }} > {{ page.title }}</title>
+<body> 
+
+{{ content }}   
+
+
+<!--script for mobile menu toggle needs to be left here or brought into header as a source-->
+<script>
+
+	const navElement = document.getElementById("main-nav");
+	const dropdownEl = document.querySelector(".dropdown-link-container");
+	
+	document.addEventListener("click", (event) => {
+	  if (event.target.classList.contains("mobile-dropdown-toggle")) {
+		navElement.classList.toggle("dropdown-opened");
+	  }
+	});
+	
+	document.addEventListener("click", (event) => {
+	  // if we clicked on something inside our dropdown...
+	  if (dropdownEl.contains(event.target)) {
+		navElement.classList.remove("dropdown-opened");
+	  }
+	});
+</script>
+
+</body>
+</html>
