@@ -52,6 +52,8 @@ Next, we mixed in a healthy layer of compost and a good bit of fresh kitchen scr
 ## Layer 4
 Finally, we topped with Fox Farms Ocean Forest, an organic soil designed for containers. We mixed in a significant amount of leftover perlite (we've mostly stopped using it). This layer will allow us to plant immediately, and the perlite will help hold moisture on the top 1/4 of the soil that is most at risk for dehydration.
 
+<a data-fancybox="gallery" href="/assets/images/chiroof/cocoperlite.JPG"><img class="projectimage" src="/assets/images/chiroof/cocoperlite.JPG"></a>
+
 ## Planted
 
 <a data-fancybox="gallery" href="/assets/images/chiroof/notill3.JPG"><img class="projectimage" src="/assets/images/chiroof/notill3.JPG"></a>
