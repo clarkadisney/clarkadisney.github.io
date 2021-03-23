@@ -49,13 +49,13 @@ In a <a href="https://clarkadisney.github.io/plants/2021/02/02/mycotest1.html">p
 ## Who really uses it
 
 ### Plants!
-<a href="https://tobykiers.com/wp-content/uploads/2018/10/Noe%CC%88-Kiers-2018-Mycorrhizal-markets-TREE.pdf">Kidding</a>, but <a href="https://www.nationalgeographic.com/science/article/the-worlds-biggest-market-and-its-underground">seriously</a>.
+The market is fragmented but plants provide a consistent userbase! <a href="https://tobykiers.com/wp-content/uploads/2018/10/Noe%CC%88-Kiers-2018-Mycorrhizal-markets-TREE.pdf">Kidding</a>, but <a href="https://www.nationalgeographic.com/science/article/the-worlds-biggest-market-and-its-underground">seriously</a>.
 
 ### Organic, No-Till, Small Farms, Hobbyist Growers, Forestry
 Mycorrhizae is commonly found in living or hot <a href="https://www.pthorticulture.com/en/training-center/urban-horticulturists-see-the-benefits-of-mycorrhizal-fungi/">soils</a> marketed to growers interested in organics or no-till. Some "far-hobbyist" growers make large quantites of it for their own use, as referenced <a href="https://moldresistantstrains.com/diy-how-to-make-mycorrhizal-fungi-inoculant/">above</a>.
  
 ### Scaled, Industrialized, and Restorative
-Africa, restorative, exlporatory - industrialized use in the US is minimal but seen as rising for reasons mentioned below.
+<a href="https://www.researchgate.net/publication/295918834_Mycorrhizal_industry_in_modern_agriculture">Africa</a>, restorative, exlporatory - industrialized use in the US is minimal but could rise for reasons mentioned below.
  
 ## Who sells it and why
 
@@ -82,7 +82,7 @@ A blueprint for scaling voluntary carbon markets to meet the climate challenge
 January 29, 2021</cite></figcaption>
 </figure>
 
-The implication is that certain industries need to offset, and those offsets need to be generated. Farmers can conceivably <a href="https://www.bloomberg.com/news/articles/2020-10-28/iowa-farmer-finds-fortune-in-selling-carbon-credits-to-shopify">generate them </a>through sustainable farming, then sell them to buyers who wish to offset their carbon pollution. Despite the closing of the Chicago Carbon Exchange (CCX), there are still many private and <a href="https://www.c2es.org/document/us-state-carbon-pricing-policies/">state-level</a> exchanges - with a large <a href="https://www.bloomberg.com/news/articles/2021-03-22/china-urges-market-forces-to-fill-gap-in-green-bond-program">Chinese exchange</a> coming online this decade. At this point - commitment to the environment aside, this approach can be seen as strategic positioning for both the users of biological amendments and the brokers of them, who are likely plugged into ecosystems needing carbon offset. A great example of this would be the <a href="https://www.willistonherald.com/news/business/the-story-of-a-business-evolution-or/article_e32066de-c17d-5c93-b759-d74e352f3210.html">history of Leonardite</a>, which is a mineral resource that seems to be the carbon sink amendment du jour.
+One implication is that certain industries need to offset, and those offsets need to be generated. Farmers can conceivably <a href="https://www.bloomberg.com/news/articles/2020-10-28/iowa-farmer-finds-fortune-in-selling-carbon-credits-to-shopify">generate them </a>through sustainable farming, then sell them to buyers who wish to offset their carbon pollution. Despite the closing of the Chicago Carbon Exchange (CCX), there are still many private and <a href="https://www.c2es.org/document/us-state-carbon-pricing-policies/">state-level</a> exchanges - with a large <a href="https://www.bloomberg.com/news/articles/2021-03-22/china-urges-market-forces-to-fill-gap-in-green-bond-program">Chinese </a>exchange coming online this decade. At this point - commitment to the environment aside, this approach can be seen as strategic positioning for both the users of biological amendments and the brokers of them, who are likely plugged into ecosystems needing carbon offset. A great example of this would be the <a href="https://www.willistonherald.com/news/business/the-story-of-a-business-evolution-or/article_e32066de-c17d-5c93-b759-d74e352f3210.html">history of Leonardite</a>, which is a mineral resource that seems to be the carbon sink amendment du jour.
  
 ## Summary
 
@@ -94,8 +94,8 @@ The market will continue to grow for a variety of reasons including end-consumer
 
 Why did FBN seemingly drop myco for bacteria?
 
-Is bacillus better able to withstand tilling / use in traditional industrialized ag? 
+Is bacillus/bacteria better able to withstand tilling / use in traditional industrialized ag? 
 
-Is Leonardite a preferred carbon sink / circular economy product compared to Myco + trees?
+Is Leonardite a preferred carbon sink / circular economy product compared to myco + trees?
 
 Stay tuned!
