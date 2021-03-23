@@ -68,7 +68,10 @@ A blueprint for scaling voluntary carbon markets to meet the climate challenge
 January 29, 2021 | Report</cite></figcaption>
 </figure>
 
-Carbon tax trading is a big topic we won't cover here. The takeaway is that farmers can conceivably generate them through sustainable farming, then sell them to buyers who wish to offset their carbon pollution. Despite the closing of the Chicago Carbon Exchange (CCX), there are still many private and <a href="https://www.c2es.org/document/us-state-carbon-pricing-policies/">state-level</a> exchanges - with a large <a href="https://www.bloomberg.com/news/articles/2021-03-22/china-urges-market-forces-to-fill-gap-in-green-bond-program">Chinese exchange</a> coming online this decade. At this point - commitment to the environment aside, this approach can be seen as strategic positioning for both the users of biological amendments and the brokers of them, who are likely plugged into ecosystems needing carbon offset.
+### Carbon 
+Carbon offset trading is a big topic we won't cover here. The takeaway is that farmers can conceivably generate them through sustainable farming, then sell them to buyers who wish to offset their carbon pollution. Despite the closing of the Chicago Carbon Exchange (CCX), there are still many private and <a href="https://www.c2es.org/document/us-state-carbon-pricing-policies/">state-level</a> exchanges - with a large <a href="https://www.bloomberg.com/news/articles/2021-03-22/china-urges-market-forces-to-fill-gap-in-green-bond-program">Chinese exchange</a> coming online this decade. At this point - commitment to the environment aside, this approach can be seen as strategic positioning for both the users of biological amendments and the brokers of them, who are likely plugged into ecosystems needing carbon offset.
+
+
  
 ### Valent Biosciences
 Owned by Sumitomo, Valent acquired Mycorrhizal Applications LLC with the intention of building out a "biorational window" for sustainably grown crops.  Valent Sustainable solutions measures their offerings as "sustainable" and marks whether they're OMRI or CDFA organic input as well.
@@ -76,7 +79,7 @@ Owned by Sumitomo, Valent acquired Mycorrhizal Applications LLC with the intenti
 ### Farmers Business Network
 In 2016 Farmers Business Network Launched a sales channel "FBN Direct" for direct ordering of inputs. There are several listings for mycorrhizae products from vendors like Valent and Helena, however none appear to be currently available.
  
-More <a href="https://www.no-tillfarmer.com/articles/10460-fbn-direct-launches-broad-portfolio-of-biological-solutions">recently</a>, FBN announced the launch of Biological solutions on that platform. The soil probiotics appear to be single-strain / bacterial at a significantly higher concentration (CFU/g) than are present in hobbyist offerings. Aside from a lack of myco - the carbon biologicals appear to be "leonardite" based, which is a topic I'll cover when looking into Biochar. Notable, all of the Biologicals listed are made by a single company, <a href="https://genericcropscience.com/products/other/">Generic Crop Sciences</a>.
+More <a href="https://www.no-tillfarmer.com/articles/10460-fbn-direct-launches-broad-portfolio-of-biological-solutions">recently</a>, FBN announced the launch of Biological solutions on that platform. The soil probiotics appear to be single-strain / bacterial at a significantly higher concentration (CFU/g) than are present in hobbyist offerings. Aside from a lack of myco - the carbon biologicals appear to be <a href="https://www.ams.usda.gov/sites/default/files/media/Ox%20lig%20Technical%20Evaluation%20Report%20%282012%29.pdf">"leonardite"</a> based, which is a topic I'll cover when looking into Biochar. Notable, all of the Biologicals listed are made by a single company, <a href="https://genericcropscience.com/products/other/">Generic Crop Sciences</a>.
  
 ## Summary
 
@@ -88,8 +91,8 @@ The market will continue to grow for a variety of reasons including end-consumer
 
 Why did FBN seemingly drop myco? 
 
-Is bacteria better able to wisthand tilling and use in traditional industrialized agriculture? 
+Is bacillus bacteria better able to wisthand tilling and use in traditional industrialized agriculture? 
 
-Is Leonardite a good carbon sink / circular economy product?
+Is Leonardite a good carbon sink / circular economy product compared to Myco?
 
 Stay tuned!
