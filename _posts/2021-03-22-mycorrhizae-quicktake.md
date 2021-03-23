@@ -92,6 +92,8 @@ My guesstimate: the market will continue to grow for reasons including end-consu
  
 ### Further Questions
  
+What are the economics of myco vs bacteria?
+
 Why did FBN seemingly drop myco for bacteria?
  
 Is bacillus / bacteria better able to withstand tilling / use in industrialized ag? 
