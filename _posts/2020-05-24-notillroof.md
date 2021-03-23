@@ -5,7 +5,7 @@ date: 2020-05-24T12:30:00.000Z
 categories: [plants]
 tags: [Notill, Containers, Microbiome]
 featured-image: /assets/images/chiroof/notillcover.JPG
-caption: Another Closed-Loop Effort
+caption: Closed-Loop Effort
 description: 
 ---
  
