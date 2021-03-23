@@ -88,13 +88,13 @@ One implication is that certain industries need to offset, and those offsets nee
  
 ### Market Growth
  
-The market will continue to grow for a variety of reasons including end-consumer demand, greater awareness of and desire to remediate soil health, wider and more targeted availability, increased research supporting adoption at scale, and potentially the need to finance via carbon tax credit generation.
+The market will continue to grow for reasons including end-consumer demand, greater awareness of and desire to remediate soil health, wider and more targeted availability, increased research supporting adoption at scale, and very likely financing via carbon tax credit generation.
  
 ### Further Questions
  
 Why did FBN seemingly drop myco for bacteria?
  
-Is bacillus/bacteria better able to withstand tilling / use in traditional industrialized ag? 
+Is bacillus / bacteria better able to withstand tilling / use in traditional industrialized ag? 
  
 Is Leonardite a preferred carbon sink / circular economy product compared to myco + trees?
  
