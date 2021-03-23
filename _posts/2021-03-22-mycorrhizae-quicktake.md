@@ -65,8 +65,8 @@ Formed by Sumitomo after acquiring Abbott's ag division, Valent Biosciences acqu
 ### Farmers Business Network
 In 2016 Farmers Business Network Launched a sales channel "FBN Direct" for direct ordering of inputs. There are several listings for mycorrhizae products from vendors like Valent and Helena, however none appear to be currently available.
  
-More <a href="https://www.no-tillfarmer.com/articles/10460-fbn-direct-launches-broad-portfolio-of-biological-solutions">recently</a>, FBN announced the launch of Biological solutions on that platform. The soil probiotics appear to be single-strain / bacterial at a significantly higher concentration (CFU/g) than are present in hobbyist offerings. Aside from a lack of myco - the carbon biologicals appear to be <a href="https://www.ams.usda.gov/sites/default/files/media/Ox%20lig%20Technical%20Evaluation%20Report%20%282012%29.pdf">"leonardite"</a> based, which is a topic I'll cover when looking into Biochar. Notable, all of the Biologicals listed are made by a single company, <a href="https://genericcropscience.com/products/other/">Generic Crop Sciences</a>. 
- 
+More <a href="https://www.no-tillfarmer.com/articles/10460-fbn-direct-launches-broad-portfolio-of-biological-solutions">recently</a>, FBN announced the launch of Biological solutions on that platform. The soil probiotics appear to be single-strain / bacterial at a significantly higher concentration (CFU/g) than are present in hobbyist offerings. Aside from a lack of myco - the carbon biologicals appear to be <a href="https://www.ams.usda.gov/sites/default/files/media/Ox%20lig%20Technical%20Evaluation%20Report%20%282012%29.pdf">"leonardite"</a> based, which is a topic I'll cover when looking into Biochar. Notable, all of the Biologicals listed are made by a single company, <a href="https://genericcropscience.com/products/other/">Generic Crop Science</a>. 
+  
 ### Scaled for Carbon Offset
 It is possible that entrants into this market will have ties to the petro / mining industries. This was true when Sumitomo (via Valent) <a href="https://www.growingproduce.com/vegetables/valent-biosciences-acquires-mycorrhizal-applications-inc/">acquired</a> Mycorrhizal Applications in 2015, and it was still true when Mckinsey <a href="https://www.mckinsey.com/business-functions/sustainability/our-insights/a-blueprint-for-scaling-voluntary-carbon-markets-to-meet-the-climate-challenge">published</a> their "A blueprint for scaling voluntary carbon markets..." report in 2021. The connection between those two items is present (though vague) in the first page:
  
@@ -88,16 +88,14 @@ One implication is that certain industries need to offset, and those offsets nee
  
 ### Market Growth
  
-The market will continue to grow for reasons including end-consumer demand, greater awareness of and desire to remediate soil health, wider and more targeted availability, increased research supporting adoption at scale, and potentially -  financing via carbon tax credit generation.
+My guesstimate: the market will continue to grow for reasons including end-consumer demand, greater awareness of and desire to remediate soil health, wider and more targeted availability, increased research supporting adoption at scale, and potentially -  financing via carbon tax credit generation.
  
 ### Further Questions
  
 Why did FBN seemingly drop myco for bacteria?
  
-Is bacillus / bacteria better able to withstand tilling / use in traditional industrialized ag? 
+Is bacillus / bacteria better able to withstand tilling / use in industrialized ag? 
  
-Is Leonardite a preferred carbon sink / circular economy product compared to myco + trees?
- 
-Stay tuned!
+Is Leonardite a preferred carbon sink / circular economy product compared to myco and no-till?
  
 
