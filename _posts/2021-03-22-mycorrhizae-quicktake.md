@@ -88,7 +88,7 @@ One implication is that certain industries need to offset, and those offsets nee
  
 ### Market Growth
  
-The market will continue to grow for reasons including end-consumer demand, greater awareness of and desire to remediate soil health, wider and more targeted availability, increased research supporting adoption at scale, and very likely financing via carbon tax credit generation.
+The market will continue to grow for reasons including end-consumer demand, greater awareness of and desire to remediate soil health, wider and more targeted availability, increased research supporting adoption at scale, and potentially -  financing via carbon tax credit generation.
  
 ### Further Questions
  
