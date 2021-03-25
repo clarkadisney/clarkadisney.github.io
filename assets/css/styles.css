@@ -95,6 +95,10 @@ nav a.active {
   font-size: 1.25rem;
 }
 
+.inline_toc:hover{
+  cursor: pointer;
+}
+
 .inline_toc a {
   color: #91f196;
   text-decoration-line: none;
@@ -407,8 +411,9 @@ blockquote {
 
 blockquote p {
   padding: 15px;
-  background: #eee;
+  background: #f2dfce;
   border-radius: 5px;
+  color: #070e36;
 }
 
 blockquote p::before {
