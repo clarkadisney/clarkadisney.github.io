@@ -51,7 +51,7 @@ The result is a higher PPFD on average. The efficiency of this array pattern is 
  
 <a data-fancybox="gallery" href="/assets/images/analysis/LEDcalc.JPG"><img class="projectimage" src="/assets/images/analysis/LEDcalc.JPG"></a>
  
-This is both in part to the shifting of the array concept to something more akin to a matrix - and certainly helped by the use of more efficient mid-power diodes.  They've been updated to include far-red and blue (in small amounts, separately), and to use the newest diodes. Although they remain among the more expensive, in 2021 there are a number of bar-shaped competitors employing a similar approach online with comparable results.
+This is both in part to the shifting of the array concept to something more akin to a matrix - and certainly helped by the use of more efficient mid-power diodes.  They've been updated to include far-red and blue (in small amounts, separately), and to use the newest diodes. Although they remain among the more expensive, in 2021 there are a number of bar-shaped competitors employing a similar approach online with comparable results. The key in the fixture game is looking for independent <a href="https://cdn.shopify.com/s/files/1/1538/8585/files/HLG_650R.pdf?v=1587049529" target="_blank" rel="noopener noreferrer">lab results</a>. The funky <a href="https://en.wikipedia.org/wiki/Integrating_sphere" target="_blank" rel="noopener noreferrer">sphere</a> used to test is required for luminous flux results and is usually something a lab owns.
  
 One standout from 2020 is that Samsung has begun making the silicon boards for HLG. I am not aware of what that actually <i>means</i> but perception online is that it would ensure best mounting, best flux-binned diodes (which the LMH should already be), etc.
  
@@ -60,7 +60,6 @@ One standout from 2020 is that Samsung has begun making the silicon boards for H
  The First 2016 QB288v1 usedSamsung LM561C diodes which have been variously tested up to ~2.5 μmol/j. Current boards use the LM301H which has been widely-tested by a variety of labs at a high as ~3.1 μmol/j. This is compared to ~1.0 in the late-aughts.  
  
 ### 2021 - No competitors?
-Similar to the spectrum charts of fixture side, diode manufacturers often make available their <a href="https://www.samsung.com/led/lighting/mid-power-leds/3030-leds/lm301h/" target="_blank" rel="noopener noreferrer">design files</a>  and technical specifications - and frequently include <a href="https://cdn.shopify.com/s/files/1/1538/8585/files/HLG_650R.pdf?v=1587049529" target="_blank" rel="noopener noreferrer">lab results</a>. This is currently the pound for pound winner, but not necessarily the most cost efficient light.
- 
+Similar to the spectrum charts of fixture side, diode manufacturers often make available their <a href="https://www.samsung.com/led/lighting/mid-power-leds/3030-leds/lm301h/" target="_blank" rel="noopener noreferrer">design files</a>  and technical specifications. This is currently the pound for pound winner in the diode game.
  
 
