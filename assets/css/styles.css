@@ -270,6 +270,7 @@ border: 1px solid blue;
   color: #070e36;
   letter-spacing: 1px;
   max-height: auto;
+  background-color: #f2dfce;
   }
 
 .categorycard > div {
@@ -356,6 +357,7 @@ border: 1px solid blue;
   color: #070e36;
   letter-spacing: 1px;
   max-height: auto;
+  background-color: #f2dfce;
 }
 
 .postlistcard > div {
