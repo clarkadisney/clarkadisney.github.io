@@ -277,6 +277,10 @@ table, th, td {
   background-color: #f2dfce;
   }
 
+.categorycard:hover {
+  box-shadow: 1px 1px 6px 1px rgba(7,14,54,.75);
+}
+
 .categorycard > div {
   padding: 0%;
 }  
@@ -364,6 +368,10 @@ table, th, td {
   background-color: #f2dfce;
 }
 
+.postlistcard:hover {
+  box-shadow: 1px 1px 6px 1px rgba(7,14,54,.75);
+}
+
 .postlistcard > div {
 padding: 0%;
   }
@@ -372,6 +380,8 @@ padding: 0%;
   padding: 0%;
   line-height: 0%;
 }
+
+
 
 .postlistimage {
   width: 100%;
