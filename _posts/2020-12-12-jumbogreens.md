@@ -5,7 +5,7 @@ date: 2020-12-12T12:00:01.000Z
 categories: [plants]
 tags: [Growrack, Containers]
 featured-image: /assets/images/greens/greens1.JPG
-caption: No more wimpy organics!
+caption: Big leaves in December!
 description: 
 ---
  
