@@ -2,7 +2,7 @@
 layout: projectpost
 title: Local Option UI Test
 date: 2019-03-25T11:32:43.215Z
-categories: [software]
+categories: [Software]
 tags: [OpenCV, Electron]
 featured-image: /assets/images/localoption/localUI_1.JPG
 caption: Also - running OpenCV frontalface on pictures of Gorillas
