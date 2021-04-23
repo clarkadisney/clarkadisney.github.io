@@ -1,16 +1,15 @@
 ---
 layout: default
 ---
-
-<a href='/index.html' style="text-decoration: none;"><div class='pagetitle'>Armchair Analysis:</div>
+<a href='/index.html' style="text-decoration: none;"><div class='breadcrumb'> < Back To Projects</div></a>
+<a href='/analysis.html' style="text-decoration: none;"><div class='projecttitle'>Analysis:</div>
 </a>
-
 
 <div class='body-grid'>
 
 	<div class='grid-item'></div>
 	<div class='grid-item'>
-		<div class='pagecaption'>&nbspPosts on organic, indoor, and restorative agriculture. Additional focus on carbon capture, circular economies, and gadgets.</div>
+		<div class='projectcaption'>&nbspPlease send comments <a href="http://www.clarkadisney.com/contact.html" style="color: #070e36; font-weight: bolder;">here</a>.</div>
 	</div>
 	<div class='grid-item'></div>
 	
@@ -21,20 +20,21 @@ layout: default
 	<div class='grid-item'></div>
 	<div class='grid-item'>
 		<div class="postlist">
-		{% for post in site.tags.Analysis limit:25 %}
-		<div class='postlistcard'>	
-		<a href="{{ post.url }}" style="text-decoration: none; color: #070e36;">	
-		<img src="{{ post.featured-image }}" class='postlistimage' />
-		<div>{{ post.date | date: "%b %-d, %Y" }}</div>
-		{{ post.title }}/
-		<div class='postlistcopy'>
-		{{ post.caption }}  
-		</div></div></a>
-		{% endfor %}
+			{% for post in site.tags.Analysis limit:25 %}
+			<div class='postlistcard'>	
+			<a href="{{ post.url }}" style="text-decoration: none; color: #070e36;">	
+			<img src="{{ post.featured-image }}" class='postlistimage' />
+			<div style="font-size: 0.75em; font-weight: 400; font-family: Arial; text-align: justify;">{{ post.date | date: "%b %-d, %Y" }}</div>		
+			{{ post.title }}
+			<div class='postlistcopy'>
+			
+				{{ post.caption }}  
+			</div></div></a>
+			{% endfor %}
 		</div>
 	</div>
 	<div class='grid-item'></div>
-0
+
 	<div class='grid-item'></div>
 	<div class='grid-item'><div class="pagebreak"></div></div>
 	<div class='grid-item'></div>
@@ -51,5 +51,3 @@ SimpleJekyllSearch({
   json: '/search.json'
 })
 </script>
-
-

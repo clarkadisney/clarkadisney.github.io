@@ -1,32 +1,38 @@
 ---
 layout: default
 ---
-<a href='/growrack.html' style="text-decoration: none;"><div class='pagetitle'>Growrack:</div>
+<a href='/index.html' style="text-decoration: none;"><div class='breadcrumb'> < Back To Projects</div></a>
+<a href='/growrack.html' style="text-decoration: none;"><div class='projecttitle'>Growrack:</div>
 </a>
 
 <div class='body-grid'>
 
 	<div class='grid-item'></div>
 	<div class='grid-item'>
-		<div class='pagecaption'>&nbsp Documenting the evolution of an indoor <b>soil-based</b> "Growrack" that has <i>grown</i> from a means to extend the narrow Chicago pepper season to a full-on vegtable producing machine. Current target of 1020 no-till trays - expected to begin May 2021.</div>
+		<div class='projectcaption'>&nbspPlease send comments <a href="http://www.clarkadisney.com/contact.html" style="color: #070e36; font-weight: bolder;">here</a>.</div>
 	</div>
+	<div class='grid-item'></div>
+
+	<div class='grid-item'></div>
+	<div class='grid-item'></div>
 	<div class='grid-item'></div>
 	
 	<div class='grid-item'></div>
 	<div class='grid-item'><div class="pagebreak"></div></div>
 	<div class='grid-item'></div>
 
-	<div class='grid-item'></div>
+	<div class='grid-item'></div> 
 	<div class='grid-item'>
 		<div class="postlist">
 			{% for post in site.tags.Growrack limit:25 %}
 			<div class='postlistcard'>	
 			<a href="{{ post.url }}" style="text-decoration: none; color: #070e36;">	
 			<img src="{{ post.featured-image }}" class='postlistimage' />
-			<div>{{ post.date | date: "%b %-d, %Y" }}</div>
+			<div style="font-size: 0.75em; font-weight: 400; font-family: Arial; text-align: justify;">{{ post.date | date: "%b %-d, %Y" }}</div>		
 			{{ post.title }}
 			<div class='postlistcopy'>
-			{{ post.caption }}  
+			
+				{{ post.caption }}  
 			</div></div></a>
 			{% endfor %}
 		</div>

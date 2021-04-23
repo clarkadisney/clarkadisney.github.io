@@ -1,14 +1,15 @@
 ---
 layout: default
 ---
-
-<a href='/microbiome.html' style="text-decoration: none;"><div class='pagetitle'>Microbiome:</div>
+<a href='/index.html' style="text-decoration: none;"><div class='breadcrumb'> < Back To Projects</div></a>
+<a href='/microbiome.html' style="text-decoration: none;"><div class='projecttitle'>Microbiome:</div>
 </a>
+
 <div class='body-grid'>
 
 	<div class='grid-item'></div>
 	<div class='grid-item'>
-		<div class='pagecaption'>&nbsp There's a fungus amongus...</div>
+		<div class='projectcaption'>&nbspPlease send comments <a href="http://www.clarkadisney.com/contact.html" style="color: #070e36; font-weight: bolder;">here</a>.</div>
 	</div>
 	<div class='grid-item'></div>
 	
@@ -23,10 +24,11 @@ layout: default
 			<div class='postlistcard'>	
 			<a href="{{ post.url }}" style="text-decoration: none; color: #070e36;">	
 			<img src="{{ post.featured-image }}" class='postlistimage' />
-			<div>{{ post.date | date: "%b %-d, %Y" }}</div>
+			<div style="font-size: 0.75em; font-weight: 400; font-family: Arial; text-align: justify;">{{ post.date | date: "%b %-d, %Y" }}</div>		
 			{{ post.title }}
 			<div class='postlistcopy'>
-			{{ post.caption }}  
+			
+				{{ post.caption }}  
 			</div></div></a>
 			{% endfor %}
 		</div>

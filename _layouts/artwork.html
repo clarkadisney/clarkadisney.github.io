@@ -2,7 +2,7 @@
 layout: default
 ---
 <a href='/index.html' style="text-decoration: none;"><div class='breadcrumb'> < Back To Projects</div></a>
-<a href='/software.html' style="text-decoration: none;"><div class='projecttitle'>Software:</div>
+<a href='/artwork.html' style="text-decoration: none;"><div class='projecttitle'>Artwork:</div>
 </a>
 
 <div class='body-grid'>
@@ -20,7 +20,7 @@ layout: default
 	<div class='grid-item'></div>
 	<div class='grid-item'>
 		<div class="postlist">
-			{% for post in site.categories.Software limit:25 %}
+			{% for post in site.categories.Artwork limit:25 %}
 			<div class='postlistcard'>	
 			<a href="{{ post.url }}" style="text-decoration: none; color: #070e36;">	
 			<img src="{{ post.featured-image }}" class='postlistimage' />
