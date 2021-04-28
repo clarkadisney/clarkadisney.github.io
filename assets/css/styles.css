@@ -293,8 +293,6 @@ border: 1px solid blue;
   justify-content: space-between;
 	font-family: 'DM Serif Display', sans-serif;  
   -webkit-font-smoothing: antialiased;
-  padding: 0%;
-  margin: 1.25em 0;
 }
 
 table, th, td {
@@ -728,8 +726,8 @@ input[type=submit]:hover {
     border: none; 
     width:  85%; 
     margin: auto; 
-    margin-top: 1.5em; 
-    margin-bottom: 1.5em; 
+    margin-top: 1em; 
+    margin-bottom: 1em; 
     height: 2.5rem; 
     background: linear-gradient(135deg, #fbf1eb 25%, transparent 25%) -1.25rem 0, linear-gradient(225deg, #fbf1eb 25%, transparent 25%) -1.25rem 0, linear-gradient(315deg, #fbf1eb 25%, transparent 25%), linear-gradient(45deg, #fbf1eb 25%, transparent 25%); 
     background-size: 2.5rem 2.5rem; 
