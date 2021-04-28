@@ -9,7 +9,7 @@ layout: default
 
 	<div class='grid-item'></div>
 	<div class='grid-item'>
-		<div class='pagecaption'>&nbspThis page serves as an ongoing repository for DIY research and projects. Posts are grouped chronologically by category below; please reach out with any comments <a href="http://www.clarkadisney.com/contact.html" style="color: #070e36; font-weight: bolder;">here</a>.</div>
+		<div class='pagecaption'>&nbspThis page serves as a repository for DIY research and hobby projects. Posts are grouped chronologically by category below; please reach out with any comments <a href="http://www.clarkadisney.com/contact.html" style="color: #070e36; font-weight: bolder;">here</a>.</div>
 	</div>
 	<div class='grid-item'></div>
 
@@ -51,7 +51,7 @@ layout: default
 		<!--img src="/assets/images/growrack/coverrack7.JPG" class='categoryimage ' /-->
 			GrowRack
 		<div class='categorycopy'>
-			Soil-based platform for vegtables, greens, and herbs.
+			Soil-based platform for distributed production.
 		</div></a></div> 	
 
 		<div class='categorycard'>
@@ -59,7 +59,7 @@ layout: default
 		<!--img src="/assets/images/analysis/myco_root_tuber.gif" class='categoryimage' /-->
 			Microbiome
 		<div class='categorycopy'>
-			Amendments, no-till, and other soil health topics
+			Amendments, carbon and other soil health topics
 		</div></a></div>	
 
 		<div class='categorycard'> 
@@ -67,7 +67,7 @@ layout: default
 		<!--img src="/assets/images/chiroof/notill6.JPG" class='categoryimage' /-->
 			<u></u>No-Till Beds
 		<div class='categorycopy'>
-			Big yields with little soil disturbance in Chicago
+			Input-reduction via microscale no-till 
 		</div></a></div>
 
 		<div class='categorycard'> 
@@ -81,6 +81,48 @@ layout: default
 			
 	</div>
 	</div>	
+	<div class='grid-item'></div>
+
+	<div class='grid-item'></div>
+	<div class='grid-item'><div class="pagebreak"></div></div>
+	<div class='grid-item'></div>
+
+	<div class='grid-item'></div>
+	<div class='grid-item'>
+		<div class='pagination'>
+				{% if paginator.total_pages > 1 %}
+					<div>
+					{% if paginator.previous_page %}
+					<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+					{% else %}
+					<span>&laquo; Prev</span>
+					{% endif %} 
+					 {% if paginator.next_page %}
+					 <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+					 {% else %}
+					 <span>Next &raquo;</span>
+					 {% endif %}
+					 </div>
+					 {% endif %}
+		</div>
+	</div>
+	<div class='grid-item'></div>
+
+	<div class='grid-item'></div>
+	<div class='grid-item'>
+		<div class="postlist">
+			{% for post in paginator.posts limit:25 %}
+			<div class='postlistcard'>	
+			<a href="{{ post.url }}" style="text-decoration: none; color: #070e36;">	
+			<img src="{{ post.featured-image }}" class='postlistimage' />
+			<div>{{ post.date | date: "%b %-d, %Y" }}</div>
+			{{ post.title }}
+			<div class='postlistcopy'>
+			{{ post.caption }}  
+			</div></div></a>
+			{% endfor %}
+		</div>
+	</div>
 	<div class='grid-item'></div>
 
 	<div class='grid-item'></div>

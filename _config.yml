@@ -9,5 +9,5 @@ title: Blog & Archive
 url: https://clarkadisney.github.io
 plugins: [jekyll-paginate, jekyll-admin]
 paginate: 3
-paginate_path: recent/page:num/
+paginate_path: /page:num/
 categories: 
