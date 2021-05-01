@@ -116,6 +116,47 @@ nav a.active {
   color: #6CCFF6;
 }
 
+hr {
+  width: 66.666%;
+  border: 0;
+  height: 1px;
+  font-weight: 500;
+  margin: 1em 0;
+  font-size: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: #070e36;
+  text-align: center;
+  height: 1.5em;
+  opacity: 1;
+  font-weight: 400;
+}
+.hr-text:before {
+  content: "";
+  background: linear-gradient(to right, transparent, #070e36, transparent);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+.hr-text:after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  color: #070e36;
+  padding: 0 0.5em;
+  line-height: 1.5em;
+  background-color: #fbf1eb;
+}
+
 /*Body Grid*/
 .body-grid {
   display: grid;
@@ -200,10 +241,10 @@ border: 1px solid blue;
 
 /*----project pages-----*/
 .breadcrumb {
-  width:66.666%;
+  width:66.66%;
   margin-top: 10em;
   margin-bottom: 0.25em;
-	text-align: Left;
+  text-align: Left;
   margin-left: auto;
   margin-right: auto;  
 	font-weight: lighter;
@@ -213,12 +254,13 @@ border: 1px solid blue;
 }
 
 .categorylink {
+  display: flex;
+  width: 66.666%;
   margin-top: 0.25em;
   margin-bottom: 0.25em;
-  align-items: left;
+  align-items: flex-start;
   font-size: 1.5em;
   font-weight: bold;
-  text-align: justify;
   color: #070e36;
 }
 
@@ -236,18 +278,17 @@ border: 1px solid blue;
 
 .pagetitle {
   margin-top: 3em;
-  margin-bottom: 0.25em;
 	text-align: center;
 	font-family: 'DM Serif Display', sans-serif;  
 	font-weight: 500;
-	font-size: 3em;
+	font-size: 3.25em;
   -webkit-font-smoothing: antialiased;
 	color: #070e36;
 }
 
 
 .projecttitle {
-  width: 66.666%;
+  width: 66.66%;
   margin-bottom: 0.25em;
 	text-align: Center;
   margin-left: auto;
@@ -265,22 +306,25 @@ border: 1px solid blue;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.25em;
   font-weight: lighter;
-  margin-bottom: 0.75em;
-  margin-top: 0.5em;
+  margin-bottom: .75em;
+  margin-top: .75em;
+  line-height: 1.5;
 }
 
 .projectcaption {
-  width: 42.5%;
-  text-align: justify;
+  width: 50%;
+  text-align: center;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 1em;
+  font-size: 1.25em;
   font-weight: 400;
   margin-bottom: 0.25em;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .pagebreak {
   border: none; 
-  width: 66.666%; 
+  width: 66.66%; 
   /*margin: auto;*/ 
   margin-top: 1em; 
   margin-bottom: 1em; 
@@ -300,7 +344,7 @@ border: 1px solid blue;
   flex-direction: row;
   flex-wrap: wrap;
   width: 66.666%;
-  justify-content: flex-start;
+  justify-content:flex-start;
 	font-family: 'DM Serif Display', sans-serif;  
   -webkit-font-smoothing: antialiased;
 }
@@ -319,9 +363,14 @@ table, th, td {
   width: 33.33%;
   color: #070e36;
   letter-spacing: 1px;
-  height: 10rem;
-/*    background-color: #f2dfce; */
-  padding: 30px;
+  height: 8rem;
+  padding: 15px 15px 15px 15px;
+  text-decoration: none; 
+}
+
+.categorycard > a {
+  text-decoration: none; 
+  color: #070e36;
 }
 
 .categorycard:hover {
@@ -329,17 +378,18 @@ table, th, td {
   -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
   -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
   -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-  background-color:#f2dfce;
+  background-color: #f2dfce;
 }
 
-.categorycard > div {
-  padding: 0%;
-}  
-
-.categorycard > h3 {
-  padding: 0%;
-  line-height: 0%;
+.categorycard:hover > a > .categorycopy { 
+  text-decoration: underline #6CCFF6;
 }
+
+.categorycard:hover > a { 
+  text-decoration: underline #6CCFF6;
+
+}
+
 
 .categoryimage {
   width: 100%;
@@ -353,9 +403,8 @@ table, th, td {
   background-size: cover;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 300;
-  font-size: .75em;
+  font-size: .9em;
   text-align: start;
-  color: black;
 }
 
 
@@ -408,7 +457,7 @@ table, th, td {
  /*box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.25);*/
   border-radius: 0.25%;
   margin: .5em .5em;
-  font-size: 1.25rem;
+  font-size: 1.25em;
   font-weight: bold;
   text-align: left;
   width: 22.5%;
@@ -424,19 +473,17 @@ table, th, td {
   -moz-box-shadow: 0 0 10px  rgba(7,14,54,0.6);
   -webkit-box-shadow: 0 0 10px  rgba(7,14,54,0.6);
   -o-box-shadow: 0 0 10px  rgba(7,14,54,0.6);
-  
-background-color:#f2dfce;
+   background-color:#f2dfce;
 }
 
-.postlistcard > div {
-padding: 0%;
-  }
-
-.postlistcard > h3 {
-  padding: 0%;
-  line-height: 0%;
+.postlistcard:hover > a > .postlistcopy { 
+  text-decoration: underline #6CCFF6;
 }
 
+.postlistcard:hover > a { 
+  text-decoration: underline #6CCFF6;
+
+}
 
 
 .postlistimage {
@@ -453,6 +500,7 @@ padding: 0%;
   font-weight: 400;
   font-size: 1rem;
   text-align: left;
+  padding-left: 2.5px;
 }
 
 
@@ -644,7 +692,6 @@ input[type=submit]:hover {
     font-weight: 300;
     line-height: 1.5em;
   }
-    
 
   .breadcrumb {
     width:85%;
@@ -662,7 +709,7 @@ input[type=submit]:hover {
   .projecttitle {
     width: 85%;
     margin-bottom: 0.25em;
-    text-align: justify;
+    text-align: Center;
     margin-left: auto;
     margin-right: auto;
     font-family: 'DM Serif Display', sans-serif;  
@@ -674,9 +721,9 @@ input[type=submit]:hover {
 
   .projectcaption {
     width: 85%;
-    text-align: justify;
+    text-align: Center;;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1em;
+    font-size: 1.25em;
     font-weight: 400;
     margin-bottom: 0.25em;
   }
@@ -686,24 +733,11 @@ input[type=submit]:hover {
     flex-direction: row;
     flex-wrap: wrap;
     width: 85%;
-    justify-content:space-between;
+    justify-content:flex-start;
     font-family: 'DM Serif Display', sans-serif;  
     -webkit-font-smoothing: antialiased;
     padding: 0% 1.25%;
   }
-/*
-  .categorycard {
-    box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.25);
-    border-radius: 0.25%;
-    margin: .25rem .25rem;
-    font-size: 1.25rem;
-    text-align: left;
-    width: 30%;
-    color: #070e36;
-    font-weight: 500;
-    letter-spacing: 1px;
-    max-height: auto;
-  }*/
 
   .postlist {
     display: flex;
@@ -847,7 +881,7 @@ input[type=submit]:hover {
   .mobile-dropdown-toggle {
     display: initial; /* override that display: none attribute from before */
     float: left;
-    z-index: 3;
+    z-index: 4;
   }
   
   .dropdown-link-container {
@@ -874,7 +908,7 @@ input[type=submit]:hover {
     padding-right: 5%;
 
     background: #070e36;
-    z-index: 0; /* we're gonna avoid using -1 here, since it could position our navbar below other content on the page as well! */
+    z-index: 2; /* we're gonna avoid using -1 here, since it could position our navbar below other content on the page as well! */
     /* our initial state */
     opacity: 0; /* fade out */
     transform: translateY(-100%); /* move out of view */
@@ -917,7 +951,7 @@ input[type=submit]:hover {
 
   .projectcaption {
     width: 87%;
-    text-align: justify;
+    text-align: left;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.25em;
     font-weight: lighter;
