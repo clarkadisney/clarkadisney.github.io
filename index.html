@@ -2,19 +2,19 @@
 title: Recent Posts
 layout: default
 ---
-<a href='/index.html' style="text-decoration: none;"><div class='pagetitle'>Project Categories</div>
+<a href='/index.html' style="text-decoration: none;"><div class='pagetitle'>Projects</div>
 </a>
 <div class='body-grid'>
 
 
 	<div class='grid-item'></div>
 	<div class='grid-item'>
-		<div class='pagecaption'>&nbspA repository for all DIY research and project work. Posts are grouped chronologically by category below; please reach out with any comments <a href="http://www.clarkadisney.com/contact.html" style="color: #070e36; font-weight: bolder;">here</a>.</div>
+		<div class='pagecaption'>&nbspA repository for research and side projects. A repository for research and side projects.A repository for research and side projects. Posts are grouped chronologically by category below; please reach out with any comments <a href="http://www.clarkadisney.com/contact.html" style="color: #070e36; font-weight: bolder;">here</a>.</div>
 	</div>
 	<div class='grid-item'></div>
 
 	<div class='grid-item'></div>
-	<div class='grid-item'><div class="pagebreak"></div></div>
+	<div class='grid-item'><hr class="hr-text" data-content="Categories"></div>
 	<div class='grid-item'></div>
 
 	<div class='grid-item'></div>
@@ -35,7 +35,7 @@ layout: default
 		<!--img src="/assets/images/LEDs/quantum6.JPG" class='categoryimage' /-->	
 			Analysis
 		<div class='categorycopy'>
-			Companies, products, and tech.
+			DIY research on companies, products, and tech.
 		</div></a></div>
 		
 		<div class='categorycard'> 
@@ -43,7 +43,7 @@ layout: default
 		<!--img src="/assets/images/artwork/flyers1.JPG" class='categoryimage' /-->
 			Artwork
 		<div class='categorycopy'>
-			DIY artwork, murals, and old show flyers
+			Murals and show flyers
 		</div></a></div>		
 
 		<div class='categorycard'> 
@@ -51,7 +51,7 @@ layout: default
 		<!--img src="/assets/images/growrack/coverrack7.JPG" class='categoryimage ' /-->
 			GrowRack
 		<div class='categorycopy'>
-			Soil-based platform for distributed production.
+		    Modular, soil-based platform for home growing.
 		</div></a></div> 	
 
 		<div class='categorycard'>
@@ -59,23 +59,23 @@ layout: default
 		<!--img src="/assets/images/analysis/myco_root_tuber.gif" class='categoryimage' /-->
 			Microbiome
 		<div class='categorycopy'>
-			Amendments, carbon and other soil health topics
+			Amendments, no-till, and other soil health topics
 		</div></a></div>	
 
-		<div class='categorycard'> 
+		<!--div class='categorycard'> 
 		<a href='/notill' style="text-decoration: none; color: #070e36;">
-		<!--img src="/assets/images/chiroof/notill6.JPG" class='categoryimage' /-->
+		<img src="/assets/images/chiroof/notill6.JPG" class='categoryimage' />
 			<u></u>No-Till Beds
 		<div class='categorycopy'>
 			Input-reduction via microscale no-till 
-		</div></a></div>
+		</div></a></div-->
 
 		<div class='categorycard'> 
 		<a href='/software' style="text-decoration: none; color: #070e36;">
 		<!--img src="/assets/images/localoption/ui3.JPG" class='categoryimage' /-->
-			Software
+			Local Option
 		<div class='categorycopy'>
-			DIY software projects 
+			OpenCV for the masses 
 		</div></a>
 	</div>
 			
@@ -84,20 +84,14 @@ layout: default
 	<div class='grid-item'></div>
 
 	<div class='grid-item'></div>
-	<div class='grid-item'><div class="pagebreak"></div></div>
+	<div class='grid-item'><hr class="hr-text" data-content="Recent"></div>
 	<div class='grid-item'></div>
 
-	<div class='grid-item'></div>
-	<div class='grid-item'>
-		<a href='/recent/index.html' style="text-decoration: none;">
-			<div class='categorylink'>Recent</div></a>
-	</div>
-	<div class='grid-item'></div>
 
 	<div class='grid-item'></div>
 	<div class='grid-item'>
 		<div class="postlist">
-			{% for post in site.posts limit:3 %}
+			{% for post in site.posts limit:4 %}
 			<div class='postlistcard'>	
 			<a href="{{ post.url }}" style="text-decoration: none; color: #070e36;">	
 			<img src="{{ post.featured-image }}" class='postlistimage' />
@@ -113,7 +107,7 @@ layout: default
 	<div class='grid-item'></div>
 
 	<div class='grid-item'></div>
-	<div class='grid-item'><div class="pagebreak"></div></div>
+	<div class='grid-item'><hr class="hr-text"></div>
 	<div class='grid-item'></div>
 
 	<div class='grid-item'></div>
