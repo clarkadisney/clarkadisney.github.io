@@ -8,7 +8,8 @@ featured-image: /assets/images/greens/greens1.JPG
 caption: Big leaves in December!
 description: 
 ---
- 
+<a href='/growrack.html' style="text-decoration: none; font-weight: bolder;" class='breadcrumb'> < Back To GrowRacks</a>
+
 # Jumbogreens
 With the addition of the 1/4" egg crate, the combined aeration and humidity made for some serious growth:
  

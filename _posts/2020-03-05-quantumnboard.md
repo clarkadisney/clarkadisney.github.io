@@ -8,6 +8,7 @@ featured-image: /assets/images/LEDs/quantum5.JPG
 caption: Samsung LM561C, 2.36 - 2.90 μmoles/joule at Board (55C)
 description: Inspired by Peter Konjoian
 ---
+<a href='/growrack.html' style="text-decoration: none; font-weight: bolder;" class='breadcrumb'> < Back To GrowRacks</a>
 
 # HLG QB288 3500k w/ Meanwell
 This is the intended light for the Growrack v2
