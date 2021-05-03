@@ -8,11 +8,13 @@ featured-image: /assets/images/chiroof/notillcover.JPG
 caption: Closed-Loop Effort
 description: 
 ---
- 
+<a href='/microbiome.html' style="text-decoration: none; font-weight: bolder;" class='breadcrumb'> < Back To Microbiome Category</a>
+
+
 # What is no-till?
 No-till is simply avoiding digging (not tilling/aerating) and in our case avoiding added nutrients. The exact definitions of no-till, vertical-till, etc. are beyond scope and scale here - the takeaway is simply that it's an approach of initially structuring your soil to allow a thriving microbial ecosystem - and then maintaining the structural and microbial integrity of that soil. Other names for this "are no-dig" or "layered" or "lasagna," sometimes the soil is called "living soil" or "hot soil" (although that can also refer to bagged live soil).
  
-# Why urban no-till?
+# Why "no-till" beds?
 More specifically - why did we choose this method vs other methods known to do well in urban lots such as the "biodynamic" <a href="https://en.wikipedia.org/wiki/French_intensive_gardening">French intensive</a>? The simple answer is that it's the best fit for our scenario for the below reasons:
  
 ## Organics on steroids
@@ -29,7 +31,7 @@ The part about not adding nutrients was a lie, you'll eventually need to "rechar
 # What did we do 
 Built 4 layers of soil into a large container and densely.
  
-## Containers
+## Containers with stratified soil
 We used a large synthetic fabric raised bed and some additional 15-25 gallon smart pots.
  
 <a data-fancybox="gallery" href="/assets/images/chiroof/notill2.JPG"><img class="projectimage" src="/assets/images/chiroof/notill2.JPG"></a>
@@ -61,3 +63,30 @@ Finally, we topped with Fox Farms Ocean Forest, an organic soil designed for con
 We planted <i>very</i> densely often 3 or even 4 plants per 2x2ft cell. We're confident that this can be managed through manipulating the growth, and that we'll get the required large canopy this way.
  
 
+{% assign hasSimilar = '' %}
+{% for post in site.related_posts %}
+{% assign postHasSimilar = false %}
+{% for tag in post.tags %}
+{% for thisTag in page.tags %}
+{% if postHasSimilar == false and hasSimilar.size < 5 and post != page and tag == thisTag %}
+{% if hasSimilar.size == 0 %}
+# Similar Posts
+<ul>
+{% endif %}
+<li class="relatedPost">
+<a href="{{ site.url }}{{ post.url }}">{{ post.title }}
+<img src="{{ post.featured-image }}" class='postlistimage' />
+{% if post.series %}
+(Series: {{ post.series }})
+{% endif %}
+</a>
+</li>
+{% capture hasSimilar %}{{ hasSimilar }}*{% endcapture %}
+{% assign postHasSimilar = true %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% if hasSimilar.size > 0 %}
+</ul>
+{% endif %}

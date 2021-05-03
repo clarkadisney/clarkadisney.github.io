@@ -40,4 +40,30 @@ We'd expected to need to add <i>something</i>, whether that be some immediately-
  
 <a data-fancybox="gallery" href="/assets/images/chiroof/food3.JPG"><img class="projectimage" src="/assets/images/chiroof/food3.JPG"></a>
  
-
+{% assign hasSimilar = '' %}
+{% for post in site.related_posts %}
+{% assign postHasSimilar = false %}
+{% for tag in post.tags %}
+{% for thisTag in page.tags %}
+{% if postHasSimilar == false and hasSimilar.size < 5 and post != page and tag == thisTag %}
+{% if hasSimilar.size == 0 %}
+# Similar Posts
+<ul>
+{% endif %}
+<li class="relatedPost">
+<a href="{{ site.url }}{{ post.url }}">{{ post.title }}
+<img src="{{ post.featured-image }}" class='postlistimage' />
+{% if post.series %}
+(Series: {{ post.series }})
+{% endif %}
+</a>
+</li>
+{% capture hasSimilar %}{{ hasSimilar }}*{% endcapture %}
+{% assign postHasSimilar = true %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% if hasSimilar.size > 0 %}
+</ul>
+{% endif %}

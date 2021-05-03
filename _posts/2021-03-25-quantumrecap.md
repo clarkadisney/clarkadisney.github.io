@@ -62,4 +62,30 @@ One standout from 2020 is that Samsung has begun making the silicon boards for H
 ### 2021 - No competitors?
 Similar to the spectrum charts of fixture side, diode manufacturers often make available their <a href="https://www.samsung.com/led/lighting/mid-power-leds/3030-leds/lm301h/" target="_blank" rel="noopener noreferrer">design files</a>  and technical specifications. This is currently the pound for pound winner in the diode game.
  
-
+{% assign hasSimilar = '' %}
+{% for post in site.related_posts %}
+{% assign postHasSimilar = false %}
+{% for tag in post.tags %}
+{% for thisTag in page.tags %}
+{% if postHasSimilar == false and hasSimilar.size < 5 and post != page and tag == thisTag %}
+{% if hasSimilar.size == 0 %}
+# Similar Posts
+<ul>
+{% endif %}
+<li class="relatedPost">
+<a href="{{ site.url }}{{ post.url }}">{{ post.title }}
+<img src="{{ post.featured-image }}" class='postlistimage' />
+{% if post.series %}
+(Series: {{ post.series }})
+{% endif %}
+</a>
+</li>
+{% capture hasSimilar %}{{ hasSimilar }}*{% endcapture %}
+{% assign postHasSimilar = true %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% if hasSimilar.size > 0 %}
+</ul>
+{% endif %}

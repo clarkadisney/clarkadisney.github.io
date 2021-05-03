@@ -1,18 +1,20 @@
 ---
 layout: projectpost
-title: Local Option UI Test
+title: Local Option Wireframe and UI Mockup
 date: 2019-03-25T11:32:43.215Z
 categories: [Software]
 tags: [OpenCV, Electron]
 featured-image: /assets/images/localoption/localUI_1.JPG
 caption: Also - running OpenCV frontalface on pictures of Gorillas
 description: Photo archiving solution
+series: [LocalOption]
 ---
+<a href='/software.html' style="text-decoration: none; font-weight: bolder;" class='breadcrumb'> < Back To Software</a>
 
-## Original Mission and Wireframe
+# Original Mission and Wireframe
 
-<a data-fancybox="gallery" href="/assets/images/localoption/wireframe.PDF">
-<img class="projectimage" src="/assets/images/localoption/wireframe.PDF"></a>
+<a data-fancybox="gallery" href="/assets/images/localoption/electron_user_interface.png">
+<img class="projectimage" src="/assets/images/localoption/electron_user_interface.png"></a>
 
 <i>Local Option is a privacy-focused photograph management system currently in development. We believe that your memories are yours, and that your family shouldn't need to give marketers intimate access to your personal lives in exchange for storage and sorting features.</i>
 
@@ -20,13 +22,40 @@ description: Photo archiving solution
 
 <i>Below are some teaser screenshots, please check for updates:</i>
 
-## Testing and decision to abandon
+# Testing and decision to abandon
 
-### UI Test
+# UI Test
 <a data-fancybox="gallery" href="/assets/images/localoption/localUI_1.JPG">
 <img class="projectimage" src="/assets/images/localoption/localUI_1.JPG"></a>
 
-### OpenCV.JS on Gorilla pictures :)
+# OpenCV.JS on Gorilla pictures :)
 <a data-fancybox="gallery" href="/assets/images/localoption/log.JPG">
 <img class="projectimage" src="/assets/images/localoption/log.JPG"></a>
 
+{% assign hasSimilar = '' %}
+{% for post in site.related_posts %}
+{% assign postHasSimilar = false %}
+{% for tag in post.tags %}
+{% for thisTag in page.tags %}
+{% if postHasSimilar == false and hasSimilar.size < 5 and post != page and tag == thisTag %}
+{% if hasSimilar.size == 0 %}
+# Similar Posts
+<ul>
+{% endif %}
+<li class="relatedPost">
+<a href="{{ site.url }}{{ post.url }}">{{ post.title }}
+<img src="{{ post.featured-image }}" class='postlistimage' />
+{% if post.series %}
+(Series: {{ post.series }})
+{% endif %}
+</a>
+</li>
+{% capture hasSimilar %}{{ hasSimilar }}*{% endcapture %}
+{% assign postHasSimilar = true %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% if hasSimilar.size > 0 %}
+</ul>
+{% endif %}
