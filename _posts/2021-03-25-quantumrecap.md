@@ -3,7 +3,7 @@ layout: projectpost
 title: Quantum Recap
 date: 2021-03-25T00:30:00.000Z
 categories: [plants]
-tags: [Analysis, Companies, Products, LEDs]
+tags: [Growrack]
 featured-image: /assets/images/analysis/LEDcalc.JPG
 caption: Very recent history of LED grow lights
 description: 
