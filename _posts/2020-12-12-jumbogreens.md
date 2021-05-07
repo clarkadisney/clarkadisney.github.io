@@ -28,9 +28,7 @@ Added plastic mesh to keep root structure in-tact
 <a data-fancybox="gallery" href="/assets/images/greens/greens2.JPG"><img class="projectimage" src="/assets/images/greens/greens2.JPG"></a>
  
 ## Curly Kale + Arugula
-Same idea - aeration + irrigation
- 
-<a data-fancybox="gallery" href="/assets/images/greens/greens8.JPG"><img class="projectimage" src="/assets/images/greens/greens8.JPG"></a>
+Same idea - aeration + irrigation. Arugula seems to be going much faster than the kale:
  
 <a data-fancybox="gallery" href="/assets/images/greens/greens10.JPG"><img class="projectimage" src="/assets/images/greens/greens10.JPG"></a>
  
