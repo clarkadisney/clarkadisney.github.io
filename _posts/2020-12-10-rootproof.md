@@ -4,7 +4,7 @@ title: Grow Rack Root Vegetables
 date: 2020-12-10T13:15:00.000Z
 categories: [plants]
 tags: [Growrack, LEDs Containers]
-featured-image: /assets/images/growrack/rackroots10.JPG
+featured-image: /assets/images/growrack/rackroots7.JPG
 caption: Various examples of Growrack root vegetables. Inspired by <a href="https://www.greenhousegrower.com/crops/vegetables/root-crops-and-plug-trays-a-perfect-match/">Peter Konjoian</a>
 description: 
 ---
