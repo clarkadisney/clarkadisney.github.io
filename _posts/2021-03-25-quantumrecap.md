@@ -8,6 +8,7 @@ featured-image: /assets/images/analysis/LEDcalc.JPG
 caption: Very recent history of the evolution of just a few LED grow lights 
 description: 
 ---
+<a href='/growrack.html' style="text-decoration: none; font-weight: bolder;" class='breadcrumb'> < Back To GrowRacks</a>
  
 # Quantum Board Recap
  
