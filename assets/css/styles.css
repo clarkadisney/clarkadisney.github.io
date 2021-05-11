@@ -763,21 +763,14 @@ input[type=submit]:hover {
   }
 
   .projectcaption {
-   /* width: 85%;
-    text-align: Center;
+    width: 100%;
+    text-align: Left;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.25em;
-    font-weight: 400;
-    margin-bottom: 0.25em;*/
-
-    float: left;
-    font-family: Roboto, 'Helvetica Neue', sans-serif;
-    font-weight: 400; 
+    font-size: 1.125em;
+    font-weight: 300;
+    margin-bottom: 0.5em;
     margin-left: 10%;
     margin-right: 35%;
-    font-size: 1em;
-    color: #070e36;
-    letter-spacing: 1px;
     
   }
 
