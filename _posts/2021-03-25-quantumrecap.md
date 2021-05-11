@@ -5,7 +5,7 @@ date: 2021-03-25T00:30:00.000Z
 categories: [plants]
 tags: [Growrack]
 featured-image: /assets/images/analysis/LEDcalc.JPG
-caption: Very recent history of LED grow lights
+caption: Very recent history of the evolution of just a few LED grow lights 
 description: 
 ---
  

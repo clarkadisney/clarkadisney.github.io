@@ -1,11 +1,11 @@
 ---
 layout: projectpost
-title: Grow Rack Root Vegetables
+title: GrowRack Vegetables
 date: 2020-12-10T13:15:00.000Z
 categories: [plants]
 tags: [Growrack, LEDs Containers]
 featured-image: /assets/images/growrack/rackroots7.JPG
-caption: Various examples of Growrack root vegetables. Inspired by <a href="https://www.greenhousegrower.com/crops/vegetables/root-crops-and-plug-trays-a-perfect-match/">Peter Konjoian</a>
+caption: Varying levels of success with Growrack root vegetables! 
 description: 
 ---
 <a href='/growrack.html' style="text-decoration: none; font-weight: bolder;" class='breadcrumb'> < Back To GrowRacks</a>

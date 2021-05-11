@@ -1,6 +1,6 @@
 ---
 layout: projectpost
-title: Assembling QB288 3500k 
+title: HLG QB288 
 date: 2020-03-05T8:00:00.000Z
 categories: [plants]
 tags: [Growrack, LEDs, Products, Companies]

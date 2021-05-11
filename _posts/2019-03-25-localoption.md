@@ -1,13 +1,13 @@
 ---
 layout: projectpost
-title: Local Option Wireframe and UI Mockup
+title: Local Option Idea
 date: 2019-03-25T11:32:43.215Z
 categories: [Software]
 tags: [OpenCV, Electron]
 featured-image: /assets/images/localoption/localUI_1.JPG
-caption: Also - running OpenCV frontalface on pictures of Gorillas
+caption: Rough concept for an OpenCV.js enabled electron app
 description: Photo archiving solution
-series: [LocalOption]
+series: [LocalOption Test]
 ---
 <a href='/software.html' style="text-decoration: none; font-weight: bolder;" class='breadcrumb'> < Back To Software</a>
 
@@ -31,6 +31,8 @@ series: [LocalOption]
 # OpenCV.JS on Gorilla pictures :)
 <a data-fancybox="gallery" href="/assets/images/localoption/log.JPG">
 <img class="projectimage" src="/assets/images/localoption/log.JPG"></a>
+
+It worked!
 
 {% assign hasSimilar = '' %}
 {% for post in site.related_posts %}

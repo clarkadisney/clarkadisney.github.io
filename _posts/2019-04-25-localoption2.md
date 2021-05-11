@@ -1,11 +1,11 @@
 ---
 layout: projectpost
-title: Local Option UI Test
+title: Local Option Test
 date: 2019-04-25T11:32:43.215Z
 categories: [Software]
 tags: [OpenCV, Electron]
 featured-image: /assets/images/localoption/localUI_1.JPG
-caption: Also - running OpenCV frontalface on pictures of Gorillas
+caption: Running OpenCV.js frontalface on pictures of Bwindi Gorillas
 description: Photo archiving solution
 series: [LocalOption]
 ---
@@ -31,6 +31,7 @@ series: [LocalOption]
 # OpenCV.JS on Gorilla pictures :)
 <a data-fancybox="gallery" href="/assets/images/localoption/log.JPG">
 <img class="projectimage" src="/assets/images/localoption/log.JPG"></a>
+
 
 {% assign hasSimilar = '' %}
 {% for post in site.related_posts %}
