@@ -15,14 +15,14 @@ header {
 }
 
 nav {
-  background-color: #fbf1eb;
+  background-color:white;
   position: absolute;
   top: 0px;
   width: 100%;
   display: block;
   transition: top 0.3s;
   /*box-shadow: 0px 0px 5px 2.5px #070e36;*/
-  height: 65px;
+  height: 60px;
   border-bottom: dotted 1px #070e36;
 }
 
@@ -30,11 +30,13 @@ nav .logo {
   float: left;
   font-family: 'DM Serif Display', serif;
   font-weight: 600; 
-  margin-left: 2.5%;
+  margin-left: 15%;
+  margin-top: auto;
+  margin-bottom: auto;
   font-size: 3.5em;
-  line-height: .6;
   color: #070e36;
   letter-spacing: 1px;
+  line-height: 0.6;
 }
   
 nav .logo:hover {
@@ -56,7 +58,7 @@ nav a {
   margin-right: auto;
   color: #070e36;
   text-align: center;
-  padding: 15px 15px;
+  padding: 12.5px 12.5px;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 600;
@@ -74,6 +76,10 @@ nav a.active {
   display: block;
   color: #070e36;
   border-bottom: 4px solid #6CCFF6;
+}
+
+.dropdown-link-container {
+  margin-right: 15%;
 }
 
 .mobile-dropdown-toggle {
@@ -126,6 +132,15 @@ hr {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+hr.fancy-line { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0)); 
+  background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0)); 
+  background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0)); 
+  background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0)); 
+  box-shadow: 0px -2px 4px rgba(136,136,136,0.75);
+}
 
 .hr-text {
   line-height: 1em;
@@ -163,17 +178,16 @@ hr {
   height: auto;
   max-width: 100%;
   grid-template-columns: auto auto auto;
- }
-
+/*  outline: 5px solid blueviolet; */
+}
 /*Body Item*/
 .grid-item {
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 100%;	
-  /*border: 1px solid purple;*/ 
-  }
-
+/*  border: 1px solid purple; */
+}
 
 /* General Flexbox Container*/
 .flex-container {	
@@ -242,13 +256,13 @@ border: 1px solid blue;
 /*----project pages-----*/
 .breadcrumb {
   width:66.66%;
-  margin-top: 10em;
+  margin-top: 7.5em;
   margin-bottom: 0.25em;
   text-align: Left;
   margin-left: auto;
   margin-right: auto;  
 	font-weight: lighter;
-	font-size: 1em;
+	font-size: 1.25em;
   -webkit-font-smoothing: antialiased;
 	color: #070e36;
 }
@@ -288,10 +302,10 @@ border: 1px solid blue;
 
 
 .projecttitle {
-  width: 66.66%;
+  width: 100%;
   margin-bottom: 0.25em;
-	text-align: Center;
-  margin-left: auto;
+	text-align: left;
+  margin-left: 17.5%;
   margin-right: auto;
 	font-family: 'DM Serif Display', sans-serif;  
 	font-weight: 500;
@@ -312,14 +326,14 @@ border: 1px solid blue;
 }
 
 .projectcaption {
-  width: 50%;
-  text-align: center;
+  width: 100%;
+  text-align: Left;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 1.25em;
-  font-weight: 400;
-  margin-bottom: 0.25em;
-  margin-left: 20%;
-  margin-right: 20%;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-bottom: 0.5em;
+  margin-left: 17%;
+  margin-right: 40%;
 }
 
 .pagebreak {
@@ -328,9 +342,9 @@ border: 1px solid blue;
   /*margin: auto;*/ 
   margin-top: 1em; 
   margin-bottom: 1em; 
-  height: 2.5rem; 
-  background: linear-gradient(135deg, #fbf1eb 25%, transparent 25%) -20px 0, linear-gradient(225deg, #fbf1eb 25%, transparent 25%) -20px 0, linear-gradient(315deg, #fbf1eb 25%, transparent 25%), linear-gradient(45deg, #fbf1eb 25%, transparent 25%); 
-  background-size: 2.5rem 2.5rem; 
+  height: 1.25rem; 
+  background: linear-gradient(135deg, #fbf1eb 25%, transparent 25%) -0.625rem 0, linear-gradient(225deg, #fbf1eb 25%, transparent 25%) -0.625rem 0, linear-gradient(315deg, #fbf1eb 25%, transparent 25%), linear-gradient(45deg, #fbf1eb 25%, transparent 25%); 
+  background-size: 1.25rem 1.25rem; 
   background-color: #070e36;
 }
 
@@ -382,11 +396,11 @@ table, th, td {
 }
 
 .categorycard:hover > a > .categorycopy { 
-  text-decoration: underline #6CCFF6;
+  text-decoration: underline #7dffc7;
 }
 
 .categorycard:hover > a { 
-  text-decoration: underline #6CCFF6;
+  text-decoration: underline #7dffc7;
 
 }
 
@@ -454,18 +468,13 @@ table, th, td {
 }
 
 .postlistcard {
- /*box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.25);*/
-  border-radius: 0.25%;
+  box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.25);
+  border-radius: 16px;
   margin: .5em .5em;
-  font-size: 1.25em;
-  font-weight: bold;
   text-align: left;
-  width: 22.5%;
-  color: #070e36;
-  letter-spacing: 1px;
-  height: 350px;
+  width: 27.5%;
+  height: 375px;
 /*background-color: #f2dfce;*/
-
 }
 
 .postlistcard:hover {
@@ -477,32 +486,52 @@ table, th, td {
 }
 
 .postlistcard:hover > a > .postlistcopy { 
-  text-decoration: underline #6CCFF6;
+  text-decoration: underline #7dffc7;
 }
 
 .postlistcard:hover > a { 
-  text-decoration: underline #6CCFF6;
+  text-decoration: underline #7dffc7;
 
 }
 
-
 .postlistimage {
+  border-radius: 16px 16px 0 0;
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
 
+.postlisttitle {
+  color: #070e36;
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-left: 16px;
+}
+
 .postlistcopy {
+  display: flex;
+  align-items: flex-end;
   width: 100%;
   max-height: auto;
   background-size: cover;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.2em;
   text-align: left;
-  padding-left: 2.5px;
+  padding-left: 16px;
 }
 
+.postlistdate {
+display: flex;
+align-items: flex-end;
+font-size: 1.25em;
+font-weight: lighter;
+padding-left: 16px;
+margin-top: .75em;
+margin-bottom: auto;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 
 .searchbox {
@@ -668,6 +697,17 @@ input[type=submit]:hover {
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 1366px) {
+  nav .logo {
+    float: left;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 600; 
+    margin-left: 7.5%;
+  }
+  
+  .dropdown-link-container {
+    margin-right: 7.5%;
+  }
+  
   .column {
     -ms-flex: 50%;
     flex: 50%;
@@ -694,12 +734,11 @@ input[type=submit]:hover {
   }
 
   .breadcrumb {
-    width:85%;
+    width:100%;
     margin-top: 10em;
-    margin-bottom: 0.25em;
+    margin-bottom: 1em;
     text-align: Left;
-    margin-left: auto;
-    margin-right: auto;  
+    margin-left: 10%;  
     font-weight: lighter; 
     font-size: 1em;
     -webkit-font-smoothing: antialiased;
@@ -709,9 +748,9 @@ input[type=submit]:hover {
   hr {
     width: 80%;
   }
+
   .projecttitle {
-    width: 85%;
-    margin-bottom: 0.25em;
+    /*margin-bottom: 0.25em;
     text-align: Center;
     margin-left: auto;
     margin-right: auto;
@@ -719,16 +758,27 @@ input[type=submit]:hover {
     font-weight: 500;
     font-size: 3.25rem;
     -webkit-font-smoothing: antialiased;
-    color: #070e36;
+    color: #070e36;*/
+    margin-left: 10%;
   }
 
   .projectcaption {
-    width: 85%;
-    text-align: Center;;
+   /* width: 85%;
+    text-align: Center;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.25em;
     font-weight: 400;
-    margin-bottom: 0.25em;
+    margin-bottom: 0.25em;*/
+
+    float: left;
+    font-family: Roboto, 'Helvetica Neue', sans-serif;
+    font-weight: 400; 
+    margin-left: 10%;
+    margin-right: 35%;
+    font-size: 1em;
+    color: #070e36;
+    letter-spacing: 1px;
+    
   }
 
   .projectcategories {
@@ -746,22 +796,44 @@ input[type=submit]:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 85%;
+    width: 80%;
     font-family: 'DM Serif Display', sans-serif;  
     -webkit-font-smoothing: antialiased;
   }
 
 *  .postlistcard {
-  border-radius: 0.25%;
-  margin: .125em .125em;
+  margin: .5em .5em;
   font-size: 1.25rem;
   text-align: left;
-  width: 32%;
+  width: 30%;
   color: #070e36;
   font-weight: bold;
   letter-spacing: 1px;
-
   }*
+
+  .postlisttitle {
+    color: #070e36;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-left: 16px;
+  }
+  
+  .postlistcopy {
+    width: 100%;
+    max-height: auto;
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: .75em;
+    text-align: left;
+    padding-left: 16px;
+  }
+  
+  .postlistdate {
+    font-size: 1em;
+    font-weight: 300;
+  }
 
  .locationcaption {
   width: 90%;
@@ -771,13 +843,13 @@ input[type=submit]:hover {
   .pagebreak {
     text-align: center;
     border: none; 
-    width:  85%; 
+    width:  80%; 
     margin: auto; 
     margin-top: 1em; 
     margin-bottom: 1em; 
-    height: 2.5rem; 
-    background: linear-gradient(135deg, #fbf1eb 25%, transparent 25%) -1.25rem 0, linear-gradient(225deg, #fbf1eb 25%, transparent 25%) -1.25rem 0, linear-gradient(315deg, #fbf1eb 25%, transparent 25%), linear-gradient(45deg, #fbf1eb 25%, transparent 25%); 
-    background-size: 2.5rem 2.5rem; 
+    height: 1.25rem; 
+    background: linear-gradient(135deg, #fbf1eb 25%, transparent 25%) -0.625rem 0, linear-gradient(225deg, #fbf1eb 25%, transparent 25%) -0.625rem 0, linear-gradient(315deg, #fbf1eb 25%, transparent 25%), linear-gradient(45deg, #fbf1eb 25%, transparent 25%); 
+    background-size: 1.25rem 1.25rem; 
     background-color: #070e36;
   }
     
@@ -945,20 +1017,20 @@ input[type=submit]:hover {
   }
   
   .pagecaption {
-    width: 87%;
-    text-align: center;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1rem;
-    font-weight: lighter;
-  } 
-
-  .projectcaption {
-    width: 87%;
+    width: 80%;
     text-align: left;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.25em;
-    font-weight: lighter;
-    margin-bottom: 0.25em;
+    font-weight: 300;
+  } 
+
+  .projectcaption {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.25em;
+    font-weight: 300;
   }
 
   .projectcard {
@@ -966,8 +1038,8 @@ input[type=submit]:hover {
     flex-direction: column;
     justify-content: center;
     /*border: 1px solid yellow;*/
-    max-width: 95%;
-    min-width: 95%;
+    max-width: 80%;
+    min-width: 80%;
   }
 
   .projectcategories {
@@ -980,8 +1052,8 @@ input[type=submit]:hover {
   
   .categorycard{
     margin: 2.5% auto;
-    max-width: 95%;
-    min-width: 90%;
+    max-width: 80%;
+    min-width: 80%;
     box-shadow:  0 0 10px  rgba(7,14,54,0.6);
     -moz-box-shadow: 0 0 10px  rgba(7,14,54,0.6);
     -webkit-box-shadow: 0 0 10px  rgba(7,14,54,0.6);
@@ -998,14 +1070,29 @@ input[type=submit]:hover {
   }
   
   .postlistcard{
-    margin: 2.5% auto;
-    max-width: 95%;
-    min-width: 90%;
+    margin: 1em auto;
+    max-width: 80%;
+    min-width: 80%;
     box-shadow:  0 0 10px  rgba(7,14,54,0.6);
     -moz-box-shadow: 0 0 10px  rgba(7,14,54,0.6);
     -webkit-box-shadow: 0 0 10px  rgba(7,14,54,0.6);
     -o-box-shadow: 0 0 10px  rgba(7,14,54,0.6);
     background-color:#f2dfce;
+  }
+
+  .postlistcopy {
+    width: 100%;
+    max-height: auto;
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: left;
+    padding-left: 16px;
+  }
+
+  .postlisttitle {
+    font-size: 1.25em;
   }
 
   .projectimage{
@@ -1067,13 +1154,13 @@ input[type=submit]:hover {
   .pagebreak {
     text-align: center;
     border: none; 
-    width:  90%; 
+    width:  80%; 
     margin: auto; 
     margin-top: 1.5em; 
     margin-bottom: 1.5em; 
-    height: 2.5rem; 
-    background: linear-gradient(135deg, #fbf1eb 25%, transparent 25%) -1.25rem 0, linear-gradient(225deg, #fbf1eb 25%, transparent 25%) -1.25rem 0, linear-gradient(315deg, #fbf1eb 25%, transparent 25%), linear-gradient(45deg, #fbf1eb 25%, transparent 25%); 
-    background-size: 2.5rem 2.5rem; 
+    height: 1.25rem; 
+    background: linear-gradient(135deg, #fbf1eb 25%, transparent 25%) -0.625rem 0, linear-gradient(225deg, #fbf1eb 25%, transparent 25%) -0.625rem 0, linear-gradient(315deg, #fbf1eb 25%, transparent 25%), linear-gradient(45deg, #fbf1eb 25%, transparent 25%); 
+    background-size: 1.25rem 1.25rem; 
     background-color: #070e36;
   }
 
