@@ -9,7 +9,7 @@ layout: default
 
 	<div class='grid-item'></div>
 	<div class='grid-item'>
-		<div class='projectcaption'>&nbspPlease send comments <a href="http://www.clarkadisney.com/contact.html" style="color: #070e36; font-weight: bolder;">here</a>.</div>
+		<div class='projectcaption'>&nbspArticles about plant microbiome! Please send questions or comments <a href="http://www.clarkadisney.com/contact.html" style="color: #070e36; font-weight: bolder;">here</a>.</div>
 	</div>
 	<div class='grid-item'></div>
 	
@@ -17,20 +17,21 @@ layout: default
 	<div class='grid-item'><div class="pagebreak"></div></div>
 	<div class='grid-item'></div>
 
-	<div class='grid-item'></div>
+	<div class='grid-item'></div> 
 	<div class='grid-item'>
 		<div class="postlist">
-			{% for post in site.tags.Microbiome limit:25 %}
-			<div class='postlistcard'>	
+		{% for post in site.tags.Microbiome limit:25 %}
+		<div class='postlistcard'>	
 			<a href="{{ post.url }}" style="text-decoration: none; color: #070e36;">	
-			<img src="{{ post.featured-image }}" class='postlistimage' />
-			<div style="font-size: 0.75em; font-weight: 400; font-family: Arial; text-align: justify;">{{ post.date | date: "%b %-d, %Y" }}</div>		
-			{{ post.title }}
+			<img src="{{ post.featured-image }}" class='postlistimage' />		
+			<div class='postlisttitle'>
+				{{ post.title }}</div>
 			<div class='postlistcopy'>
-			
-				{{ post.caption }}  
-			</div></div></a>
-			{% endfor %}
+				{{ post.caption }}</div>
+			<div class="postlistdate">
+				{{ post.date | date: "%b %-d, %Y" }}</div>
+		</div></a>
+		{% endfor %}
 		</div>
 	</div>
 	<div class='grid-item'></div>
