@@ -1,29 +1,11 @@
 {% include head.html %}
+
 <title>{{ site.title }} > {{ page.title }}</title>
 <body> 
 
 {{ content }}   
 
-<!-- Back to top button -->
-<img src="/assets/icons/menu.png" id="button"></a>
-
-<script>
-var btn = $("#button");
-
-$(window).scroll(function () {
-  if ($(window).scrollTop() > 300) {
-    btn.addClass("show");
-  } else {
-    btn.removeClass("show");
-  }
-});
-
-btn.on("click", function (e) {
-  e.preventDefault();
-  $("html, body").animate({ scrollTop: 0 }, "300");
-});
-</script>
-
+{% include footer.html %}
 <!--script for mobile menu toggle needs to be left here or brought into header as a source-->
 <script>
 
@@ -43,6 +25,5 @@ btn.on("click", function (e) {
 	  }
 	});
 </script>
-
 </body>
 </html>
