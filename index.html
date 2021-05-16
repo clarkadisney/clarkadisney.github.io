@@ -2,12 +2,16 @@
 title: Recent Posts
 layout: default
 ---
-<div class='pagetitle'>Projects</div>
+<a href='/index.html' style="text-decoration: none;">
+	<div class='breadcrumb'> < Back To Projects Homepage</div></a>
+<a href='/index.html' style="text-decoration: none;"><div class='projecttitle'>Projects:</div>
+</a>
+
 <div class='body-grid'>
+
 	<div class='grid-item'></div>
 	<div class='grid-item'>
-		<div class='pagecaption'>&nbspSide projects and a blog. Posts are grouped chronologically by category below; please reach out with any comments <a href="http://www.clarkadisney.com/contact.html" style="color: #070e36; font-weight: bolder;">here</a>.</div>
-	</div>
+		<div class='projectcaption'>&nbspSide projects and a some analysis/blog stuff. Posts are grouped chronologically by category below, and generally cover plants and organics, niche software projects, and DIY and concert artwork. Please reach out with any comments <a href="http://www.clarkadisney.com/contact.html" style="color: #070e36; font-weight: bolder;">here</a>.</div></div>
 	<div class='grid-item'></div>
 
 	<div class='grid-item'></div>
@@ -35,13 +39,13 @@ layout: default
 			DIY research on companies, products, and tech.
 		</div></a></div-->
 		
-		<!--div class='categorycard'> 
+		<div class='categorycard'> 
 		<a href='/artwork' style="text-decoration: none; color: #070e36;">
-		<img src="/assets/images/artwork/flyers1.JPG" class='categoryimage' />
+		<!--img src="/assets/images/artwork/flyers1.JPG" class='categoryimage' /-->
 			Artwork
 		<div class='categorycopy'>
-			Murals and show flyers
-		</div></a></div-->		
+			My Archive of show flyers and some murals
+		</div></a></div>		
 
 		<div class='categorycard'> 
 		<a href='/growrack' style="text-decoration: none; color: #070e36;">
@@ -59,24 +63,15 @@ layout: default
 			Amendments, no-till, and other soil health topics
 		</div></a></div>	
 
-		<!--div class='categorycard'> 
-		<a href='/notill' style="text-decoration: none; color: #070e36;">
-		<img src="/assets/images/chiroof/notill6.JPG" class='categoryimage' />
-			<u></u>No-Till Beds
-		<div class='categorycopy'>
-			Input-reduction via microscale no-till 
-		</div></a></div-->
-
 		<div class='categorycard'> 
 		<a href='/software' style="text-decoration: none; color: #070e36;">
 		<!--img src="/assets/images/localoption/ui3.JPG" class='categoryimage' /-->
 			Local Option
 		<div class='categorycopy'>
 			OpenCV for the masses 
-		</div></a>
-	</div>
+		</div></a></div>
 			
-	</div>
+		</div>
 	</div>	
 	<div class='grid-item'></div>
 
@@ -84,29 +79,28 @@ layout: default
 	<div class='grid-item'><hr class="pagebreak"></div>
 	<div class='grid-item'></div>
 
-
 	<div class='grid-item'></div> 
 	<div class='grid-item'>
 		<div class="postlist">
-		{% for post in site.posts limit:3 %}
+		{% for post in site.posts limit:6 %}
 		<div class='postlistcard'>	
 			<a href="{{ post.url }}" style="text-decoration: none; color: #070e36;">	
-			<img src="{{ post.featured-image }}" class='postlistimage' />		
+			<img src="{{ post.featured-image }}" class='postlistimage' />	
+				<div class="postlistdate">
+				{{ post.date | date: "%b %-d, %Y" }}</div>	
 			<div class='postlisttitle'>
 				{{ post.title }}</div>
 			<div class='postlistcopy'>
 				{{ post.caption }}</div>
-			<div class="postlistdate">
-				{{ post.date | date: "%b %-d, %Y" }}</div>
 		</div></a>
 		{% endfor %}
 		</div>
 	</div>
 	<div class='grid-item'></div>
 	
-	<div class='grid-item'></div>
+	<!--div class='grid-item'></div>
 	<div class='grid-item'><hr class="pagebreak"></div>
-	<div class='grid-item'></div>
+	<div class='grid-item'></div-->
 
 	<div class='grid-item'></div>
 	<div class='grid-item'>
@@ -119,7 +113,7 @@ layout: default
 	</div>
 	<div class='grid-item'></div>
 
-	<div class='grid-item'></div>
+	<!--div class='grid-item'></div>
 	<div class='grid-item'>
 		<ul>
 			{% for post in site.posts limit:25 %}
@@ -131,7 +125,7 @@ layout: default
 	</div>
 	<div class='grid-item'></div>
 	
-	<div class='grid-item'></div>
+	<!div class='grid-item'></div>
 	<div class='grid-item'>
 		<div class='projecttags'>
 		{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}{% assign tags_list = site_tags | split:',' | uniq | sort_natural %}
@@ -139,10 +133,10 @@ layout: default
 		<ul><a href="/{{ this_word}}" class='tag'>{{ this_word }} {{ site.tags[this_word].size }}</a></ul>
 		{% endunless %}{% endfor %}
 		</div></div>
-	<div class='grid-item'></div>
+	<div class='grid-item'></div-->
 </div>
     
-<script src="/assets/js/search-script.js" type="text/javascript"></script></div>
+<script src="/assets/js/search-script.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <!-- Configuration -->
