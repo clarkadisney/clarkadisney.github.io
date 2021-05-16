@@ -8,6 +8,7 @@ featured-image: /assets/images/chiroof/notill6.JPG
 caption: 1, 2, and 3 month's growth
 description: 
 ---
+<a href='/microbiome.html' style="text-decoration: none; font-weight: bolder;" class='postcrumb'> < Back To Microbiome</a>
  
 # Did it work?
 Swimmingly. We had a jungle up here significantly faster than any prior season. The size of the crops were in some cases noticeably larger, and the formerly typical soil top-offs were reduced and - in some areas unnecessary. We had a rolling harvest that started in June/July and lasted into November.

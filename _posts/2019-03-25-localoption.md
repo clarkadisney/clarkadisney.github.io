@@ -9,7 +9,7 @@ caption: Rough concept for an OpenCV.js enabled electron app
 description: Photo archiving solution
 series: [LocalOption Test]
 ---
-<a href='/software.html' style="text-decoration: none; font-weight: bolder;" class='breadcrumb'> < Back To Software</a>
+<a href='/software.html' style="text-decoration: none; font-weight: bolder;" class='postcrumb'> < Back To Software</a>
 
 # Original Mission and Wireframe
 
@@ -22,7 +22,7 @@ series: [LocalOption Test]
 
 <i>Below are some teaser screenshots, please check for updates:</i>
 
-# Testing and decision to abandon
+## Testing and decision to abandon
 
 # UI Test
 <a data-fancybox="gallery" href="/assets/images/localoption/localUI_1.JPG">
