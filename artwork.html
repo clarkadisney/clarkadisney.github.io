@@ -4,14 +4,14 @@ layout: default
 ---
 <a href='/index.html' style="text-decoration: none;">
 	<div class='breadcrumb'> < Back To Projects Homepage</div></a>
-<a href='/growrack.html' style="text-decoration: none;"><div class='projecttitle'>Growrack:</div>
+<a href='/artwork.html' style="text-decoration: none;"><div class='projecttitle'>Artwork:</div>
 </a>
 
 <div class='body-grid'>
 
 	<div class='grid-item'></div>
 	<div class='grid-item'>
-		<div class='projectcaption'>&nbspTrying to replicate the programmatic convenience of hydroponics with soil and processed food waste. Thus far successful with wicking and a wide variety of veggies, herbs, and greens - currently dialing in the programmatic convenience part. Please send questions or comments <a href="http://www.clarkadisney.com/contact.html" style="color: #070e36; font-weight: bolder;">here</a>.</div>
+		<div class='projectcaption'>&nbspPlease send questions or comments <a href="http://www.clarkadisney.com/contact.html" style="color: #070e36; font-weight: bolder;">here</a>.</div>
 	</div>
 	<div class='grid-item'></div>
 	
@@ -22,7 +22,7 @@ layout: default
 	<div class='grid-item'></div> 
 	<div class='grid-item'>
 		<div class="postlist">
-		{% for post in site.tags.Growrack limit:25 %}
+		{% for post in site.categories.Artwork limit:25 %}
 		<div class='postlistcard'>	
 			<a href="{{ post.url }}" style="text-decoration: none; color: #070e36;">	
 			<img src="{{ post.featured-image }}" class='postlistimage' />	
