@@ -79,10 +79,31 @@ layout: default
 	<div class='grid-item'><hr class="pagebreak"></div>
 	<div class='grid-item'></div>
 
+	<div class='grid-item'></div>
+	<div class='grid-item'>
+		<div class='pagination'>
+				{% if paginator.total_pages > 1 %}
+					<div>
+					{% if paginator.previous_page %}
+					<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+					{% else %}
+					<span>&laquo; Prev</span>
+					{% endif %} 
+					 {% if paginator.next_page %}
+					 <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+					 {% else %}
+					 <span>Next &raquo;</span>
+					 {% endif %}
+					 </div>
+					 {% endif %}
+		</div>
+	</div>
+	<div class='grid-item'></div>
+
 	<div class='grid-item'></div> 
 	<div class='grid-item'>
 		<div class="postlist">
-		{% for post in site.posts limit:6 %}
+			{% for post in paginator.posts limit:25 %}
 		<div class='postlistcard'>	
 			<a href="{{ post.url }}" style="text-decoration: none; color: #070e36;">	
 			<img src="{{ post.featured-image }}" class='postlistimage' />	
