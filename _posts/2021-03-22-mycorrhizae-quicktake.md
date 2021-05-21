@@ -5,7 +5,7 @@ date: 2021-03-22T12:30:00.000Z
 categories: [plants]
 tags: [Analysis, Microbiome]
 featured-image: /assets/images/analysis/myco_root_tuber.JPG
-caption: What it does and how it's used in production
+caption: A meandering primer
 description: 
 ---
 <a href='/microbiome.html' style="text-decoration: none; font-weight: bolder;" class='postcrumb'> < Back To Microbiome</a>

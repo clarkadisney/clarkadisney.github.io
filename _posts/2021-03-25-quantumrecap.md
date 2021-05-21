@@ -5,15 +5,12 @@ date: 2021-03-25T00:30:00.000Z
 categories: [plants]
 tags: [Growrack]
 featured-image: /assets/images/analysis/LEDcalc.JPG
-caption: Very recent history of the evolution of just a few LED grow lights 
-description: 
+caption: Very recent history of the evolution of just a few LED grow lights
 ---
 <a href='/growrack.html' style="text-decoration: none; font-weight: bolder;" class='postcrumb'> < Back To GrowRacks</a>
  
-# Quantum Board Recap
- 
-Grow light marketing is awash with misinformation, and the <a href="https://horticulturelightinggroup.com/pages/the-quantum-board-project" target="_blank" rel="noopener noreferrer">niche </a> crowd tends to <a href="https://cre.science/en/lm301h-vs-lm301b/#comments" target="_blank" rel="noopener noreferrer">lead</a> adoption (subject to diode availability). For this group the 2010s to current acceptance of "best" grow light has gone: "blurple" -> "COB" -> "Quantum Board." Reasons frequently cited for this shift include: deceptive marketing of power draw "at the fixture," changes to <a href="https://www.ledsmagazine.com/horticultural-lighting/article/16695503/experts-examine-plant-response-to-ssl-and-market-potential-at-horticultural-conference-magazine" target="_blank" rel="noopener noreferrer">understanding</a> of how plants absorb light, and the availability of high efficiency diodes - namely <a href="https://www.samsung.com/led/lighting/mid-power-leds/3030-leds/lm301h/" target="_blank" rel="noopener noreferrer">Samsung's.</a>
- 
+# Summary
+
 The point of this post is to highlight recent reductions (~15yrs max) in the cost of light. For a much cooler, much longer term read I highly recommend <a href="https://www.nber.org/system/files/chapters/c6064/c6064.pdf">reading</a> - or at least <a href="https://econlife.com/2018/10/the-light-side-of-economic-growth/">skimming</a>, the famous William Nordhaus study.
  
 I posit that the two most important recent changes were: 
@@ -21,6 +18,12 @@ I posit that the two most important recent changes were:
 1. the 2019 introduction of the Samsung LM-301x diode. These diodes are more efficient by <a href="https://en.wikipedia.org/wiki/Haitz%27s_law" target="_blank" rel="noopener noreferrer">orders of magnitude</a> than those on the market a decade ago - and in particular, are nearly double the efficiency of less than 5 years ago. Not only are they more efficient in terms of Haitz's law, but they are competitively more efficient when PPFD is measured. <a href="https://ledgardener.com/lumens-par-ppf-and-ppfd-measuring-cob-grow-light-output/#:~:text=PPFD%20is%20measured%20in%20micromoles,per%20square%20meter%20or%20foot." target="_blank" rel="noopener noreferrer">Here</a> is an easy explainer of PPFD and related terminology.
  
 2. The introduction of the Quantum Board, a matrix of mid-power wide-spectrum diodes. They are sold in multiples with customized and well-machined heatsinks and Meanwell drivers.
+ 
+
+
+# Quantum Board Recap
+ 
+Grow light marketing is awash with misinformation, and the <a href="https://horticulturelightinggroup.com/pages/the-quantum-board-project" target="_blank" rel="noopener noreferrer">niche </a> crowd tends to <a href="https://cre.science/en/lm301h-vs-lm301b/#comments" target="_blank" rel="noopener noreferrer">lead</a> adoption (subject to diode availability). For this group the 2010s to current acceptance of "best" grow light has gone: "blurple" -> "COB" -> "Quantum Board." Reasons frequently cited for this shift include: deceptive marketing of power draw "at the fixture," changes to <a href="https://www.ledsmagazine.com/horticultural-lighting/article/16695503/experts-examine-plant-response-to-ssl-and-market-potential-at-horticultural-conference-magazine" target="_blank" rel="noopener noreferrer">understanding</a> of how plants absorb light, and the availability of high efficiency diodes - namely <a href="https://www.samsung.com/led/lighting/mid-power-leds/3030-leds/lm301h/" target="_blank" rel="noopener noreferrer">Samsung's.</a>
  
  
 ## Sidebar - Kelvin vs Wavelength
