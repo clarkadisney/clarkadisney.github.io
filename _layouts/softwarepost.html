@@ -1,0 +1,16 @@
+---
+title: Software Post
+layout: default
+---
+<div class="body-grid">
+	<div class='grid-item'></div>
+	<div class='grid-item'>
+		<a class="breadcrumb" href='/software.html' style="text-decoration: none;">< Back To Software</a>
+	</div>
+	<div class='grid-item'></div>
+</div>
+    {% include toc.html html=content sanitize=true class="inline_toc" id="my_toc" %}
+<div class='projectcard'>
+    {{ content }}
+    {% include footer.html %}
+</div>
