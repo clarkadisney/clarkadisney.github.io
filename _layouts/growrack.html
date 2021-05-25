@@ -30,7 +30,7 @@ layout: default
 	<div class='grid-item'></div> 
 	<div class='grid-item'>
 		<div class="postlist">
-		{% for post in site.tags.Growrack limit:25 %}
+		{% for post in site.categories.Growrack limit:25 %}
 		<div class='postlistcard'>	
 			<a href="{{ post.url }}" style="text-decoration: none; color: #070e36;">	
 			<img src="{{ post.featured-image }}" class='postlistimage' />	
@@ -47,7 +47,7 @@ layout: default
 	<div class='grid-item'></div>
 
 	<div class='grid-item'></div>
-	<div class='grid-item'><div class="pagebreak"></div></div>
+	<div class='grid-item'><hr class="pagebreak"></div>
 	<div class='grid-item'></div>
 
 </div>
