@@ -30,18 +30,18 @@ layout: default
 	<div class='grid-item'></div> 
 	<div class='grid-item'>
 		<div class="postlist">
-		{% for post in site.categories.Growrack limit:25 %}
-		<div class='postlistcard'>	
-			<a href="{{ post.url }}" style="text-decoration: none; color: #070e36;">	
-			<img src="{{ post.featured-image }}" class='postlistimage' />	
-			<div class="postlistdate">
-				{{ post.date | date: "%b %-d, %Y" }}</div>	
-			<div class='postlisttitle'>
-				{{ post.title }}</div>
-			<div class='postlistcopy'>
-				{{ post.caption }}</div>
-		</div></a>
-		{% endfor %}
+			{% for post in site.categories.Growrack limit:25 %}
+			<div class='postlistcard'>	
+				<a href="{{ post.url }}" style="text-decoration: none; color: #070e36;">	
+				<img src="{{ post.featured-image }}" class='postlistimage' />	
+				<div class="postlistdate">
+					{{ post.date | date: "%b %-d, %Y" }}</div>	
+				<div class='postlisttitle'>
+					{{ post.title }}</div>
+				<div class='postlistcopy'>
+					{{ post.caption }}</div>
+			</div></a>
+			{% endfor %}
 		</div>
 	</div>
 	<div class='grid-item'></div>
