@@ -1,5 +1,5 @@
 ---
-layout: projectpost
+layout: growrackpost
 title: Field-sized greens!
 date: 2020-12-12T12:00:01.000Z
 categories: [plants]
@@ -8,7 +8,6 @@ featured-image: /assets/images/greens/greens1.JPG
 caption: Big leaves and yields to help get through Chicago winter!
 description: 
 ---
-<a href='/growrack.html' style="text-decoration: none; font-weight: bolder;" class='postcrumb'> < Back To GrowRacks</a>
 
 # Jumbogreens
 With the addition of the 1/4" egg crate, the combined aeration and humidity made for some serious growth:

@@ -1,5 +1,5 @@
 ---
-layout: projectpost
+layout: growrackpost
 title: Quantum Recap
 date: 2021-03-25T00:30:00.000Z
 categories: [plants]
@@ -7,8 +7,7 @@ tags: [Growrack]
 featured-image: /assets/images/analysis/LEDcalc.JPG
 caption: Very recent history of the evolution of just a few LED grow lights
 ---
-<a href='/growrack.html' style="text-decoration: none; font-weight: bolder;" class='postcrumb'> < Back To GrowRacks</a>
- 
+
 # Summary
 
 The point of this post is to highlight recent reductions (~15yrs max) in the cost of light. For a much cooler, much longer term read I highly recommend <a href="https://www.nber.org/system/files/chapters/c6064/c6064.pdf">reading</a> - or at least <a href="https://econlife.com/2018/10/the-light-side-of-economic-growth/">skimming</a>, the famous William Nordhaus study.

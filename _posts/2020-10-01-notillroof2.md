@@ -1,5 +1,5 @@
 ---
-layout: projectpost
+layout: microbiomepost
 title: Update - No-till Bags
 date: 2020-10-01T12:30:00.000Z
 categories: [plants]
@@ -8,10 +8,9 @@ featured-image: /assets/images/chiroof/notill6.JPG
 caption: 1, 2, and 3 month's growth
 description: 
 ---
-<a href='/microbiome.html' style="text-decoration: none; font-weight: bolder;" class='postcrumb'> < Back To Microbiome</a>
- 
+
 # Did it work?
-Swimmingly. We had a jungle up here significantly faster than any prior season. The size of the crops were in some cases noticeably larger, and the formerly typical soil top-offs were reduced and - in some areas unnecessary. We had a rolling harvest that started in June/July and lasted into November.
+Very well - we had a great canopy significantly faster than any previous season. The size of the crops were in some cases noticeably larger, and the formerly typical soil top-offs were reduced and - in some areas unnecessary. We had a rolling harvest that started in June/July and lasted into November.
  
 We'd expected to need to add <i>something</i>, whether that be some immediately-available liquid organic nutrient - or even some mycorrhizal fungi to help with the compost breakdown. Not once was this required...not even after topping with excessive, not-finished compost and coco coir. We likely would have stuck with this method regardless due to our goal of closed-loop, but the added growth was a major bonus.
  

@@ -1,5 +1,5 @@
 ---
-layout: projectpost
+layout: microbiomepost
 title: Mycorrhizal Fungi
 date: 2021-03-22T12:30:00.000Z
 categories: [plants]
@@ -8,7 +8,6 @@ featured-image: /assets/images/analysis/myco_root_tuber.JPG
 caption: A meandering primer
 description: 
 ---
-<a href='/microbiome.html' style="text-decoration: none; font-weight: bolder;" class='postcrumb'> < Back To Microbiome</a>
 
 # What is a mycorrhiza? 
 A common soil-based, plant-fungus relationship that helps plants feed and develop resilience against drought, infection, and disease. It is potentially a good <a href="https://www.imperial.ac.uk/news/173270/plants-ability-slow-climate-change-depends">carbon sink</a>, although that appears to have been commercially displaced by <a href="https://www.willistonherald.com/news/business/the-story-of-a-business-evolution-or-2/article_e32066de-c17d-5c93-b759-d74e352f3210.html">Leonardite</a>. Myco does best in no-till, undisturbed soil and is generally depleted/not present in areas where industrialized farming is prominent. It can be bought dried and powdered and added to soil to promote growth, restoration - and is sometimes hombrewed in <a href="https://moldresistantstrains.com/diy-how-to-make-mycorrhizal-fungi-inoculant/">commercial quantities</a>. There are many types, and certain strains are best suited for certain plants.

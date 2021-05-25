@@ -1,13 +1,13 @@
 ---
 layout: softwarepost
-title: Local Option Test
-date: 2019-04-25T11:32:43.215Z
+title: Local Option Idea
+date: 2020-04-25T11:32:43.215Z
 categories: [Software]
 tags: [OpenCV, Electron]
 featured-image: /assets/images/localoption/localUI_1.JPG
-caption: Running OpenCV.js frontalface on pictures of Bwindi Gorillas
+caption: Rough concept for an OpenCV.js enabled electron app
 description: Photo archiving solution
-series: [LocalOption]
+series: [LocalOption Test]
 ---
 
 # Original Mission and Wireframe
@@ -21,7 +21,7 @@ series: [LocalOption]
 
 <i>Below are some teaser screenshots, please check for updates:</i>
 
-# Testing and decision to abandon
+## Testing and decision to abandon
 
 # UI Test
 <a data-fancybox="gallery" href="/assets/images/localoption/localUI_1.JPG">
@@ -31,6 +31,7 @@ series: [LocalOption]
 <a data-fancybox="gallery" href="/assets/images/localoption/log.JPG">
 <img class="projectimage" src="/assets/images/localoption/log.JPG"></a>
 
+It worked!
 
 {% assign hasSimilar = '' %}
 {% for post in site.related_posts %}

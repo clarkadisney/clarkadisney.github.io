@@ -1,5 +1,5 @@
 ---
-layout: projectpost
+layout: microbiomepost
 title: No-till Bags?
 date: 2020-05-24T12:30:00.000Z
 categories: [plants]
@@ -8,7 +8,6 @@ featured-image: /assets/images/chiroof/notillcover.JPG
 caption: Closed-Loop Effort
 description: 
 ---
-<a href='/microbiome.html' style="text-decoration: none; font-weight: bolder;" class='postcrumb'> < Back To Microbiome Category</a>
 
 # What is no-till?
 No-till is simply avoiding digging (not tilling/aerating) and in our case avoiding added nutrients. The exact definitions of no-till, vertical-till, etc. are beyond scope and scale here - the takeaway is simply that it's an approach of initially structuring your soil to allow a thriving microbial ecosystem - and then maintaining the structural and microbial integrity of that soil. Other names for this "are no-dig" or "layered" or "lasagna," sometimes the soil is called "living soil" or "hot soil" (although that can also refer to bagged live soil).

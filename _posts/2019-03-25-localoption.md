@@ -1,5 +1,5 @@
 ---
-layout: projectpost
+layout: softwarepost
 title: Local Option Idea
 date: 2019-03-25T11:32:43.215Z
 categories: [Software]
@@ -9,8 +9,6 @@ caption: Rough concept for an OpenCV.js enabled electron app
 description: Photo archiving solution
 series: [LocalOption Test]
 ---
-<a href='/software.html' style="text-decoration: none; font-weight: bolder;" class='postcrumb'> < Back To Software</a>
-
 # Original Mission and Wireframe
 
 <a data-fancybox="gallery" href="/assets/images/localoption/electron_user_interface.png">
