@@ -3,7 +3,7 @@ layout: organicspost
 title: Mycorrhizal Fungi
 date: 2021-03-22T12:30:00.000Z
 categories: [Analysis, Organics]
-tags: [Microbiome, BioControls, Amendments]
+tags: [Microbiome, Biocontrols, Amendments]
 featured-image: /assets/images/analysis/myco_root_tuber.JPG
 caption: A meandering primer
 description: 
