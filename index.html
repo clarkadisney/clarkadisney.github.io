@@ -9,7 +9,7 @@ layout: default
 	<div class='grid-item'>
 		<ul class="breadcrumb">
 			<li><a href='http://www.clarkadisney.com' style="color: #070e36;">Home</a></li>
-			<li><a href='http://www.clarkadisney.com' style="color: #070e36;">Projects</a></li>
+			<li><a href='http://projects.clarkadisney.com' style="color: #070e36;">Projects</a></li>
 		  </ul>
 	</div>
 	<div class='grid-item'></div>
@@ -32,14 +32,27 @@ layout: default
 	<div class='grid-item'></div>
 
 	<div class='grid-item'></div>
+	<div class='grid-item'><div class='sectiontitle'>Categories:</div></div>
+	<div class='grid-item'></div>
+
+	<div class='grid-item'></div>
 	<div class='grid-item'>
 		<div class='projectcategories'>	
+			<div class='categorycard'> 
+			<a href='/growrack.html' style="text-decoration: none; color: #070e36;">
+			<!--img src="/assets/images/growrack/coverrack7.JPG" class='categoryimage ' /-->
+				Growrack
+			<div class='categorycopy'>
+		    	Indoor kit that uses recycled soil & food waste!
+			</div></a></div>
+
+
 			<div class='categorycard'>
 			<a href='/organics.html' style="text-decoration: none; color: #070e36;">
 			<!--img src="/assets/images/analysis/myco_root_tuber.gif" class='categoryimage' /-->
-			Organic Gardening
+			Outdoor Organics
 			<div class='categorycopy'>
-			 From no-till beds to biologicals & amendments!
+			 No-till beds, biologicals & amendments
 		</div></a></div>		
 
 			<div class='categorycard'> 
@@ -48,14 +61,6 @@ layout: default
 			Local Option
 			<div class='categorycopy'>
 			OpenCV for the masses - almost!
-			</div></a></div>		
-
-			<div class='categorycard'> 
-			<a href='/growrack.html' style="text-decoration: none; color: #070e36;">
-			<!--img src="/assets/images/growrack/coverrack7.JPG" class='categoryimage ' /-->
-				Growrack
-			<div class='categorycopy'>
-		    	Efficient system for all veggies that uses recycled soil & food waste!
 			</div></a></div>	
 
 			<div class='categorycard'> 
@@ -66,13 +71,13 @@ layout: default
 		   	Midwest USA Punk Rock and Rave flyers: 1998-2003.
 			</div></a></div>	
 
-			<div class='categorycard'> 
+			<!--div class='categorycard'> 
 			<a href='/analysis.html' style="text-decoration: none; color: #070e36;">
-			<!--img src="/assets/images/LEDs/quantum6.JPG" class='categoryimage' /-->	
+			<!--img src="/assets/images/LEDs/quantum6.JPG" class='categoryimage' />	
 			Analysis
 			<div class='categorycopy'>
 			Companies, technologies and ideas.
-			</div></a></div>
+			</div></a></div-->
 			
 		</div>
 	</div>	
@@ -83,17 +88,21 @@ layout: default
 	<div class='grid-item'></div>
 
 	<div class='grid-item'></div>
+	<div class='grid-item'><div class='sectiontitle'>Recent:</div></div>
+	<div class='grid-item'></div>
+
+	<div class='grid-item'></div>
 	<div class='grid-item'>
 		<div class='pagination' style="text-decoration: none; color: #070e36;">
 				{% if paginator.total_pages > 1 %}
 					<div>
 					{% if paginator.previous_page %}
-					<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+					<a style="color: #070e36;" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
 					{% else %}
 					<span>&laquo; Prev</span>
 					{% endif %} 
 					 {% if paginator.next_page %}
-					 <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+					 <a style="color: #070e36;" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
 					 {% else %}
 					 <span>Next &raquo;</span>
 					 {% endif %}
