@@ -1,11 +1,11 @@
 ---
 layout: growrackpost
-title: GrowRack Vegetables
+title: Root Vegetables
 date: 2020-12-10T13:15:00.000Z
 categories: [Growrack]
 tags: [Containers, LEDs]
 featured-image: /assets/images/growrack/rackroots7.JPG
-caption: Varying levels of success with Growrack root vegetables! 
+caption: Root veggies on the rack! 
 description: 
 ---
 
