@@ -63,17 +63,17 @@ layout: default
 			OpenCV for the masses - almost!
 			</div></a></div>	
 
-			<div class='categorycard'> 
+			<!--div class='categorycard'> 
 			<a href='/artwork.html' style="text-decoration: none; color: #070e36;">
-			<!--img src="/assets/images/artwork/flyers1.JPG" class='categoryimage' /-->
+			<img src="/assets/images/artwork/flyers1.JPG" class='categoryimage' />
 			Artwork
 			<div class='categorycopy'>
 		   	Midwest USA Punk Rock and Rave flyers: 1998-2003.
-			</div></a></div>	
+			</div></a></div-->	
 
 			<!--div class='categorycard'> 
 			<a href='/analysis.html' style="text-decoration: none; color: #070e36;">
-			<!--img src="/assets/images/LEDs/quantum6.JPG" class='categoryimage' />	
+			<img src="/assets/images/LEDs/quantum6.JPG" class='categoryimage' />	
 			Analysis
 			<div class='categorycopy'>
 			Companies, technologies and ideas.
@@ -130,8 +130,17 @@ layout: default
 		</div>
 	</div>
 	<div class='grid-item'></div>
+
+	<div class='grid-item'></div>
+	<div class='grid-item'><hr class="pagebreak"></div>
+	<div class='grid-item'></div>
+
+	<div class='grid-item'></div>
+	<div class='grid-item'><div class='sectiontitle'>All Posts:</div></div>
+	<div class='grid-item'></div>
+
 	
-	<!--div class='grid-item'></div>
+	<div class='grid-item'></div>
 	<div class='grid-item'>
 		<div class="searchbox">
 			<div id="search-container">
@@ -140,7 +149,7 @@ layout: default
 			</div>
 		</div>
 	</div>
-	<div class='grid-item'></div-->
+	<div class='grid-item'></div>
 
 	<!--div class='grid-item'></div>
 	<div class='grid-item'><hr class="pagebreak"></div>
@@ -169,7 +178,36 @@ layout: default
 	<div class='grid-item'></div-->
 
 </div>
-    
+
+<div class="tagsbox">
+	{% assign sorted_tags = (site.tags | sort:0) %}
+	<ul class="tag-box">
+		{% for tag in sorted_tags %}
+			{% assign t = tag | first %}
+			{% assign posts = tag | last %}
+			<li><a href="#{{ t | downcase }}">{{ t }} <span class="size">({{ posts.size }})</span></a></li>
+		{% endfor %}
+	</ul>
+	
+	{% for tag in sorted_tags %}
+	  {% assign t = tag | first %}
+	  {% assign posts = tag | last %}
+	
+	<h4 id="{{ t | downcase }}">{{ t }}</h4>
+	<ul>
+	{% for post in posts %}
+	  {% if post.tags contains t %}
+		<li>
+		   <span class="date">{{ post.date | date: '%d %b %y' }}</span>:  <a href="{{ post.url }}">{{ post.title }}</a>
+		</li>
+	  {% endif %}
+	{% endfor %}
+	</ul>
+	{% endfor %}
+	
+	</div>
+</div>
+
 <script src="/assets/js/search-script.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
