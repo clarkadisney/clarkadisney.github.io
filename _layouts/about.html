@@ -1,0 +1,72 @@
+---
+title: About
+layout: default
+--- 
+<nav id="main-nav">
+    <input type="image" style="height: 3.5em; max-width: 100%;" src="/assets/icons/menu2.png" class="mobile-dropdown-toggle" aria-hidden="true" />
+    <div class="dropdown-link-container">
+      <a href="http://www.clarkadisney.com/contact.html">Contact</a>
+      <a href="http://blog.clarkadisney.com">Projects</a>
+      <a href="http://www.clarkadisney.com/photos.html">Photos</a>
+      <a class ="active" href="http://www.clarkadisney.com/about.html">About</a>    
+    </div>
+    <a class="logo" href="/">Clark D.</a>  
+</nav>
+</head>
+
+
+
+<div class='body-grid'>
+
+	<div class='grid-item'></div>
+	<div class='grid-item'>
+		<ul class="breadcrumb">
+			<li>Home</li>
+		</ul>
+	</div>
+	<div class='grid-item'></div>
+
+	<div class='grid-item'></div>
+	<div class='grid-item'>
+			<a class='projecttitle' href='/index.html' style="text-decoration: none;">Hi, I'm Clark:</a>
+	</div>
+	<div class='grid-item'></div>
+
+
+	<div class='grid-item'></div>
+	<div class='grid-item'>
+    <div class='projectcaption'>&nbspI'm a Chicagoan by way of Louisville, KY, and I live in Ukrainian Village with my partner Jill and our dog Franklin. I'm currently nerding out on plant production, and in a past life I've been a capital markets technologist, a relationship banker for structured credit investors, a full-time nonprofit employee, and a part-time muralist. If you'd like to connect, click<a href="http://www.clarkadisney.com/contact.html"> here!</a></div>
+	</div>
+	<div class='grid-item'></div>
+
+	<div class='grid-item'></div>
+	<div class='grid-item'><hr class="pagebreak"></div>
+	<div class='grid-item'></div>
+	
+
+			
+	<div class='grid-item'></div>
+	<div class='grid-item'><hr class="pagebreak"></div>
+	<div class='grid-item'></div>
+
+</div>
+    
+
+<script>
+
+	const navElement = document.getElementById("main-nav");
+	const dropdownEl = document.querySelector(".dropdown-link-container");
+	
+	document.addEventListener("click", (event) => {
+	  if (event.target.classList.contains("mobile-dropdown-toggle")) {
+		navElement.classList.toggle("dropdown-opened");
+	  }
+	});
+	
+	document.addEventListener("click", (event) => {
+	  // if we clicked on something inside our dropdown...
+	  if (dropdownEl.contains(event.target)) {
+		navElement.classList.remove("dropdown-opened");
+	  }
+	});
+</script>
