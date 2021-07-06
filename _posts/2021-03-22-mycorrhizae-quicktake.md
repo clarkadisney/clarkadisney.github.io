@@ -1,6 +1,6 @@
 ---
 layout: organicspost
-title: Mycorrhizal Fungi
+title: Mycorrhiza
 date: 2021-03-22T12:30:00.000Z
 categories: [Analysis, Organics]
 tags: [Microbiome, Biocontrols, Amendments]

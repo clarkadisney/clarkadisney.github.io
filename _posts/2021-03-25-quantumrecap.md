@@ -1,11 +1,11 @@
 ---
 layout: growrackpost
 title: Quantum Recap
-date: 2021-03-25T00:30:00.000Z
+date: 2021-03-25T12:30:30.000Z
 categories: [Analysis]
 tags: [LEDs, Companies, Products]
 featured-image: /assets/images/analysis/LEDcalc.JPG
-caption: Very recent history of the evolution of just a few LED grow lights
+caption: Recent evolution of LED grow lights
 ---
 
 # Summary

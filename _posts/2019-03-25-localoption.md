@@ -1,15 +1,15 @@
 ---
 layout: softwarepost
-title: Local Option Idea
+title: Local Option
 date: 2019-03-25T11:32:43.215Z
 categories: [Software]
-tags: [LocalOption, Electron, OpenCV]
+tags: [LocalOption, Software]
 featured-image: /assets/images/localoption/localUI_1.JPG
-caption: Rough concept for an OpenCV.js enabled electron app
+caption: Idea for photo archiving solution
 description: Photo archiving solution
 series: [LocalOption Test]
 ---
-# Original Mission and Wireframe
+# Problem / Idea
 
 <a data-fancybox="gallery" href="/assets/images/localoption/electron_user_interface.png">
 <img class="projectimage" src="/assets/images/localoption/electron_user_interface.png"></a>

@@ -5,7 +5,7 @@ date: 2019-04-25T11:32:43.215Z
 categories: [Software]
 tags: [LocalOption, Electron, OpenCV]
 featured-image: /assets/images/localoption/localUI_1.JPG
-caption: Running OpenCV.js frontalface on pictures of Bwindi Gorillas
+caption: Trying frontalface on pictures of Gorillas
 description: Photo archiving solution
 series: [LocalOption]
 ---

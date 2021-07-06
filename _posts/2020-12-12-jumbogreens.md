@@ -1,11 +1,11 @@
 ---
 layout: growrackpost
-title: Field-sized greens!
+title: Macrogreens
 date: 2020-12-12T12:00:01.000Z
 categories: [Growrack]
 tags: [Containers, LEDs, Field-sized]
 featured-image: /assets/images/greens/greens1.JPG
-caption: Big leaves and yields to help get through Chicago winter!
+caption: Big leaves, medium yields
 description: 
 ---
 
