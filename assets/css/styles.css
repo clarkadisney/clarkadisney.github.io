@@ -1381,13 +1381,13 @@ font-size: .9em;
     font-weight: 400;
     font-size: 1.125em;
     text-align: left;
-    margin: 0 .25em 1em .25em;
+    margin-bottom: .5em;
   }
 
   .postlisttitle {
     font-size: 1.25em;
     text-align: left;
-    margin: 0 .25em;
+    margin: 0em 0em 0em .125em;
   }
 
   .projectimage{
