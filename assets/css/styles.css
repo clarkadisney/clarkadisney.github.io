@@ -18,12 +18,23 @@ header {
   background: #070e36;
 }
 
-.tagsbox{
+/*.tagsbox{
   display: inline-flex;
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: flex-start;
   text-align: left;
+}*/
+
+ul.tag-box{
+  width: 60%;
+  margin: auto;
+  padding: 0;
+  list-style: none;
+}
+
+ul.tag-box li {
+  margin: 0.125em 0;
 }
 
 [class*="icono"] {
@@ -554,10 +565,11 @@ ul.breadcrumb li a:hover {
   width: 100%;
   text-align: Left;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: 300;
   margin: .4em 25% .8em 17.5%;
-  padding: 0 .25em; 
+  padding: 0 .25em;
+  letter-spacing: .5px;
 }
 
 /*hr.pagebreak {
