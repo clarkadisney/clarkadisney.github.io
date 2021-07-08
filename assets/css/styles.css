@@ -282,7 +282,7 @@ nav a.active {
 }
 
 .posthero {
- max-height: 350px;
+ max-height: 500px;
  overflow: hidden;
 }
 
@@ -299,26 +299,31 @@ nav a.active {
   text-shadow: 1px 1px 3.5px 1px #070e36;
   font-weight: 600;
   font-size: 4.25em;
-  color: #f2dfce;
-  transform: translateY(-175%); /* move out of view */
-  margin-left: 21.25%;
+  color: #070e36;
+/*  transform: translateY(-175%);  move out of view */
+width: 44%;
+margin-left: auto;
+margin-right: auto;
 }
 
 .postcaption {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-shadow: 1px 1px 3.5px 1px #070e36;
-  margin-left: 21.25%;
-  font-size: 2em;
-  color: #f2dfce;
-  transform: translateY(-400%);
+  width: 44%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.4em;
+  color: #070e36;
+/*  transform: translateY(-400%);*/
+  font-style: italic; 
 }
 
 .inline_toc {
   list-style-type: circle;
   justify-content: space-around;
   text-align: left;
-  width: 45%;
-  margin-left: 27.5%;
+  width: 44%;
+  margin-left: auto;
   margin-right: auto;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -330,14 +335,15 @@ nav a.active {
 
 .inline_toc:hover a {
   cursor: pointer;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 1px;
+  text-decoration-color: #66cFF6;
 }
 
 .inline_toc a {
   color: #070e36;
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-thickness: 2px;
-  text-decoration-color: #66cFF6;
+
 }
 
 /* Using numbers instead of bullets for listing*/
@@ -349,7 +355,7 @@ nav a.active {
   text-decoration-line: unset;
   text-decoration-line: underline;
   text-decoration-style: solid;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 1px;
   text-decoration-color: #66cFF6;
 }
 
@@ -461,14 +467,14 @@ border: 1px solid blue;
 
 .breadcrumb {
   width:100%;
-  margin-top: 3em;
+  margin-top: 3.5em;
   margin-bottom: 0em;
   text-align: Left;
   margin-left: 16.5%;
   margin-right: auto;  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 300;
-	font-size: 1.2em;
+	font-size: 1em;
   -webkit-font-smoothing: antialiased;
 	color: #070e36;
   font-style: italic;
@@ -494,7 +500,7 @@ ul.breadcrumb li a {
 }
 ul.breadcrumb li a:hover {
   text-decoration: underline #6CCFF6;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 1px;
 }
 
 .categorylink {
@@ -728,17 +734,22 @@ table, th, td {
 .postcard {
   display: flex;
   flex-direction: column;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-bottom: 1rem;
-  font-size: 1.25rem;
-  width: 45%;
-  font-weight: 300;
+  font-kerning: auto;
+  padding: 0;
+  margin: 0;
+  font-family: var(--font_family_body, var(--font_family_body_preset, 'Spectral', serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'));
+  font-weight: var(--font_weight_body_preset, 400);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+  font-size: calc(17px + var(--font_size_body_offset, 0px));
+  color: #070e36;
+  width: 38%;
   margin-left: auto;
   margin-right: auto;
+/*  margin-bottom: 1rem;
   background-color: #f2dfce;
   box-shadow: 1px 1px 3.5px 1px #cecece;
-  padding: .25em 1em .25em 1em;
-  align-items:stretch;
+  padding: .25em 1em .25em 1em;*/
 }
 
 .postimage:hover {
@@ -754,10 +765,6 @@ table, th, td {
   box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.25);
 }
 
-.postcopy {
-  max-width: 50%;
-  object-fit: contain;
-}
 
 .postlist {
   width: 100%;
@@ -1051,6 +1058,21 @@ font-size: .9em;
           animation: text-shadow 0.75s linear infinite;*/
 }
 
+.breadcrumb {
+  width:100%;
+  margin-top: 3.5em;
+  margin-bottom: 0em;
+  text-align: Left;
+  margin-left: 15%;
+  margin-right: auto;  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+	font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+	color: #070e36;
+  font-style: italic;
+}
+
   #button {
     right: 0%;
   }
@@ -1092,10 +1114,20 @@ font-size: .9em;
   width: 66.66%;
   }
      
-  .postcopy {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+  .posttitle {
+    font-size: 2.2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66.66%;
+    padding: .25em .25em .125em .125em;
+  }
+  
+  .postcaption {
+    font-size: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66.66%;
+    padding: .125em .25em .25em .25em;
   }
     
   .searchbox {
@@ -1158,11 +1190,17 @@ font-size: .9em;
 @media screen and (max-width: 940px) {
 
   .posttitle {
-    display: none;
+    font-size: 1.6em;
+    max-width: 98%;
+    min-width: 98%;
+    padding: .25em .25em .125em .25em;
   }
   
   .postcaption {
-    display: none;
+    font-size: 1.2em;
+    max-width: 98%;
+    min-width: 98%;
+    padding: .125em .25em .25em .25em;
   }
 
   .projectcaption {
@@ -1251,7 +1289,8 @@ font-size: .9em;
     width:100%;
     margin-top: 4.5em;
     margin-bottom: .25em;
-    margin-left: 7.5%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: Left;  
     font-weight: 300; 
     font-size: 1em;
