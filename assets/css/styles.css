@@ -1268,9 +1268,9 @@ font-size: .9em;
     border: 3px solid #070e36;
   }
   
-  [class*="icono"] {
+/*  [class*="icono"] {
     color: #070e36;
-  }
+  } */
   
   nav .logo {
     float: none;
