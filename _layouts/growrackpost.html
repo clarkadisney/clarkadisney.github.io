@@ -5,11 +5,22 @@ layout: default
 <div class="body-grid">
 	<div class='grid-item'></div>
 	<div class='grid-item'>
-		<a class="breadcrumb" href='/growrack.html' style="text-decoration: none;">< Back To Growrack</a>
+		<ul class="breadcrumb">
+			<li><a href='http://www.clarkadisney.com' style="color: #070e36;">Home</a></li>
+			<li><a href='/index.html' style="color: #070e36;">Projects</a></li>
+			<li><a href='/growrack.html' style="color: #070e36;">Grow Rack</a></li>
+			<li style="text-decoration-line: underline; text-decoration-style: solid; text-decoration-thickness: 2px; text-decoration-color: #66cff6;">Post</li>
+		  </ul>
 	</div>
 	<div class='grid-item'></div>
 </div>
-    {% include toc.html html=content sanitize=true class="inline_toc" id="my_toc" %}
-<div class='projectcard'>
+
+{% if page.featured-image %}{% include post-featured-image.html image=page.featured-image alt=page.featured-image-alt %}{% endif %}
+{% if page.title %}{% include post-title.html title=page.title %}{% endif %}
+{% if page.caption %}{% include post-caption.html caption=page.caption %}{% endif %}
+{{ post.caption }}
+{% include toc.html html=content sanitize=true class="inline_toc" id="my_toc" %}
+
+<div class='postcard'>
     {{ content }}
 </div>
