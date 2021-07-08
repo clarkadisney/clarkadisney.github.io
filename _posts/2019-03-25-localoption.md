@@ -5,21 +5,27 @@ date: 2019-03-25T11:32:43.215Z
 categories: [Software]
 tags: [Local Option, Software, Photography]
 featured-image: /assets/images/localoption/walled_garden.JPG
-caption: Idea for photo archiving solution
+caption: Standalone photo archiving solution
 description: Photo archiving solution
 series: [LocalOption Test]
 ---
-# Problem
+# Problem addressed
+My friend and I were sitting at a bar catching up...
 
-Local Option is a privacy-focused photograph management system currently in development. We believe that your memories are yours, and that your family shouldn't need to grant programatic access to your personal lives in exchange for storage and sorting features.</i>
+## A walled garden
+Local Option is a privacy-focused photograph management system currently in development. We believe that your memories are yours, and that your family shouldn't need to grant programatic access to your personal lives in exchange for storage and sorting features.
 
-## Testing and decision to abandon
+# Fellows of freeware's past
 
-# UI Test
+## Program 1
+
+## Program 2
+
+## Program 3
 <a data-fancybox="gallery" href="/assets/images/localoption/walled_garden.JPG">
 <img class="postimage" src="/assets/images/localoption/walled_garden.JPG"></a>
 
-# OpenCV.JS on Gorilla pictures :)
+# The real MVP
 <a data-fancybox="gallery" href="/assets/images/localoption/log.JPG">
 <img class="postimage" src="/assets/images/localoption/log.JPG"></a>
 
