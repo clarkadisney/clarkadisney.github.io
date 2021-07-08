@@ -10,11 +10,18 @@ layout: default
 		<ul class="breadcrumb">
 			<li><a href='http://www.clarkadisney.com' style="color: #070e36;">Home</a></li>
 			<li><a href='/index.html' style="color: #070e36;">Projects</a></li>
-			<li style="text-decoration-line: underline; text-decoration-style: solid; text-decoration-thickness: 2px; text-decoration-color: #66cff6;">Local Option</li>
+			<li style="text-decoration-line: underline; text-decoration-style: solid; text-decoration-thickness: 1px; text-decoration-color: #66cff6;">Local Option</li>
 		  </ul>
 	</div>
 	<div class='grid-item'></div>
+</div>
+<div class="posthero">
+	<a data-fancybox="gallery" href="/assets/images/localoption/walled_garden2.JPG"">
+	<img class="postheroimage" src="/assets/images/localoption/walled_garden2.JPG"" alt="{{ include.alt | default: 'image representing a theme in this article' }}" /></a>
+	</div>
+
 	
+<div class='body-grid'>
 	<div class='grid-item'></div>
 	<div class='grid-item'>
 		<a class='projecttitle' href='/software.html' style="text-decoration: none;">Local Option:</a>
@@ -23,10 +30,28 @@ layout: default
 
 	<div class='grid-item'></div>
 	<div class='grid-item'>
-		<div class='projectcaption'>&nbsp&nbspThe goal of the Local Option software project was to help everyday users free large photo albums from disparate walled garden ecosystems, and easily manage them in a central  offline location. The technical approach was to facilitate ETL from common photo album providers into a standalone program having GUI-based CRUD features. The original description + posts below cover background, MVP, backend and wireframe - plus reasons for stopping development. Please direct any questions or comments <a href="http://www.clarkadisney.com/contact.html" style="color: #070e36; font-weight: bolder;">here!</a>
-			<figure><blockquote><p><i>Local Option is a privacy-focused photograph management system currently in development. We believe that your memories are yours, and that your family shouldn't need to grant programatic access to your personal lives in exchange for storage, transfer, and sorting features.</i>
+		<div class='projectcaption'>
+		&nbsp&nbspLocal Option was a software project built to decouple photo albums from proprietary ecosystems (walled gardens). Our goal was partly an ETL tool and partly a <i>very</i> user-friendly, GUI-driven CRUD tool powered by web-based Computer Vision. The simple requirements were:
+				<UL style="list-style:decimal;">
+					<li>Offline-first</li> 
+					<li>Mac, Windows, iOS, Android</li> 
+					<li>Slick UI</li>
+					<li>Base level of feature parity/object detection</li>
+				</UL>
 
-			<i>No demo yet, but we expect to have something to kick the tires on in 2019. The program is currently <a href="https://github.com/pkuca/local-option" style="color: #070e36; font-weight: bolder;" target="_blank" rel="noopener noreferrer">written</a> in JavaScript, utilizes <a href="https://docs.opencv.org/3.4/df/df7/tutorial_js_table_of_contents_setup.html" style="color: #070e36; font-weight: bolder;" target="_blank" rel="noopener noreferrer">OpenCV.js</a>, and is packaged in <a href="https://www.electronjs.org/docs" style="color: #070e36; font-weight: bolder;" target="_blank" rel="noopener noreferrer">Electron</a></i></p></blockquote></figure>
+		<p>Sadly, Local Option met the same fate as many partner-passion-projects. Aside from typical time constraint/career demands, we ran into blockers on:
+			<UL style="list-style:decimal;">
+				<li>Offline requirement X any object detection other than face</li>
+				<li>Cross-platform requirement X container approach</li>
+				<li>Slick UI requirement x Electron performance</li>
+				<li>Feature parity requirement X newness of OpenCV.js and WebAssembly (~2017)</li>
+			</UL>
+		</p>
+
+				
+		<p>Tears aside, Local Option was a great intro to Computer Vision for two people whose previous "AI" experience was limited to NLP. We could have certainly finished it in a "hacky" manner, but decided to nix the spaghetti code/Rube Goldberg approach and table it for the time being...Check out the project below, and please direct any questions or comments <a href="http://www.clarkadisney.com/contact.html" style="color: #070e36; font-weight: bolder;">here!</a></p>
+
+		
 		</div>
 	</div>
 	<div class='grid-item'></div>
