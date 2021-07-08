@@ -3,7 +3,7 @@ layout: softwarepost
 title: Local Option Test
 date: 2019-04-25T11:32:43.215Z
 categories: [Software]
-tags: [LocalOption, Electron, OpenCV]
+tags: [Local Option, Software, Photography, Electron, OpenCV, MVP]
 featured-image: /assets/images/localoption/log.JPG
 caption: Trying frontalface on pictures of Gorillas
 description: Photo archiving solution

@@ -3,7 +3,7 @@ layout: softwarepost
 title: Local Option Wireframe
 date: 2020-03-25T11:32:43.215Z
 categories: [Software]
-tags: [LocalOption, Electron, OpenCV]
+tags: [Local Option, Software, Photography, Electron, OpenCV, Wireframe]
 featured-image: /assets/images/localoption/electron_user_interface.JPG
 caption: Full clickable wireframe
 description: Photo archiving solution

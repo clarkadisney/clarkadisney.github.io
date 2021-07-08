@@ -3,7 +3,7 @@ layout: softwarepost
 title: Local Option Idea
 date: 2020-04-25T11:32:43.215Z
 categories: [Software]
-tags: [LocalOption, Electron, OpenCV]
+tags: [Local Option, Software, Photography, Electron, OpenCV]
 featured-image: /assets/images/localoption/algo_box.JPG
 caption: Pack it up! Decision to abandon
 description: Photo archiving solution
